@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "News"
-permalink: /s3lwebsite/news/
+permalink: /news/
 ---
 
 ## 2025
