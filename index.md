@@ -1,19 +1,19 @@
 ---
 layout: home
-title: "[Your Full Name]"
+title: "An WANG"
 ---
 
-# [Your Full Name], PhD
+# An WANG, PhD
 
 Assistant Professor  
-[Department / School Name]  
+Department of Civil and Environmental Engineering
 The Hong Kong Polytechnic University
 
 Welcome to my website. I am an Assistant Professor at **The Hong Kong Polytechnic University (PolyU)**. My research interests lie in **[Research Area 1]**, **[Research Area 2]**, and **[Research Area 3]**. I am particularly interested in developing **[algorithms / models / systems / methodologies]** for **[applications or domains]**.
 
 My work aims to address important challenges in **[domain]** by combining **[technical approaches]** with **[theory / experiments / deployment / interdisciplinary collaboration]**.
 
-I am always interested in hearing from **prospective PhD students, postdoctoral researchers, research assistants, and collaborators** whose interests align with my research. Please see the [Openings](/openings/) page for more details.
+I am always interested in hearing from **prospective PhD students, postdoctoral researchers, research assistants, and collaborators** whose interests align with my research. Please see the [Openings]({{ site.baseurl }}/openings/) page for more details.
 
 ---
 
@@ -44,7 +44,8 @@ A short description of your third research area.
    [Your Name], [Coauthors]  
    *[Journal / Conference]*, [Year]
 
-See the full list on the [Publications](/publications/) page.
+See the full list on the [Publications]({{ site.baseurl }}/publications/)
+ page.
 
 ---
 
@@ -58,4 +59,4 @@ I may have openings for:
 - Undergraduate research interns
 - Visiting students
 
-If you are interested in joining my group, please visit the [Openings](/openings/) page.
+If you are interested in joining my group, please visit the [Openings]({{ site.baseurl }}/openings/)page.
