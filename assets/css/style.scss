@@ -1,0 +1,34 @@
+---
+---
+
+@import "minima";
+
+body {
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+.site-title {
+  font-weight: 600;
+}
+
+.page-content {
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+
+h1, h2, h3 {
+  margin-top: 1.5em;
+}
+
+.wrapper {
+  max-width: 900px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
