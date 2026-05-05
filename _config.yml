@@ -3,7 +3,7 @@ description: "Assistant Professor at The Hong Kong Polytechnic University"
 theme: minima
 
 url: "https://anduinwang.github.io"
-baseurl: ""
+baseurl: "/s3lwebsite"
 
 header_pages:
   - research.md
