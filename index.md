@@ -1,12 +1,12 @@
 ---
 layout: home
-title: "An WANG"
+title: "PI's Bio"
 ---
 
 # An WANG, PhD
 
 Assistant Professor  
-Department of Civil and Environmental Engineering
+CEE
 The Hong Kong Polytechnic University
 
 Welcome to my website. I am an Assistant Professor at **The Hong Kong Polytechnic University (PolyU)**. My research interests lie in **[Research Area 1]**, **[Research Area 2]**, and **[Research Area 3]**. I am particularly interested in developing **[algorithms / models / systems / methodologies]** for **[applications or domains]**.
