@@ -1,13 +1,12 @@
 ---
 layout: home
-title: "PI's Bio"
+title: ""
 ---
 
 # An WANG, PhD
 
 Assistant Professor  
-CEE
-The Hong Kong Polytechnic University
+CEE Department at The Hong Kong Polytechnic University
 
 Welcome to my website. I am an Assistant Professor at **The Hong Kong Polytechnic University (PolyU)**. My research interests lie in **[Research Area 1]**, **[Research Area 2]**, and **[Research Area 3]**. I am particularly interested in developing **[algorithms / models / systems / methodologies]** for **[applications or domains]**.
 
