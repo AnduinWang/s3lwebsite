@@ -1,7 +1,6 @@
 ---
 layout: page
 title: ""
-permalink:/
 ---
 
 # An WANG, PhD
@@ -44,8 +43,7 @@ A short description of your third research area.
    [Your Name], [Coauthors]  
    *[Journal / Conference]*, [Year]
 
-See the full list on the [Publications]({{ site.baseurl }}/publications/)
- page.
+See the full list on the [Publications]({{ site.baseurl }}/publications/) page.
 
 ---
 
@@ -59,4 +57,4 @@ I may have openings for:
 - Undergraduate research interns
 - Visiting students
 
-If you are interested in joining my group, please visit the [Openings]({{ site.baseurl }}/openings/)page.
+If you are interested in joining my group, please visit the [Openings]({{ site.baseurl }}/openings/) page.
