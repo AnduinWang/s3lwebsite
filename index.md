@@ -24,7 +24,7 @@ permalink: /
 </div>
 
 <div class="quicklinks">
-  <a class="quick-card" href="{{ site.baseurl }}/assets/AnWang_2PageCV_transport_RGC.pdf">
+  <a class="quick-card" href="{{ site.baseurl }}/assets/cv.pdf">
     <div class="quick-card-title">CV</div>
   </a>
 
