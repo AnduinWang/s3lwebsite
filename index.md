@@ -14,17 +14,14 @@ permalink: /
 <div class="quicklinks">
   <a class="quick-card" href="{{ site.baseurl }}/assets/AnWang_2PageCV_transport_RGC.pdf">
     <div class="quick-card-title">CV</div>
-    <div class="quick-card-text">Download PDF</div>
   </a>
 
   <a class="quick-card" href="https://scholar.google.com/citations?user=v_tp904AAAAJ&hl=en" target="_blank" rel="noopener">
     <div class="quick-card-title">Google Scholar</div>
-    <div class="quick-card-text">Publications & citations</div>
   </a>
 
   <a class="quick-card" href="mailto:an.wang@polyu.edu.hk">
     <div class="quick-card-title">Contact</div>
-    <div class="quick-card-text">Send me an email</div>
   </a>
 </div>
 
