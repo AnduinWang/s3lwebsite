@@ -7,14 +7,14 @@ permalink: /
 <div class="hero hero-two-column">
   <div class="hero-text">
     <h1>An WANG, PhD</h1>
-    <div class="subtitle">Assistant Professor · Department of Civil and Environmental Engineering · The Hong Kong Polytechnic University</div>
+    <div class="subtitle">Assistant Professor · CEE Department · The Hong Kong Polytechnic University</div>
 
     <div class="intro">
-      Welcome to my website. I am an Assistant Professor at <strong>The Hong Kong Polytechnic University (PolyU)</strong>. My research focuses on <strong>[Research Area 1]</strong>, <strong>[Research Area 2]</strong>, and <strong>[Research Area 3]</strong>. I am particularly interested in developing <strong>[algorithms / models / systems / methodologies]</strong> for <strong>[applications or domains]</strong>.
+      Welcome to S3L's cyberspace. At S3L, we strive for the <strong>society</strong>'s <strong>sustainability</strong>, leveraging <strong>sensing</strong> technologies. As the lab PI, I have a diverse background across environmental engineering, transportation engineering, and urban planning. My research areas include <strong>urban environmental sensing</strong>, <strong>renewable energy transition in transportation</strong>, and <strong>data-driven modeling</strong>. Recently, I am particularly interested in developing and fusing <strong>crowd-sourced big datasets</strong> for urban system modeling.
     </div>
 
     <div class="intro">
-      My work aims to address important challenges in <strong>[domain]</strong> by combining <strong>[technical approaches]</strong> with <strong>[theory / experiments / deployment / interdisciplinary collaboration]</strong>.
+      S3L aims at discovering and resolving prominent sustainability challenges for the society. We research for a better urban system.
     </div>
   </div>
   <div class="hero-photo">
@@ -40,16 +40,16 @@ permalink: /
   <h2>Research Themes</h2>
   <div class="card-grid">
   <div class="card">
-      <h3>[Research Theme 1]</h3>
-      <p>A short description of your first research area.</p>
+      <h3>Urban Environmental Sensing</h3>
+      <p>We use advanced sensors to detect cities' undertone.</p>
     </div>
     <div class="card">
-      <h3>[Research Theme 2]</h3>
-      <p>A short description of your second research area.</p>
+      <h3>Transportation Energy Transition</h3>
+      <p>Transport is good, but in a cleaner way is better.</p>
     </div>
     <div class="card">
-      <h3>[Research Theme 3]</h3>
-      <p>A short description of your third research area.</p>
+      <h3>Data-Driven Modeling</h3>
+      <p>This is how insigts emerge from data.</p>
     </div>
   </div>
 
@@ -58,10 +58,10 @@ permalink: /
 
   <div class="news-box">
     <ul>
-      <li><strong>[Month Year]</strong>: [Paper accepted at journal/conference.]</li>
-      <li><strong>[Month Year]</strong>: [New PhD / RA opening announced.]</li>
-      <li><strong>[Month Year]</strong>: [Award / grant / publication update.]</li>
+      <li><strong>[Month Year]</strong>: Original research article co-authored by Dr. Wang is published in <strong>Nature Sustainability</strong>. Paper is available at </li>
+      <li><strong>[Month Year]</strong>: Congratulations to Dr. Zeyu Zhang for publishing the first paper of S3L in <strong>Transportation Research Part D</strong>! Paper is available at </li>
+      <li><strong>[Month Year]</strong>: Original research article co-first authored and corresponded by Dr. Wang is published in <strong>Nature Cities</strong>. Paper is available at </li>
     </ul>
   </div>
 
-I am always interested in hearing from <strong>prospective PhD students, postdoctoral researchers, research assistants, and collaborators</strong>. Please visit the <a href="{{ site.baseurl }}/openings/">Openings</a> page for more details.
+I am always interested in hearing from <strong>prospective PhD students, postdoctoral researchers, research assistants, and collaborators</strong>. Please visit the <a href="{{ site.baseurl }}/openings/">Openings</a> page for information about eligibility and requirements.
