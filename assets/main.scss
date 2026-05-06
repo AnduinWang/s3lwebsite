@@ -169,3 +169,18 @@ a:hover {
 .page-content {
   padding-top: 20px;
 }
+/* Make footer description larger and more prominent */
+.site-footer .footer-col-wrapper {
+  font-size: 1.1rem;
+}
+
+.site-footer .footer-col-3 {
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: #123b5d;
+  line-height: 1.6;
+}
+
+.site-footer .footer-col-3 p {
+  margin-bottom: 0;
+}
