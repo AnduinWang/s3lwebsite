@@ -4,12 +4,24 @@ title: "Sensing, Sustainability & Society Lab (S3L)"
 permalink: /
 ---
 
-<div class="hero">
-  <h1>An WANG, PhD</h1>
-  <div class="subtitle">Assistant Professor · CEE Department · The Hong Kong Polytechnic University</div>
-  <div class="intro">
-    Welcome to my website. I am an Assistant Professor at <strong>The Hong Kong Polytechnic University (PolyU)</strong>. My research focuses on <strong>[Research Area 1]</strong>, <strong>[Research Area 2]</strong>, and <strong>[Research Area 3]</strong>, with an interest in developing <strong>[algorithms / models / systems / methodologies]</strong> for <strong>[applications or domains]</strong>.
+<div class="hero hero-two-column">
+  <div class="hero-text">
+    <h1>An WANG, PhD</h1>
+    <div class="subtitle">Assistant Professor · Department of Civil and Environmental Engineering · The Hong Kong Polytechnic University</div>
+    <div class="tagline">Sensing, Sustainability & Society Lab · Research for a better urban system</div>
+
+    <div class="intro">
+      Welcome to my website. I am an Assistant Professor at <strong>The Hong Kong Polytechnic University (PolyU)</strong>. My research focuses on <strong>[Research Area 1]</strong>, <strong>[Research Area 2]</strong>, and <strong>[Research Area 3]</strong>. I am particularly interested in developing <strong>[algorithms / models / systems / methodologies]</strong> for <strong>[applications or domains]</strong>.
+    </div>
+
+    <div class="intro">
+      My work aims to address important challenges in <strong>[domain]</strong> by combining <strong>[technical approaches]</strong> with <strong>[theory / experiments / deployment / interdisciplinary collaboration]</strong>.
+    </div>
   </div>
+  <div class="hero-photo">
+    <img src="{{ site.baseurl }}/assets/profile.jpg" alt="An Wang" />
+  </div>
+</div>
 
 <div class="quicklinks">
   <a class="quick-card" href="{{ site.baseurl }}/assets/AnWang_2PageCV_transport_RGC.pdf">
