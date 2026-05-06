@@ -15,7 +15,7 @@ permalink: /
     
   </div>
   <div class="hero-photo">
-    <img src="{{ site.baseurl }}/assets/portrait.png" alt="An Wang" />
+    <img src="{{ site.baseurl }}/assets/Portrait.png" alt="An Wang" />
   </div>
 </div>
 
