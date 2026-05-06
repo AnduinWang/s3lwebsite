@@ -12,19 +12,16 @@ permalink: /
   </div>
 
 <div class="card-grid card-grid-3">
-  <a class="card card-link" href="{{ site.baseurl }}/assets/cv.pdf">
+  <a class="card card-link" href="{{ site.baseurl }}/assets/AnWang_2PageCV_transport_RGC.pdf">
     <h3>CV</h3>
-    <p>Download my curriculum vitae in PDF format.</p>
   </a>
 
   <a class="card card-link" href="https://scholar.google.com/citations?user=XXXXXXXXXXX" target="_blank" rel="noopener">
     <h3>Google Scholar</h3>
-    <p>View my publications, citations, and research profile.</p>
   </a>
 
   <a class="card card-link" href="mailto:your.email@polyu.edu.hk">
     <h3>Contact</h3>
-    <p>Email me directly regarding research, collaboration, or opportunities.</p>
   </a>
 </div>
 
