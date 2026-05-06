@@ -45,21 +45,17 @@ permalink: /
   </div>
 </div>
 
-## Selected Publications
+## What's New
+<section class="home-section">
+  <h2>News</h2>
 
-<ol class="pub-list">
-  <li><strong>[Paper Title 1]</strong><br>
-  [Your Name], [Coauthors]<br>
-  <em>[Journal / Conference]</em>, [Year]</li>
-
-  <li><strong>[Paper Title 2]</strong><br>
-  [Your Name], [Coauthors]<br>
-  <em>[Journal / Conference]</em>, [Year]</li>
-
-  <li><strong>[Paper Title 3]</strong><br>
-  [Your Name], [Coauthors]<br>
-  <em>[Journal / Conference]</em>, [Year]</li>
-</ol>
+  <div class="news-box">
+    <ul>
+      <li><strong>[Month Year]</strong>: [Paper accepted at journal/conference.]</li>
+      <li><strong>[Month Year]</strong>: [New PhD / RA opening announced.]</li>
+      <li><strong>[Month Year]</strong>: [Award / grant / publication update.]</li>
+    </ul>
+  </div>
 
 See more on the <a href="{{ site.baseurl }}/research/">Research</a> page.
 
