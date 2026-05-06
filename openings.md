@@ -4,7 +4,7 @@ title: "Openings"
 permalink: /openings/
 ---
 
-I am always interested in hearing from **highly motivated students and researchers** who would like to work with me on topics related to **[your research areas]**.
+Thank you for your interest in working with me. I am always interested in hearing from **highly motivated students and researchers**.
 
 ## Available Positions
 
