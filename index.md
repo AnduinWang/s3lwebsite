@@ -53,6 +53,4 @@ permalink: /
     </ul>
   </div>
 
-See more on the <a href="{{ site.baseurl }}/research/">Research</a> page.
-
 I am always interested in hearing from <strong>prospective PhD students, postdoctoral researchers, research assistants, and collaborators</strong>. Please visit the <a href="{{ site.baseurl }}/openings/">Openings</a> page for more details.
