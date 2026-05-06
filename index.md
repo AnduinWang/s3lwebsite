@@ -25,26 +25,25 @@ permalink: /
   </a>
 </div>
 
-## Research Themes
-
-<div class="card-grid">
-  <div class="card">
-    <h3>[Research Theme 1]</h3>
-    <p>A short description of your first research area.</p>
-  </div>
-  <div class="card">
-    <h3>[Research Theme 2]</h3>
-    <p>A short description of your second research area.</p>
-  </div>
-  <div class="card">
-    <h3>[Research Theme 3]</h3>
-    <p>A short description of your third research area.</p>
-  </div>
-</div>
-
-## What's New
 <section class="home-section">
-  <h2>News</h2>
+  <h2>Research Themes</h2>
+  <div class="card-grid">
+  <div class="card">
+      <h3>[Research Theme 1]</h3>
+      <p>A short description of your first research area.</p>
+    </div>
+    <div class="card">
+      <h3>[Research Theme 2]</h3>
+      <p>A short description of your second research area.</p>
+    </div>
+    <div class="card">
+      <h3>[Research Theme 3]</h3>
+      <p>A short description of your third research area.</p>
+    </div>
+  </div>
+
+<section class="home-section">
+  <h2>What's New</h2>
 
   <div class="news-box">
     <ul>
