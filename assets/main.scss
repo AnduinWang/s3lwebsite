@@ -258,3 +258,135 @@ a:hover {
     width: 100%;
   }
 }
+/* Hero two-column layout */
+.hero-two-column {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 260px;
+  gap: 2rem;
+  align-items: center;
+}
+
+.hero-text {
+  min-width: 0;
+}
+
+.hero-photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-photo img {
+  width: 240px;
+  height: 240px;
+  object-fit: cover;
+  border-radius: 16px;
+  border: 4px solid #ffffff;
+  box-shadow: 0 8px 24px rgba(18, 59, 93, 0.12);
+  background: #eaf1f8;
+}
+
+/* If image is missing, reserve the space nicely */
+.hero-photo:empty::before {
+  content: "Photo";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 240px;
+  height: 240px;
+  border-radius: 16px;
+  background: #eaf1f8;
+  color: #6b7f92;
+  font-weight: 600;
+  border: 2px dashed #c7d8e8;
+}
+
+/* Compact quick links under introduction */
+.quicklinks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  margin: 1rem 0 2.5rem 0;
+}
+
+.quick-card {
+  display: block;
+  min-width: 180px;
+  padding: 0.85rem 1rem;
+  border: 1px solid #dbe5ef;
+  border-radius: 10px;
+  background: #f9fbfd;
+  text-decoration: none !important;
+  color: inherit !important;
+  transition: all 0.18s ease;
+}
+
+.quick-card:hover {
+  background: #f1f6fb;
+  border-color: #c7d8e8;
+  transform: translateY(-2px);
+  text-decoration: none !important;
+}
+
+.quick-card-title {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #123b5d;
+  margin-bottom: 0.2rem;
+}
+
+.quick-card-text {
+  font-size: 0.9rem;
+  color: #607487;
+  line-height: 1.4;
+}
+
+/* Clear separation between homepage sections */
+.home-section {
+  margin-top: 3rem;
+}
+
+/* Make research theme cards more prominent than quick cards */
+.theme-card {
+  padding: 1.4rem;
+  border: 1px solid #e3ebf3;
+  border-radius: 14px;
+  box-shadow: 0 4px 14px rgba(18, 59, 93, 0.04);
+  background: #ffffff;
+}
+
+.theme-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.6rem;
+  font-size: 1.15rem;
+}
+
+.theme-card p {
+  margin-bottom: 0;
+}
+
+/* Responsive layout */
+@media screen and (max-width: 900px) {
+  .hero-two-column {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-photo {
+    justify-content: flex-start;
+  }
+
+  .hero-photo img {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .quicklinks {
+    flex-direction: column;
+  }
+
+  .quick-card {
+    width: 100%;
+  }
+}
