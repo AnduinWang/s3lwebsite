@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ""
+title: "Sensing, Sustainable & Society Lab (S3L)"
 ---
 
 # An WANG, PhD
