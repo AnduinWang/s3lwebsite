@@ -11,12 +11,21 @@ permalink: /
     Welcome to my website. I am an Assistant Professor at <strong>The Hong Kong Polytechnic University (PolyU)</strong>. My research focuses on <strong>[Research Area 1]</strong>, <strong>[Research Area 2]</strong>, and <strong>[Research Area 3]</strong>, with an interest in developing <strong>[algorithms / models / systems / methodologies]</strong> for <strong>[applications or domains]</strong>.
   </div>
 
-  <div class="button-row">
-    <a class="btn btn-primary" href="{{ site.baseurl }}/research/">Research</a>
-    <a class="btn btn-secondary" href="{{ site.baseurl }}/openings/">Openings</a>
-    <a class="btn btn-secondary" href="{{ site.baseurl }}/cv/">CV</a>
-    <a class="btn btn-secondary" href="{{ site.baseurl }}/contact/">Contact</a>
-  </div>
+<div class="card-grid card-grid-3">
+  <a class="card card-link" href="{{ site.baseurl }}/assets/cv.pdf">
+    <h3>CV</h3>
+    <p>Download my curriculum vitae in PDF format.</p>
+  </a>
+
+  <a class="card card-link" href="https://scholar.google.com/citations?user=XXXXXXXXXXX" target="_blank" rel="noopener">
+    <h3>Google Scholar</h3>
+    <p>View my publications, citations, and research profile.</p>
+  </a>
+
+  <a class="card card-link" href="mailto:your.email@polyu.edu.hk">
+    <h3>Contact</h3>
+    <p>Email me directly regarding research, collaboration, or opportunities.</p>
+  </a>
 </div>
 
 ## Research Themes
