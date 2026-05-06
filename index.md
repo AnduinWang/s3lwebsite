@@ -8,7 +8,6 @@ permalink: /
   <div class="hero-text">
     <h1>An WANG, PhD</h1>
     <div class="subtitle">Assistant Professor · Department of Civil and Environmental Engineering · The Hong Kong Polytechnic University</div>
-    <div class="tagline">Sensing, Sustainability & Society Lab · Research for a better urban system</div>
 
     <div class="intro">
       Welcome to my website. I am an Assistant Professor at <strong>The Hong Kong Polytechnic University (PolyU)</strong>. My research focuses on <strong>[Research Area 1]</strong>, <strong>[Research Area 2]</strong>, and <strong>[Research Area 3]</strong>. I am particularly interested in developing <strong>[algorithms / models / systems / methodologies]</strong> for <strong>[applications or domains]</strong>.
