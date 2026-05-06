@@ -9,9 +9,6 @@ baseurl: "/s3lwebsite"
 
 header_pages:
   - research.md
-  - publications.md
   - openings.md
   - teaching.md
-  - cv.md
-  - contact.md
   - news.md
