@@ -39,19 +39,19 @@ permalink: /
     <a href="{{ site.baseurl }}/research/#sensing" class="card-link">
       <div class="card clickable-card">
         <h3>Urban Environmental Sensing</h3>
-        <p>We use advanced sensors to detect cities' undertone.</p>
+        <p>Advanced sensors for city-level monitoring.</p>
       </div>
     </a>
     <a href="{{ site.baseurl }}/research/#energy" class="card-link">
       <div class="card clickable-card">
         <h3>Transport Energy Transition</h3>
-        <p>Exploring cleaner pathways for urban mobility.</p>
+        <p>Cleaner pathways for urban mobility.</p>
       </div>
     </a>
     <a href="{{ site.baseurl }}/research/#modeling" class="card-link">
       <div class="card clickable-card">
         <h3>Data-Driven Modeling</h3>
-        <p>Extracting urban insights through big data fusion.</p>
+        <p>Big data fusion for urban systems.</p>
       </div>
     </a>
   </div>
