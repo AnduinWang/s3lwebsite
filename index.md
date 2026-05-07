@@ -53,7 +53,7 @@ permalink: /
     <a href="{{ site.baseurl }}/research/#theme3" class="card-link">
       <div class="card">
         <h3>Data-Driven Modeling</h3>
-        <p>This is how insights emerge from data.</p>
+        <p>This is how we translate data to insights.</p>
       </div>
     </a>
   </div>
