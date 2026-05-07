@@ -36,19 +36,28 @@ permalink: /
 <section class="home-section">
   <h2>Research Themes</h2>
   <div class="card-grid">
-  <div class="card">
-      <h3>Urban Environmental Sensing</h3>
-      <p>We use advanced sensors to detect cities' undertone.</p>
-    </div>
-    <div class="card">
-      <h3>Transport Energy Transition</h3>
-      <p>Transport is good, but in a cleaner way is better.</p>
-    </div>
-    <div class="card">
-      <h3>Data-Driven Modeling</h3>
-      <p>This is how insigts emerge from data.</p>
-    </div>
+    <a href="{{ site.baseurl }}/research/#theme1" class="card-link">
+      <div class="card">
+        <h3>Urban Environmental Sensing</h3>
+        <p>We use advanced sensors to detect cities' undertone.</p>
+      </div>
+    </a>
+
+    <a href="{{ site.baseurl }}/research/#theme2" class="card-link">
+      <div class="card">
+        <h3>Transport Energy Transition</h3>
+        <p>Transport is good, but in a cleaner way is better.</p>
+      </div>
+    </a>
+
+    <a href="{{ site.baseurl }}/research/#theme3" class="card-link">
+      <div class="card">
+        <h3>Data-Driven Modeling</h3>
+        <p>This is how insights emerge from data.</p>
+      </div>
+    </a>
   </div>
+</section>
 
 <section class="home-section">
   <h2>What's New</h2>
