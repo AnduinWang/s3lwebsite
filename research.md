@@ -54,12 +54,28 @@ My research focuses on sustainable transportation systems, urban environmental s
 </div>
 
 <script>
+// Function to open the modal
 function openModal(id) {
-  document.getElementById(id).style.display = "flex";
-  document.body.style.overflow = "hidden"; // Prevent scrolling
+  const modal = document.getElementById(id);
+  if (modal) {
+    modal.style.display = "flex";
+    document.body.style.overflow = "hidden";
+  }
 }
+
+// Function to close the modal
 function closeModal(id) {
   document.getElementById(id).style.display = "none";
   document.body.style.overflow = "auto";
+  // Optional: Clear the hash from the URL when closing
+  history.pushState("", document.title, window.location.pathname + window.location.search);
 }
+
+// Check URL hash on page load to auto-open specific theme briefs
+window.addEventListener('DOMContentLoaded', (event) => {
+  const hash = window.location.hash; // e.g., "#theme1"
+  if (hash === "#theme1") openModal('modal1');
+  if (hash === "#theme2") openModal('modal2');
+  if (hash === "#theme3") openModal('modal3');
+});
 </script>
