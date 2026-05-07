@@ -390,3 +390,64 @@ a:hover {
     width: 100%;
   }
 }
+/* Research Card Enhancements */
+.clickable-card {
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(18, 59, 93, 0.15);
+  }
+}
+
+.card-image-placeholder {
+  width: 100%;
+  height: 150px;
+  background: #eaf1f8;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #6b7f92;
+  font-weight: 600;
+}
+
+/* Modal / Pop-up Styles */
+.modal-overlay {
+  display: none; /* Hidden by default */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(18, 59, 93, 0.4); /* Blue-ish tint */
+  backdrop-filter: blur(8px); /* The blur effect */
+  z-index: 1000;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: white;
+  padding: 2.5rem;
+  border-radius: 16px;
+  max-width: 600px;
+  width: 90%;
+  position: relative;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  
+  h2 { margin-top: 0; border-bottom: none; }
+}
+
+.close-btn {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  font-size: 1.8rem;
+  cursor: pointer;
+  color: #6b7f92;
+  
+  &:hover { color: #123b5d; }
+}
