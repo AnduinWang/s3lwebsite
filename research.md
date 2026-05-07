@@ -4,29 +4,49 @@ title: "Research"
 permalink: /research/
 ---
 
-<div class="card-grid">
-  <div class="card clickable-card" onclick="openModal('modal1')">
-    <h3>Urban Environmental Sensing</h3>
-    <p>Click to see details.</p>
+<section id="sensing" class="research-section">
+  <h2>Urban Environmental Sensing</h2>
+  <div class="scroll-container">
+    <div class="card clickable-card" onclick="openModal('modal-s1')">
+      <h3>On-road Emission Tests</h3>
+      <p>Click for project brief.</p>
+    </div>
+    <div class="card clickable-card" onclick="openModal('modal-s2')">
+      <h3>Dispersion Characterization</h3>
+      <p>Click for project brief.</p>
+    </div>
+    <div class="card clickable-card" onclick="openModal('modal-s3')">
+      <h3>Low-cost Sensor Networks</h3>
+      <p>Click for project brief.</p>
+    </div>
   </div>
-  
-  </div>
+</section>
 
-<div id="modal1" class="modal-overlay" onclick="closeModal('modal1')">
+<section id="energy" class="research-section">
+  <h2>Transport Energy Transition</h2>
+  <div class="scroll-container">
+    <div class="card clickable-card" onclick="openModal('modal-e1')">
+      <h3>Electrification Impact</h3>
+      <p>Click for project brief.</p>
+    </div>
+    <div class="card clickable-card" onclick="openModal('modal-e2')">
+      <h3>Charging Infrastructure</h3>
+      <p>Click for project brief.</p>
+    </div>
+  </div>
+</section>
+
+<div id="modal-s1" class="modal-overlay" onclick="closeModal('modal-s1')">
   <div class="modal-container" onclick="event.stopPropagation()">
     <div class="modal-header">
-      <h2>Urban Environmental Sensing</h2>
-      <span class="close-btn" onclick="closeModal('modal1')">&times;</span>
+      <h2>On-road Vehicular Emission Tests</h2>
+      <span class="close-btn" onclick="closeModal('modal-s1')">&times;</span>
     </div>
     <div class="modal-body">
       <div class="modal-text">
-        <p>Detailed description of your sensing research goes here.</p>
+        <p>Detailed brief regarding emission instrumentation and city-level testing.</p>
       </div>
-      <div class="modal-image">
-        <div class="image-placeholder">
-          [Theme 1 Image]
-        </div>
-      </div>
+      <div class="modal-image"><div class="image-placeholder">[Project Image]</div></div>
     </div>
   </div>
 </div>
@@ -35,7 +55,7 @@ permalink: /research/
 function openModal(id) {
   const modal = document.getElementById(id);
   if (modal) {
-    modal.classList.add('active'); // Matches the .active class in your SCSS
+    modal.classList.add('active');
     document.body.style.overflow = "hidden";
   }
 }
@@ -45,19 +65,15 @@ function closeModal(id) {
   if (modal) {
     modal.classList.remove('active');
     document.body.style.overflow = "auto";
-    // Clears the #theme1 from the URL without reloading the page
-    history.replaceState(null, null, window.location.pathname);
   }
 }
 
-// Logic to open modal automatically based on URL hash (from Index page)
-function checkHash() {
+// Handle auto-scroll from Index page
+window.addEventListener('load', () => {
   const hash = window.location.hash;
-  if (hash === "#theme1") openModal('modal1');
-  if (hash === "#theme2") openModal('modal2');
-  if (hash === "#theme3") openModal('modal3');
-}
-
-window.addEventListener('load', checkHash);
-window.addEventListener('hashchange', checkHash);
+  if (hash) {
+    const target = document.querySelector(hash);
+    if (target) target.scrollIntoView({ behavior: 'smooth' });
+  }
+});
 </script>
