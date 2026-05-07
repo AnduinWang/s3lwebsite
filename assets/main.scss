@@ -526,11 +526,11 @@ a:hover {
   .modal-body { grid-template-columns: 1fr; }
   .modal-container { width: 95vw; }
 }
+
 /* Horizontal Scroll Section Styles */
 .research-section {
   padding: 2rem 0;
-  margin-bottom: 3rem;
-  border-bottom: 1px solid #eef2f6;
+  margin-bottom: 2rem;
 }
 
 .scroll-container {
@@ -541,7 +541,7 @@ a:hover {
   scroll-behavior: smooth;
   -webkit-overflow-scrolling: touch;
 
-  /* Custom Scrollbar for better UX */
+  /* Custom Scrollbar */
   &::-webkit-scrollbar {
     height: 6px;
   }
@@ -557,8 +557,7 @@ a:hover {
 
 /* Fix card width in scroll container */
 .scroll-container .card {
-  flex: 0 0 320px; /* Adjust width as needed */
+  flex: 0 0 320px; /* Ensures three cards are visible or partially visible */
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
