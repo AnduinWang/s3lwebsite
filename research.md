@@ -9,6 +9,7 @@ permalink: /research/
     <h3>Urban Environmental Sensing</h3>
     <p>Click to see details.</p>
   </div>
+  
   </div>
 
 <div id="modal1" class="modal-overlay" onclick="closeModal('modal1')">
@@ -19,10 +20,10 @@ permalink: /research/
     </div>
     <div class="modal-body">
       <div class="modal-text">
-        <p>At S3L, we leverage sensing technologies to detect cities' undertone. This includes vehicular emission tests and roadside dispersion characterization.</p>
+        <p>Detailed description of your sensing research goes here.</p>
       </div>
       <div class="modal-image">
-        <div class="image-placeholder" style="background:#f0f4f8; height:300px; border-radius:10px; display:flex; align-items:center; justify-content:center;">
+        <div class="image-placeholder">
           [Theme 1 Image]
         </div>
       </div>
@@ -34,7 +35,7 @@ permalink: /research/
 function openModal(id) {
   const modal = document.getElementById(id);
   if (modal) {
-    modal.classList.add('active');
+    modal.classList.add('active'); // Matches the .active class in your SCSS
     document.body.style.overflow = "hidden";
   }
 }
@@ -44,11 +45,12 @@ function closeModal(id) {
   if (modal) {
     modal.classList.remove('active');
     document.body.style.overflow = "auto";
+    // Clears the #theme1 from the URL without reloading the page
     history.replaceState(null, null, window.location.pathname);
   }
 }
 
-// Automatically open modal if URL contains #themeX
+// Logic to open modal automatically based on URL hash (from Index page)
 function checkHash() {
   const hash = window.location.hash;
   if (hash === "#theme1") openModal('modal1');
