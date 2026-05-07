@@ -526,18 +526,24 @@ a:hover {
   .modal-body { grid-template-columns: 1fr; }
   .modal-container { width: 95vw; }
 }
-/* Horizontal Scroll Container */
+/* Horizontal Scroll Section Styles */
+.research-section {
+  padding: 2rem 0;
+  margin-bottom: 3rem;
+  border-bottom: 1px solid #eef2f6;
+}
+
 .scroll-container {
   display: flex;
   overflow-x: auto;
   gap: 1.5rem;
-  padding: 1rem 0.5rem 2rem 0.5rem;
+  padding: 1.5rem 0.5rem;
   scroll-behavior: smooth;
   -webkit-overflow-scrolling: touch;
 
-  /* Custom Scrollbar Styling */
+  /* Custom Scrollbar for better UX */
   &::-webkit-scrollbar {
-    height: 8px;
+    height: 6px;
   }
   &::-webkit-scrollbar-track {
     background: #f1f1f1;
@@ -547,19 +553,12 @@ a:hover {
     background: #cbd5e1;
     border-radius: 10px;
   }
-  &::-webkit-scrollbar-thumb:hover {
-    background: #123b5d;
-  }
 }
 
-/* Ensure cards don't shrink in the scroll row */
+/* Fix card width in scroll container */
 .scroll-container .card {
-  flex: 0 0 350px; /* Fixed width for each card */
-  margin-bottom: 0;
-}
-
-/* Section spacing for anchors */
-.research-section {
-  padding-top: 2rem;
-  margin-bottom: 4rem;
+  flex: 0 0 320px; /* Adjust width as needed */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
