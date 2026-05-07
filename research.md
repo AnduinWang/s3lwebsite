@@ -62,40 +62,4 @@ function closeModal(id) {
   document.getElementById(id).style.display = "none";
   document.body.style.overflow = "auto";
 }
-
-## Full Publication List
-
-For a complete and updated publication list, please also see:
-
-- [Google Scholar](#)
-- [ORCID](#)
-- [DBLP](#)
-- [PolyU Profile](#)
-
-### Journal Articles
-
-1. **[Paper Title 1]**  
-   [Authors]  
-   *[Journal Name]*, [Year].
-
-2. **[Paper Title 2]**  
-   [Authors]  
-   *[Journal Name]*, [Year].
-
-3. **[Paper Title 3]**  
-   [Authors]  
-   *[Journal Name]*, [Year].
-
-### Conference Papers
-
-1. **[Paper Title 1]**  
-   [Authors]  
-   In *Proceedings of [Conference Name]*, [Year].
-
-2. **[Paper Title 2]**  
-   [Authors]  
-   In *Proceedings of [Conference Name]*, [Year].
-
-3. **[Paper Title 3]**  
-   [Authors]  
-   In *Proceedings of [Conference Name]*, [Year].
+</script>
