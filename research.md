@@ -22,10 +22,10 @@ permalink: /research/
 <section id="sensing" class="research-section">
   <h2>Urban Environmental Sensing</h2>
 <div class="scroll-container">
-    <div class="card clickable-card" onclick="openModal('modal-s1')" style="background-image: url('{{ site.baseurl }}/assets/your-image.jpg');">
+    <div class="card clickable-card" onclick="openModal('modal-s1')" style="background-image: url('{{ site.baseurl }}/assets/research/onroademissions.jpg');">
       <h3>On-road Emissions</h3>
     </div>
-    <div class="card clickable-card" onclick="openModal('modal-s2')" style="background-image: url('{{ site.baseurl }}/assets/your-image.jpg');">
+    <div class="card clickable-card" onclick="openModal('modal-s2')" style="background-image: url('{{ site.baseurl }}/assets/research/crowdsensing.jpg');">
       <h3>Crowdsourced Sensing</h3>
     </div>
     <div class="card clickable-card" onclick="openModal('modal-s3')" style="background-image: url('{{ site.baseurl }}/assets/your-image.jpg');">
