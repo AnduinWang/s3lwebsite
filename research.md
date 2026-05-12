@@ -5,7 +5,7 @@ permalink: /research/
 ---
 
 <p class="page-intro">
-  My research focuses on the nexus of sustainable transportation systems, urban environmental sensing, and data-driven modeling. I utilize tools such as life-cycle assessment, empirical modeling, and computer vision to explore carbon-neutral pathways for metropolitan areas.
+  We use physical modeling, IoT sensing technologies, lifecycle assessment, and various deep learning tools to decipher sustainability challenges in cities. 
 </p>
 
 <strong>Full publication list can be found at at my Google Scholar and ORCID pages </strong>.
@@ -23,16 +23,13 @@ permalink: /research/
   <h2>Urban Environmental Sensing</h2>
 <div class="scroll-container">
     <div class="card clickable-card" onclick="openModal('modal-s1')" style="background-image: {{ site.baseurl }}/assets/your-image.jpg;">
-      <h3>On-road Emission Tests</h3>
-      <p>Click for project brief.</p>
+      <h3>On-road Emission Testing</h3>
     </div>
     <div class="card clickable-card" onclick="openModal('modal-s2')" style="background-image: {{ site.baseurl }}/assets/your-image.jpg;">
-      <h3>On-road Emission Tests</h3>
-      <p>Click for project brief.</p>
+      <h3>Opportunistic Mobile Sensing</h3>
     </div>
     <div class="card clickable-card" onclick="openModal('modal-s3')" style="background-image: {{ site.baseurl }}/assets/your-image.jpg;">
-      <h3>On-road Emission Tests</h3>
-      <p>Click for project brief.</p>
+      <h3>Personal Exposure Modeling</h3>
     </div>
   </div>
 </section>
@@ -41,16 +38,14 @@ permalink: /research/
   <h2>Transport Energy Transition</h2>
   <div class="scroll-container">
     <div class="card clickable-card" onclick="openModal('modal-e1')" style="background-image: {{ site.baseurl }}/assets/your-image.jpg;">
-      <h3>On-road Emission Tests</h3>
-      <p>Click for project brief.</p>
+      <h3>Heavy-duty vehicle electrification<br>
+          Or not</h3>
     </div>
     <div class="card clickable-card" onclick="openModal('modal-e2')" style="background-image: {{ site.baseurl }}/assets/your-image.jpg;">
       <h3>On-road Emission Tests</h3>
-      <p>Click for project brief.</p>
     </div>
     <div class="card clickable-card" onclick="openModal('modal-e3')" style="background-image: {{ site.baseurl }}/assets/your-image.jpg;">
       <h3>On-road Emission Tests</h3>
-      <p>Click for project brief.</p>
     </div>
   </div>
 </section>
@@ -60,15 +55,12 @@ permalink: /research/
   <div class="scroll-container">
     <div class="card clickable-card" onclick="openModal('modal-m1')" style="background-image: {{ site.baseurl }}/assets/your-image.jpg;">
       <h3>On-road Emission Tests</h3>
-      <p>Click for project brief.</p>
     </div>
     <div class="card clickable-card" onclick="openModal('modal-m2')" style="background-image: {{ site.baseurl }}/assets/your-image.jpg;">
       <h3>On-road Emission Tests</h3>
-      <p>Click for project brief.</p>
     </div>
     <div class="card clickable-card" onclick="openModal('modal-m3')" style="background-image: {{ site.baseurl }}/assets/your-image.jpg;">
       <h3>On-road Emission Tests</h3>
-      <p>Click for project brief.</p>
     </div>
   </div>
 </section>
