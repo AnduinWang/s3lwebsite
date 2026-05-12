@@ -36,20 +36,20 @@ permalink: /
 <section class="home-section">
   <h2>Research Themes</h2>
   <div class="card-grid">
-    <a href="{{ site.baseurl }}/assets/EnvironmentHK" class="card-link">
-      <div class="card clickable-card" style="background-image: url('URL_FOR_SENSING_IMAGE');">
+    <a href="{{ site.baseurl }}/research/#sensing" class="card-link">
+      <div class="card clickable-card" style="background-image: url('{{ site.baseurl }}/assets/EnvironmentHK.jpg');">
         <h3>Environmental Sensing</h3>
         <p>Undertones in cities</p>
       </div>
     </a>
-    <a href="{{ site.baseurl }}/assets/RenewableEnergy" class="card-link">
-      <div class="card clickable-card" style="background-image: url('URL_FOR_ENERGY_IMAGE');">
+    <a href="{{ site.baseurl }}/research/#energy" class="card-link">
+      <div class="card clickable-card" style="background-image: url('{{ site.baseurl }}/assets/RenewableEnergy.jpg');">
         <h3>Energy Transition</h3>
         <p>Cleaner pathways for urban mobility</p>
       </div>
     </a>
-    <a href="{{ site.baseurl }}/assets/NeuralNet" class="card-link">
-      <div class="card clickable-card" style="background-image: url('URL_FOR_MODELING_IMAGE');">
+    <a href="{{ site.baseurl }}/research/#modeling" class="card-link">
+      <div class="card clickable-card" style="background-image: url('{{ site.baseurl }}/assets/NeuralNet.jpg');">
         <h3>Data-Driven Modeling</h3>
         <p>Insights from big data</p>
       </div>
