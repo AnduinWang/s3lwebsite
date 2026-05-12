@@ -7,6 +7,9 @@ permalink: /research/
 <p class="page-intro">
   My research focuses on the nexus of sustainable transportation systems, urban environmental sensing, and data-driven modeling. I utilize tools such as life-cycle assessment, empirical modeling, and computer vision to explore carbon-neutral pathways for metropolitan areas.
 </p>
+
+<strong>Full publication list can be found at at my Google Scholar and ORCID pages </strong>.
+
 <div class="quicklinks">
   <a class="quick-card" href="https://scholar.google.com/citations?user=v_tp904AAAAJ&hl=en" target="_blank" rel="noopener">
     <div class="quick-card-title">Google Scholar</div>
