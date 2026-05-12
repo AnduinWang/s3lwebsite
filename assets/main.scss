@@ -3,13 +3,18 @@
 
 @import "minima";
 
-/* Layout Adjustments */
+/* =========================================
+   1. LAYOUT & GLOBAL TYPOGRAPHY
+   ========================================= */
 .wrapper {
   max-width: 1400px;
   width: 94%;
 }
 
-/* Global Typography */
+.page-content {
+  padding: 40px 0;
+}
+
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   color: #222;
@@ -28,163 +33,20 @@ h2 {
   padding-bottom: 0.3em;
 }
 
-/* Research Cards & Links */
-.card-link { text-decoration: none; color: inherit; }
-
-.card.clickable-card {
-  position: relative;
-  background-size: cover;
-  background-position: center;
-  overflow: hidden;
-  border-radius: 12px;
-  border: 1px solid #e3ebf3;
-  min-height: 220px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  padding: 0;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-  cursor: pointer;
-
-  &::before {
-    content: "";
-    position: absolute;
-    top: 0; left: 0; right: 0; bottom: 0;
-    background: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.7));
-    z-index: 1;
-  }
-
-  h3, p {
-    position: relative;
-    z-index: 2;
-    margin: 0 1.2rem 0.5rem 1.2rem;
-    color: #ffffff !important;
-  }
-
-  p { margin-bottom: 1.2rem; font-size: 0.95rem; }
-
-  &:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 12px 24px rgba(18, 59, 93, 0.2);
-  }
-}
-
-/* Modal Overlay & Transitions */
-.modal-overlay {
-  visibility: hidden;
-  opacity: 0;
-  position: fixed;
-  top: 0; left: 0;
-  width: 100%; height: 100%;
-  background: rgba(255, 255, 255, 0.7);
-  backdrop-filter: blur(15px);
-  -webkit-backdrop-filter: blur(15px);
-  z-index: 3000;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition: all 0.3s ease-in-out;
-
-  &.active { visibility: visible; opacity: 1; }
-}
-
-.modal-container {
-  background: #ffffff;
-  width: 85vw;
-  max-width: 1000px;
-  border-radius: 20px;
-  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.2);
-  transform: scale(0.95);
-  transition: transform 0.3s ease;
-}
-
-.modal-overlay.active .modal-container { transform: scale(1); }
-.modal-header {
-  padding: 1.5rem 2rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border-bottom: 1px solid #eee;
-  h2 { margin: 0; color: #123b5d; font-size: 1.5rem; margin-top: 0; }
-}
-
-.modal-body {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 2rem;
-  padding: 2rem;
-  overflow-y: auto;
-}
-
-.close-btn {
-  font-size: 2rem;
-  cursor: pointer;
-  color: #6b7f92;
-  &:hover { color: #123b5d; }
-}
-
-/* Quicklinks & Hero (from your original) */
-.hero-two-column { display: grid; grid-template-columns: 1fr 260px; gap: 2rem; align-items: center; }
-.hero-photo img { width: 240px; height: 240px; border-radius: 16px; object-fit: cover; }
-
-.quicklinks { display: flex; flex-wrap: wrap; gap: 0.8rem; margin: 1.5rem 0; }
-.quick-card {
-  padding: 0.85rem 1rem;
-  border: 1px solid #dbe5ef;
-  border-radius: 10px;
-  background: #f9fbfd;
+/* Make S3L Title Pop Out */
+.site-title {
+  font-weight: 800 !important;
+  font-size: 1.8rem !important;
   color: #123b5d !important;
-  font-weight: bold;
-}
-/* --- RESTORED GRID & LAYOUT CLASSES --- */
-
-/* Standard Grid for Home Page */
-.card-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 1.5rem;
-  margin: 1.5rem 0 3rem 0;
-}
-
-/* News Section Styling */
-.news-box {
-  background: #fafcfe;
-  border-left: 4px solid #123b5d;
-  padding: 1.2rem 1.5rem;
+  background: #eef5fb;
+  padding: 0.3rem 1rem;
   border-radius: 8px;
-  margin: 1.5rem 0 2.5rem 0;
-  
-  ul {
-    margin: 0;
-    padding-left: 1.2rem;
-  }
-  
-  li {
-    margin-bottom: 0.8rem;
-    line-height: 1.6;
-    &:last-child { margin-bottom: 0; }
-  }
+  border: 2px solid #c7d8e8;
+  box-shadow: 0 2px 8px rgba(18, 59, 93, 0.1);
+  letter-spacing: 1px;
 }
 
-/* Hero Intro Text */
-.hero .intro {
-  max-width: 900px;
-  font-size: 1.1rem;
-  color: #334155;
-  margin-top: 1rem;
-}
-
-/* Page Content Padding */
-.page-content {
-  padding: 40px 0;
-}
-
-/* --- THEME SECTION ANCHOR OFFSET --- */
-/* This prevents the header from covering section titles when clicking links */
-.research-section {
-  scroll-margin-top: 100px; 
-}
-/* --- THE PAGE INTRO BLOCK (Placed at bottom for maximum priority) --- */
+/* Page Intro Block (Research & Openings) */
 .page-intro {
   font-family: inherit;
   font-size: 1.3rem;
@@ -196,14 +58,18 @@ h2 {
   border-left: 6px solid #123b5d;
   border-radius: 0 12px 12px 0;
   box-shadow: 0 4px 15px rgba(18, 59, 93, 0.06);
-  display: block !important; /* Force display if hidden by other styles */
+  display: block !important;
 }
-/* --- MISSING HERO STYLES (Index Page) --- */
+
+/* =========================================
+   2. HERO SECTION (Index Page)
+   ========================================= */
 .hero {
-  background: linear-gradient(135deg, #f7fbff 0%, #eef5fb 100%);
-  padding: 3rem 2rem;
-  border-radius: 14px;
+  background: #eef5fb;
+  padding: 3rem;
+  border-radius: 16px;
   margin: 1.5rem 0 2.5rem 0;
+  border: 1px solid #dce8f3;
 }
 
 .hero h1 {
@@ -218,142 +84,34 @@ h2 {
   margin-bottom: 1rem;
 }
 
-/* Make it stack nicely on smaller screens */
-@media screen and (max-width: 900px) {
-  .hero-two-column {
-    grid-template-columns: 1fr;
-  }
-  .hero-photo {
-    display: flex;
-    justify-content: flex-start;
-    margin-top: 1.5rem;
-  }
-}
-/* --- MISSING SCROLL CONTAINER STYLES (Research Page) --- */
-.scroll-container {
-  display: flex;
-  overflow-x: auto;
-  gap: 1.5rem;
-  padding: 1rem 0.5rem 2rem 0.5rem;
-  scroll-behavior: smooth;
-  -webkit-overflow-scrolling: touch;
-
-  /* Custom Scrollbar Styling */
-  &::-webkit-scrollbar {
-    height: 8px;
-  }
-  &::-webkit-scrollbar-track {
-    background: #f1f1f1;
-    border-radius: 10px;
-  }
-  &::-webkit-scrollbar-thumb {
-    background: #cbd5e1;
-    border-radius: 10px;
-  }
-  &::-webkit-scrollbar-thumb:hover {
-    background: #123b5d;
-  }
-}
-
-/* Ensure cards don't shrink and stay fixed width in the scroll row */
-.scroll-container .card {
-  flex: 0 0 320px; 
-  display: flex;
-  flex-direction: column;
-}
-/* --- FIX 2: Hero Section & Grid (Lighter Blue Box & Photo Matching) --- */
-.hero {
-  background: #eef5fb; /* Lighter solid blue box */
-  padding: 3rem;
-  border-radius: 16px;
-  margin: 1.5rem 0 2.5rem 0;
-  border: 1px solid #dce8f3;
+.hero .intro {
+  max-width: 900px;
+  font-size: 1.1rem;
+  color: #334155;
+  margin-top: 1rem;
 }
 
 .hero-two-column { 
   display: grid; 
-  grid-template-columns: 1fr 320px; /* Fixed width for the photo column */
+  grid-template-columns: 1fr 320px; 
   gap: 3rem; 
-  align-items: stretch; /* Stretches both columns to be equal height */
+  align-items: stretch; 
 }
 
 .hero-left {
   display: flex;
   flex-direction: column;
-  justify-content: space-between; /* Pushes text up and quicklinks down */
+  justify-content: space-between; 
 }
 
 .hero-photo {
   display: flex;
-  height: 100%; /* Fills the stretched column */
+  height: 100%; 
 }
 
 .hero-photo img { 
   width: 100%; 
-  height: 100%; /* Forces image to match the container height */
+  height: 100%; 
   border-radius: 16px; 
-  object-fit: cover; /* Prevents distortion while filling space */
-  box-shadow: 0 8px 24px rgba(18, 59, 93, 0.15);
-}
-
-.quicklinks { 
-  display: flex; 
-  flex-wrap: wrap; 
-  gap: 0.8rem; 
-  margin-top: 1.5rem; /* Space between intro text and cards */
-}
-
-/* --- FIX 3: Force Horizontal Scroll on Research Cards --- */
-.scroll-container {
-  display: flex;
-  flex-wrap: nowrap; /* CRITICAL: Forces elements to stay in one line */
-  overflow-x: auto;
-  width: 100%;       /* Ensures container takes full width */
-  gap: 1.5rem;
-  padding: 1.5rem 0.5rem;
-  scroll-behavior: smooth;
-  -webkit-overflow-scrolling: touch;
-
-  /* Custom Scrollbar */
-  &::-webkit-scrollbar {
-    height: 8px;
-  }
-  &::-webkit-scrollbar-track {
-    background: #f1f1f1;
-    border-radius: 10px;
-  }
-  &::-webkit-scrollbar-thumb {
-    background: #cbd5e1;
-    border-radius: 10px;
-  }
-}
-
-/* Fix card width in scroll container so they don't shrink */
-.scroll-container .card {
-  flex: 0 0 320px;     /* Prevents shrinking, locks width to 320px */
-  min-width: 320px;    /* Secondary enforcement */
-  display: flex;
-  flex-direction: column;
-}
-
-/* Make Hero responsive for smaller screens */
-@media screen and (max-width: 900px) {
-  .hero-two-column {
-    grid-template-columns: 1fr;
-  }
-  .hero-photo {
-    height: 350px; /* Fixed height for mobile */
-  }
-}
-/* --- FIX 1: Make S3L Title Pop Out --- */
-.site-title {
-  font-weight: 800 !important;
-  font-size: 1.8rem !important; /* Considerably larger */
-  color: #123b5d !important;
-  background: #eef5fb;          /* Light blue badge background */
-  padding: 0.3rem 1rem;
-  border-radius: 8px;
-  border: 2px solid #c7d8e8;    /* Distinct outline */
-  box-shadow: 0 2px 8px rgba(18, 59, 93, 0.1);
-  letter-spacing: 1px;
-}
+  object-fit: cover; 
+  box-shadow: 0 8px 24px rgba(18, 59,
