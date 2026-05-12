@@ -14,7 +14,7 @@ permalink: /openings/
   <div class="scroll-container">
     
     <div class="member-card">
-      <img src="{{ site.baseurl }}/assets/Portrait.png" alt="Member Name" class="member-photo" />
+      <img src="{{ site.baseurl }}/assets/Zeyu.jpg" alt="Member Name" class="member-photo" />
       <div class="member-info">
         <h3>Dr. Zeyu ZHANG</h3>
         <div class="area">Postdoc researcher</div>
@@ -24,7 +24,7 @@ permalink: /openings/
     </div>
 
     <div class="member-card">
-      <img src="{{ site.baseurl }}/assets/Portrait.png" alt="Member Name" class="member-photo" />
+      <img src="{{ site.baseurl }}/assets/Wenyu.png" alt="Member Name" class="member-photo" />
       <div class="member-info">
         <h3>Wenyu WANG</h3>
         <div class="area">Ph.D. student</div>
@@ -64,7 +64,7 @@ permalink: /openings/
     </div>
     
     <div class="member-card">
-      <img src="{{ site.baseurl }}/assets/Portrait.png" alt="Member Name" class="member-photo" />
+      <img src="{{ site.baseurl }}/assets/Qiuzi.jpg" alt="Member Name" class="member-photo" />
       <div class="member-info">
         <h3>Qiuzi CHEN<br></h3>
         <div class="area">Alumni 2024, Now PhD @EPFL</div>
