@@ -6,7 +6,10 @@
 /* =========================================
    1. LAYOUT & GLOBAL TYPOGRAPHY
    ========================================= */
-.wrapper {
+.wrapper, 
+.page-content .wrapper,
+.site-header .wrapper,
+.site-footer .wrapper {
   max-width: 1400px;
   width: 94%;
 }
@@ -27,13 +30,32 @@ h1, h2, h3, h4 {
   margin-top: 1.5em;
 }
 
+h1 { font-size: 2.4rem; margin-bottom: 0.3em; }
 h2 {
   font-size: 1.6rem;
   border-bottom: 2px solid #e6eef5;
   padding-bottom: 0.3em;
 }
 
-/* Make S3L Title Pop Out */
+a {
+  color: #0b5fa5;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* =========================================
+   2. HEADER & FOOTER
+   ========================================= */
+.site-header {
+  border-top: 4px solid #123b5d;
+  border-bottom: 1px solid #dfe7ef;
+  background: #ffffff;
+}
+
+/* S3L Title Badge */
 .site-title {
   font-weight: 800 !important;
   font-size: 1.8rem !important;
@@ -46,23 +68,34 @@ h2 {
   letter-spacing: 1px;
 }
 
-/* Page Intro Block (Research & Openings) */
-.page-intro {
-  font-family: inherit;
-  font-size: 1.3rem;
-  color: #1e293b;
-  line-height: 1.8;
-  margin: 1.5rem 0 3rem 0;
-  padding: 1.8rem 2.2rem;
-  background: #f8fbff;
-  border-left: 6px solid #123b5d;
-  border-radius: 0 12px 12px 0;
-  box-shadow: 0 4px 15px rgba(18, 59, 93, 0.06);
-  display: block !important;
+.site-nav .page-link {
+  color: #234;
+  margin-left: 18px;
+  font-weight: 500;
+}
+
+.site-footer {
+  border-top: 1px solid #dfe7ef;
+  background: #fafcfe;
+}
+
+.site-footer .footer-col-wrapper {
+  font-size: 1.1rem;
+}
+
+.site-footer .footer-col-3 {
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: #123b5d;
+  line-height: 1.6;
+}
+
+.site-footer .footer-col-3 p {
+  margin-bottom: 0;
 }
 
 /* =========================================
-   2. HERO SECTION (Index Page)
+   3. HERO SECTION (Index Page)
    ========================================= */
 .hero {
   background: #eef5fb;
@@ -70,12 +103,6 @@ h2 {
   border-radius: 16px;
   margin: 1.5rem 0 2.5rem 0;
   border: 1px solid #dce8f3;
-}
-
-.hero h1 {
-  margin-top: 0;
-  margin-bottom: 0.2em;
-  font-size: 2.8rem;
 }
 
 .hero .subtitle {
@@ -114,4 +141,217 @@ h2 {
   height: 100%; 
   border-radius: 16px; 
   object-fit: cover; 
-  box-shadow: 0 8px 24px rgba(18, 59,
+  box-shadow: 0 8px 24px rgba(18, 59, 93, 0.15);
+}
+
+/* Quicklinks */
+.quicklinks { 
+  display: flex; 
+  flex-wrap: wrap; 
+  gap: 0.8rem; 
+  margin-top: 1.5rem; 
+}
+
+.quick-card {
+  padding: 0.85rem 1rem;
+  border: 1px solid #dbe5ef;
+  border-radius: 10px;
+  background: #f9fbfd;
+  color: #123b5d !important;
+  font-weight: bold;
+}
+
+/* =========================================
+   4. CARDS & GRIDS
+   ========================================= */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin: 1.5rem 0 3rem 0;
+}
+
+.card-link { 
+  text-decoration: none; 
+  color: inherit; 
+}
+
+.card.clickable-card {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  border-radius: 12px;
+  border: 1px solid #e3ebf3;
+  min-height: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.7));
+    z-index: 1;
+  }
+
+  h3, p {
+    position: relative;
+    z-index: 2;
+    margin: 0 1.2rem 0.5rem 1.2rem;
+    color: #ffffff !important;
+  }
+
+  p { 
+    margin-bottom: 1.2rem; 
+    font-size: 0.95rem; 
+  }
+
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(18, 59, 93, 0.2);
+  }
+}
+
+/* =========================================
+   5. RESEARCH PAGE (Horizontal Scrolling)
+   ========================================= */
+.research-section {
+  scroll-margin-top: 100px; 
+  padding: 2rem 0;
+  margin-bottom: 2rem;
+}
+
+.scroll-container {
+  display: flex;
+  flex-wrap: nowrap; 
+  overflow-x: auto;
+  width: 100%;       
+  gap: 1.5rem;
+  padding: 1.5rem 0.5rem;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+
+  &::-webkit-scrollbar { height: 8px; }
+  &::-webkit-scrollbar-track { background: #f1f1f1; border-radius: 10px; }
+  &::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 10px; }
+  &::-webkit-scrollbar-thumb:hover { background: #123b5d; }
+}
+
+.scroll-container .card {
+  flex: 0 0 320px;     
+  min-width: 320px;    
+  display: flex;
+  flex-direction: column;
+}
+
+/* =========================================
+   6. MODAL OVERLAY (Pop-ups)
+   ========================================= */
+.modal-overlay {
+  visibility: hidden;
+  opacity: 0;
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  z-index: 3000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+
+  &.active { visibility: visible; opacity: 1; }
+}
+
+.modal-container {
+  background: #ffffff;
+  width: 85vw;
+  max-width: 1000px;
+  border-radius: 20px;
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.2);
+  transform: scale(0.95);
+  transition: transform 0.3s ease;
+}
+
+.modal-overlay.active .modal-container { 
+  transform: scale(1); 
+}
+
+.modal-header {
+  padding: 1.5rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+  
+  h2 { margin: 0; color: #123b5d; font-size: 1.5rem; margin-top: 0; }
+}
+
+.modal-body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  padding: 2rem;
+  overflow-y: auto;
+}
+
+.close-btn {
+  font-size: 2rem;
+  cursor: pointer;
+  color: #6b7f92;
+  &:hover { color: #123b5d; }
+}
+
+/* =========================================
+   7. MISCELLANEOUS (News, Intros, Lists)
+   ========================================= */
+.news-box {
+  background: #fafcfe;
+  border-left: 4px solid #123b5d;
+  padding: 1.2rem 1.5rem;
+  border-radius: 8px;
+  margin: 1.5rem 0 2.5rem 0;
+  
+  ul { margin: 0; padding-left: 1.2rem; }
+  li { margin-bottom: 0.8rem; line-height: 1.6; &:last-child { margin-bottom: 0; } }
+}
+
+.pub-list li {
+  margin-bottom: 1rem;
+}
+
+.page-intro {
+  font-family: inherit;
+  font-size: 1.3rem;
+  color: #1e293b;
+  line-height: 1.8;
+  margin: 1.5rem 0 3rem 0;
+  padding: 1.8rem 2.2rem;
+  background: #f8fbff;
+  border-left: 6px solid #123b5d;
+  border-radius: 0 12px 12px 0;
+  box-shadow: 0 4px 15px rgba(18, 59, 93, 0.06);
+  display: block !important;
+}
+
+/* =========================================
+   8. RESPONSIVE DESIGN (Mobile)
+   ========================================= */
+@media screen and (max-width: 900px) {
+  .hero-two-column {
+    grid-template-columns: 1fr;
+  }
+  .hero-photo {
+    height: 350px; 
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 1.5rem;
+  }
+}
