@@ -8,6 +8,40 @@ permalink: /openings/
   Thank you for your interest in working with me. I am always interested in hearing from <strong>highly motivated students and researchers</strong>.
 </p>
 
+<section class="research-section">
+  <h2>Lab Members</h2>
+  <div class="scroll-container">
+    
+    <div class="member-card">
+      <img src="{{ site.baseurl }}/assets/Portrait.png" alt="Member Name" class="member-photo" />
+      <div class="member-info">
+        <h3>Jane Doe</h3>
+        <div class="area">Urban Air Quality Modeling</div>
+        <div class="contact">jane.doe@polyu.edu.hk</div>
+      </div>
+    </div>
+
+    <div class="member-card">
+      <img src="{{ site.baseurl }}/assets/Portrait.png" alt="Member Name" class="member-photo" />
+      <div class="member-info">
+        <h3>John Smith</h3>
+        <div class="area">Transport Energy Transition</div>
+        <div class="contact">john.smith@polyu.edu.hk</div>
+      </div>
+    </div>
+
+    <div class="member-card">
+      <img src="{{ site.baseurl }}/assets/Portrait.png" alt="Member Name" class="member-photo" />
+      <div class="member-info">
+        <h3>Alex Wong</h3>
+        <div class="area">Crowdsourced Sensing</div>
+        <div class="contact">alex.wong@polyu.edu.hk</div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
 ## Available Positions
 
 Depending on funding and university admissions cycles, I may have openings for:
