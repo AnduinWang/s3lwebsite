@@ -11,17 +11,17 @@ permalink: /research/
 <section id="sensing" class="research-section">
   <h2>Urban Environmental Sensing</h2>
 <div class="scroll-container">
-    <div class="card clickable-card" onclick="openModal('modal-s1')" style="background-image: url('URL_FOR_PROJECT_IMAGE');">
+    <div class="card clickable-card" onclick="openModal('modal-s1')" style="background-image: {{ site.baseurl }}/assets/your-image.jpg;">
       <h3>On-road Emission Tests</h3>
       <p>Click for project brief.</p>
     </div>
-    <div class="card clickable-card" onclick="openModal('modal-s2')">
-      <h3>Roadside Dispersion</h3>
-      <p>Characterizing pollutant dispersion and near-road air quality.</p>
+    <div class="card clickable-card" onclick="openModal('modal-s1')" style="background-image: {{ site.baseurl }}/assets/your-image.jpg;">
+      <h3>On-road Emission Tests</h3>
+      <p>Click for project brief.</p>
     </div>
-    <div class="card clickable-card" onclick="openModal('modal-s3')">
-      <h3>Portable Measurements</h3>
-      <p>Using PEMS at the vehicle, street, and city levels.</p>
+    <div class="card clickable-card" onclick="openModal('modal-s1')" style="background-image: {{ site.baseurl }}/assets/your-image.jpg;">
+      <h3>On-road Emission Tests</h3>
+      <p>Click for project brief.</p>
     </div>
   </div>
 </section>
@@ -29,17 +29,17 @@ permalink: /research/
 <section id="energy" class="research-section">
   <h2>Transport Energy Transition</h2>
   <div class="scroll-container">
-    <div class="card clickable-card" onclick="openModal('modal-e1')">
-      <h3>Vehicle Electrification</h3>
-      <p>Capturing uncertainty in metropolitan GHG emission inventories.</p>
+    <div class="card clickable-card" onclick="openModal('modal-s1')" style="background-image: {{ site.baseurl }}/assets/your-image.jpg;">
+      <h3>On-road Emission Tests</h3>
+      <p>Click for project brief.</p>
     </div>
-    <div class="card clickable-card" onclick="openModal('modal-e2')">
-      <h3>EV Charging Impacts</h3>
-      <p>Implications of charging on emissions of electricity systems.</p>
+    <div class="card clickable-card" onclick="openModal('modal-s1')" style="background-image: {{ site.baseurl }}/assets/your-image.jpg;">
+      <h3>On-road Emission Tests</h3>
+      <p>Click for project brief.</p>
     </div>
-    <div class="card clickable-card" onclick="openModal('modal-e3')">
-      <h3>Automated & Electric</h3>
-      <p>Effects of new technology scenarios on urban greenhouse gas emissions.</p>
+    <div class="card clickable-card" onclick="openModal('modal-s1')" style="background-image: {{ site.baseurl }}/assets/your-image.jpg;">
+      <h3>On-road Emission Tests</h3>
+      <p>Click for project brief.</p>
     </div>
   </div>
 </section>
@@ -47,17 +47,17 @@ permalink: /research/
 <section id="modeling" class="research-section">
   <h2>Data-Driven Modeling</h2>
   <div class="scroll-container">
-    <div class="card clickable-card" onclick="openModal('modal-m1')">
-      <h3>ML for Pollution Prediction</h3>
-      <p>Potential of machine learning for predicting traffic-related air pollution.</p>
+    <div class="card clickable-card" onclick="openModal('modal-s1')" style="background-image: {{ site.baseurl }}/assets/your-image.jpg;">
+      <h3>On-road Emission Tests</h3>
+      <p>Click for project brief.</p>
     </div>
-    <div class="card clickable-card" onclick="openModal('modal-m2')">
-      <h3>Brake Wear Modeling</h3>
-      <p>Modeling urban brake wear particle emissions in ride-hailing cases.</p>
+    <div class="card clickable-card" onclick="openModal('modal-s1')" style="background-image: {{ site.baseurl }}/assets/your-image.jpg;">
+      <h3>On-road Emission Tests</h3>
+      <p>Click for project brief.</p>
     </div>
-    <div class="card clickable-card" onclick="openModal('modal-m3')">
-      <h3>Emission Inventories</h3>
-      <p>Construction of multi-pollutant inventories with data-driven models.</p>
+    <div class="card clickable-card" onclick="openModal('modal-s1')" style="background-image: {{ site.baseurl }}/assets/your-image.jpg;">
+      <h3>On-road Emission Tests</h3>
+      <p>Click for project brief.</p>
     </div>
   </div>
 </section>
