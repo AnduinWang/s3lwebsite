@@ -12,7 +12,6 @@ permalink: /
     <div class="intro">
       Welcome to S3L's cyberspace. At S3L, we strive for the <strong>society</strong>'s <strong>sustainability</strong>, leveraging <strong>sensing</strong> technologies. As the lab PI, I have a diverse background across environmental engineering, transportation engineering, and urban planning. My research areas include <strong>urban environmental sensing</strong>, <strong>renewable energy transition in transportation</strong>, and <strong>data-driven modeling</strong>. Recently, I am particularly interested in developing and fusing <strong>crowd-sourced big datasets</strong> for urban system modeling.
     </div>
-    
   </div>
   <div class="hero-photo">
     <img src="{{ site.baseurl }}/assets/Portrait.png" alt="An Wang" />
