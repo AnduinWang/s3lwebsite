@@ -4,7 +4,9 @@ title: "Openings"
 permalink: /openings/
 ---
 
-Thank you for your interest in working with me. I am always interested in hearing from **highly motivated students and researchers**.
+<p class="page-intro">
+  Thank you for your interest in working with me. I am always interested in hearing from <strong>highly motivated students and researchers</strong>.
+</p>
 
 ## Available Positions
 
