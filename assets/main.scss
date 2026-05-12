@@ -113,3 +113,51 @@ h2 {
   color: #123b5d !important;
   font-weight: bold;
 }
+/* --- RESTORED GRID & LAYOUT CLASSES --- */
+
+/* Standard Grid for Home Page */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin: 1.5rem 0 3rem 0;
+}
+
+/* News Section Styling */
+.news-box {
+  background: #fafcfe;
+  border-left: 4px solid #123b5d;
+  padding: 1.2rem 1.5rem;
+  border-radius: 8px;
+  margin: 1.5rem 0 2.5rem 0;
+  
+  ul {
+    margin: 0;
+    padding-left: 1.2rem;
+  }
+  
+  li {
+    margin-bottom: 0.8rem;
+    line-height: 1.6;
+    &:last-child { margin-bottom: 0; }
+  }
+}
+
+/* Hero Intro Text */
+.hero .intro {
+  max-width: 900px;
+  font-size: 1.1rem;
+  color: #334155;
+  margin-top: 1rem;
+}
+
+/* Page Content Padding */
+.page-content {
+  padding: 40px 0;
+}
+
+/* --- THEME SECTION ANCHOR OFFSET --- */
+/* This prevents the header from covering section titles when clicking links */
+.research-section {
+  scroll-margin-top: 100px; 
+}
