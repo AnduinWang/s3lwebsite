@@ -99,6 +99,29 @@ h2 {
 }
 
 .modal-overlay.active .modal-container { transform: scale(1); }
+.modal-header {
+  padding: 1.5rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+  h2 { margin: 0; color: #123b5d; font-size: 1.5rem; margin-top: 0; }
+}
+
+.modal-body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  padding: 2rem;
+  overflow-y: auto;
+}
+
+.close-btn {
+  font-size: 2rem;
+  cursor: pointer;
+  color: #6b7f92;
+  &:hover { color: #123b5d; }
+}
 
 /* Quicklinks & Hero (from your original) */
 .hero-two-column { display: grid; grid-template-columns: 1fr 260px; gap: 2rem; align-items: center; }
@@ -160,4 +183,18 @@ h2 {
 /* This prevents the header from covering section titles when clicking links */
 .research-section {
   scroll-margin-top: 100px; 
+}
+/* --- THE PAGE INTRO BLOCK (Placed at bottom for maximum priority) --- */
+.page-intro {
+  font-family: inherit;
+  font-size: 1.3rem;
+  color: #1e293b;
+  line-height: 1.8;
+  margin: 1.5rem 0 3rem 0;
+  padding: 1.8rem 2.2rem;
+  background: #f8fbff;
+  border-left: 6px solid #123b5d;
+  border-radius: 0 12px 12px 0;
+  box-shadow: 0 4px 15px rgba(18, 59, 93, 0.06);
+  display: block !important; /* Force display if hidden by other styles */
 }
