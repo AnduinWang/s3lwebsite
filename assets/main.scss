@@ -611,13 +611,3 @@ a:hover {
   display: flex;
   flex-direction: column;
 }
-
-/* Styling for the intro text while keeping the site's default font */
-.page-intro {
-  font-family: inherit;      /* Forces it to match your body font */
-  font-size: 1.2rem;         /* Slightly larger for emphasis */
-  color: #4a6278;            /* A subtle grey-blue to distinguish it */
-  line-height: 1.7;          /* Matches your site's standard line height */
-  margin-bottom: 2rem;
-  display: block;
-}
