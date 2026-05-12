@@ -9,13 +9,6 @@
   width: 94%;
 }
 
-.page-content .wrapper,
-.site-header .wrapper,
-.site-footer .wrapper {
-  max-width: 1400px;
-  width: 94%;
-}
-
 /* Global Typography */
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
@@ -29,26 +22,23 @@ h1, h2, h3, h4 {
   margin-top: 1.5em;
 }
 
-h1 { font-size: 2.4rem; margin-bottom: 0.3em; }
-
 h2 {
   font-size: 1.6rem;
   border-bottom: 2px solid #e6eef5;
   padding-bottom: 0.3em;
 }
 
-/* Consolidated Card Styling */
+/* Research Cards & Links */
 .card-link { text-decoration: none; color: inherit; }
 
 .card.clickable-card {
   position: relative;
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
-  color: #ffffff;
   overflow: hidden;
-  border: none;
-  min-height: 220px; 
+  border-radius: 12px;
+  border: 1px solid #e3ebf3;
+  min-height: 220px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -79,25 +69,7 @@ h2 {
   }
 }
 
-/* Horizontal Scroll Container */
-.research-section { padding: 2rem 0; margin-bottom: 2rem; }
-
-.scroll-container {
-  display: flex;
-  overflow-x: auto;
-  gap: 1.5rem;
-  padding: 1.5rem 0.5rem;
-  scroll-behavior: smooth;
-  -webkit-overflow-scrolling: touch;
-
-  &::-webkit-scrollbar { height: 6px; }
-  &::-webkit-scrollbar-track { background: #f1f1f1; border-radius: 10px; }
-  &::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 10px; }
-
-  .card { flex: 0 0 320px; }
-}
-
-/* Consolidated Modal Styling */
+/* Modal Overlay & Transitions */
 .modal-overlay {
   visibility: hidden;
   opacity: 0;
@@ -120,53 +92,24 @@ h2 {
   background: #ffffff;
   width: 85vw;
   max-width: 1000px;
-  max-height: 85vh;
   border-radius: 20px;
-  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.2);
   transform: scale(0.95);
   transition: transform 0.3s ease;
 }
 
 .modal-overlay.active .modal-container { transform: scale(1); }
 
-.modal-header {
-  padding: 1.5rem 2rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border-bottom: 1px solid #eee;
-  h2 { margin: 0; color: #123b5d; font-size: 1.5rem; margin-top: 0; }
-}
+/* Quicklinks & Hero (from your original) */
+.hero-two-column { display: grid; grid-template-columns: 1fr 260px; gap: 2rem; align-items: center; }
+.hero-photo img { width: 240px; height: 240px; border-radius: 16px; object-fit: cover; }
 
-.modal-body {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 2rem;
-  padding: 2rem;
-  overflow-y: auto;
-}
-
-.close-btn {
-  font-size: 2rem;
-  cursor: pointer;
-  color: #6b7f92;
-  &:hover { color: #123b5d; }
-}
-
-/* --- THE PAGE INTRO BLOCK (Placed at bottom for maximum priority) --- */
-.page-intro {
-  font-family: inherit;
-  font-size: 1.3rem;
-  color: #1e293b;
-  line-height: 1.8;
-  margin: 1.5rem 0 3rem 0;
-  padding: 1.8rem 2.2rem;
-  background: #f8fbff;
-  border-left: 6px solid #123b5d;
-  border-radius: 0 12px 12px 0;
-  box-shadow: 0 4px 15px rgba(18, 59, 93, 0.06);
-  display: block !important; /* Force display if hidden by other styles */
+.quicklinks { display: flex; flex-wrap: wrap; gap: 0.8rem; margin: 1.5rem 0; }
+.quick-card {
+  padding: 0.85rem 1rem;
+  border: 1px solid #dbe5ef;
+  border-radius: 10px;
+  background: #f9fbfd;
+  color: #123b5d !important;
+  font-weight: bold;
 }
