@@ -22,13 +22,13 @@ permalink: /research/
 <section id="sensing" class="research-section">
   <h2>Urban Environmental Sensing</h2>
 <div class="scroll-container">
-    <div class="card clickable-card" onclick="openModal('modal-s1')" style="background-image: {{ site.baseurl }}/assets/your-image.jpg;">
+    <div class="card clickable-card" onclick="openModal('modal-s1')" style="background-image: url('{{ site.baseurl }}/assets/your-image.jpg');">
       <h3>On-road Emissions</h3>
     </div>
-    <div class="card clickable-card" onclick="openModal('modal-s2')" style="background-image: {{ site.baseurl }}/assets/your-image.jpg;">
+    <div class="card clickable-card" onclick="openModal('modal-s2')" style="background-image: url('{{ site.baseurl }}/assets/your-image.jpg');">
       <h3>Crowdsourced Sensing</h3>
     </div>
-    <div class="card clickable-card" onclick="openModal('modal-s3')" style="background-image: {{ site.baseurl }}/assets/your-image.jpg;">
+    <div class="card clickable-card" onclick="openModal('modal-s3')" style="background-image: url('{{ site.baseurl }}/assets/your-image.jpg');">
       <h3>Personal Exposure Modeling</h3>
     </div>
   </div>
@@ -37,13 +37,13 @@ permalink: /research/
 <section id="energy" class="research-section">
   <h2>Transport Energy Transition</h2>
   <div class="scroll-container">
-    <div class="card clickable-card" onclick="openModal('modal-e1')" style="background-image: {{ site.baseurl }}/assets/your-image.jpg;">
+    <div class="card clickable-card" onclick="openModal('modal-e1')" style="background-image: url('{{ site.baseurl }}/assets/your-image.jpg');">
       <h3>Heavy-Duty Vehicle Electrification</h3>
     </div>
-    <div class="card clickable-card" onclick="openModal('modal-e2')" style="background-image: {{ site.baseurl }}/assets/your-image.jpg;">
+    <div class="card clickable-card" onclick="openModal('modal-e2')" style="background-image: url('{{ site.baseurl }}/assets/your-image.jpg');">
       <h3>Hard-to-Abate Modes</h3>
     </div>
-    <div class="card clickable-card" onclick="openModal('modal-e3')" style="background-image: {{ site.baseurl }}/assets/your-image.jpg;">
+    <div class="card clickable-card" onclick="openModal('modal-e3')" style="background-image: url('{{ site.baseurl }}/assets/your-image.jpg');">
       <h3>Uncertainties in Transition</h3>
     </div>
   </div>
@@ -52,13 +52,13 @@ permalink: /research/
 <section id="modeling" class="research-section">
   <h2>Data-Driven Modeling</h2>
   <div class="scroll-container">
-    <div class="card clickable-card" onclick="openModal('modal-m1')" style="background-image: {{ site.baseurl }}/assets/your-image.jpg;">
+    <div class="card clickable-card" onclick="openModal('modal-m1')" style="background-image: url('{{ site.baseurl }}/assets/your-image.jpg');">
       <h3>Spatial & Temporal Imputation </h3>
     </div>
-    <div class="card clickable-card" onclick="openModal('modal-m2')" style="background-image: {{ site.baseurl }}/assets/your-image.jpg;">
+    <div class="card clickable-card" onclick="openModal('modal-m2')" style="background-image: url('{{ site.baseurl }}/assets/your-image.jpg');">
       <h3>Non-Exhaust Emissions</h3>
     </div>
-    <div class="card clickable-card" onclick="openModal('modal-m3')" style="background-image: {{ site.baseurl }}/assets/your-image.jpg;">
+    <div class="card clickable-card" onclick="openModal('modal-m3')" style="background-image: url('{{ site.baseurl }}/assets/your-image.jpg');">
       <h3>Outdoor-Indoor Continuum</h3>
     </div>
   </div>
