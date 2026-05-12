@@ -36,22 +36,22 @@ permalink: /
 <section class="home-section">
   <h2>Research Themes</h2>
   <div class="card-grid">
-    <a href="{{ site.baseurl }}/research/#sensing" class="card-link">
+    <a href="{{ site.baseurl }}/assets/EnvironmentHK" class="card-link">
       <div class="card clickable-card" style="background-image: url('URL_FOR_SENSING_IMAGE');">
         <h3>Environmental Sensing</h3>
-        <p>Undertones in cities.</p>
+        <p>Undertones in cities</p>
       </div>
     </a>
-    <a href="{{ site.baseurl }}/research/#energy" class="card-link">
+    <a href="{{ site.baseurl }}/assets/RenewableEnergy" class="card-link">
       <div class="card clickable-card" style="background-image: url('URL_FOR_ENERGY_IMAGE');">
         <h3>Energy Transition</h3>
-        <p>Cleaner pathways for urban mobility.</p>
+        <p>Cleaner pathways for urban mobility</p>
       </div>
     </a>
-    <a href="{{ site.baseurl }}/research/#modeling" class="card-link">
+    <a href="{{ site.baseurl }}/assets/NeuralNet" class="card-link">
       <div class="card clickable-card" style="background-image: url('URL_FOR_MODELING_IMAGE');">
         <h3>Data-Driven Modeling</h3>
-        <p>Insights from big data.</p>
+        <p>Insights from big data</p>
       </div>
     </a>
   </div>
@@ -62,9 +62,9 @@ permalink: /
 
   <div class="news-box">
     <ul>
-      <li><strong>[Month Year]</strong>: Original research article co-authored by Dr. Wang is published in <strong>Nature Sustainability</strong>. Paper is available at https://doi.org/10.1038/s41893-026-01797-9 </li>
-      <li><strong>[Month Year]</strong>: Congratulations to Dr. Zeyu Zhang for publishing the first paper of S3L in <strong>Transportation Research Part D</strong>! Paper is available at https://doi.org/10.1016/j.trd.2026.105270 </li>
-      <li><strong>[Month Year]</strong>: Original research article co-first authored and corresponded by Dr. Wang is published in <strong>Nature Cities</strong>. Paper is available at https://doi.org/10.1038/s44284-024-00093-x </li>
+      <li><strong>05/2026</strong>: Congratulations to Dr. Zeyu Zhang for publishing the first paper of S3L in <strong>Transportation Research Part D</strong>! Paper is available at https://doi.org/10.1016/j.trd.2026.105270 </li>
+      <li><strong>04/2026</strong>: Original research article co-authored by Dr. Wang is published in <strong>Nature Sustainability</strong>. MIT News covers the findings at https://news.mit.edu/2026/mit-researchers-measure-traffic-emissions-block-real-time-0402. Paper is available at https://doi.org/10.1038/s41893-026-01797-9 </li>
+      <li><strong>07/2024</strong>: Original research article co-first authored and corresponded by Dr. Wang is published in <strong>Nature Cities</strong>. MIT News covers the findings at https://news.mit.edu/2024/study-tracks-air-pollution-exposure-through-day-0729. Full paper is available at https://doi.org/10.1038/s44284-024-00093-x </li>
     </ul>
   </div>
 
