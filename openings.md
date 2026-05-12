@@ -9,7 +9,8 @@ permalink: /openings/
 </p>
 
 <section class="research-section">
-  <h2>Lab Members</h2>
+  <h2>S3Liens</h2>
+  You might find it useful talking to a S3Lien before applying. 
   <div class="scroll-container">
     
     <div class="member-card">
