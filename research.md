@@ -10,10 +10,10 @@ permalink: /research/
 
 <section id="sensing" class="research-section">
   <h2>Urban Environmental Sensing</h2>
-  <div class="scroll-container">
-    <div class="card clickable-card" onclick="openModal('modal-s1')">
+<div class="scroll-container">
+    <div class="card clickable-card" onclick="openModal('modal-s1')" style="background-image: url('URL_FOR_PROJECT_IMAGE');">
       <h3>On-road Emission Tests</h3>
-      <p>Using state-of-the-art sensing for vehicle-level measurements.</p>
+      <p>Click for project brief.</p>
     </div>
     <div class="card clickable-card" onclick="openModal('modal-s2')">
       <h3>Roadside Dispersion</h3>
