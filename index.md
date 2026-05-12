@@ -62,9 +62,9 @@ permalink: /
 
   <div class="news-box">
     <ul>
-      <li><strong>[Month Year]</strong>: Original research article co-authored by Dr. Wang is published in <strong>Nature Sustainability</strong>. Paper is available at </li>
-      <li><strong>[Month Year]</strong>: Congratulations to Dr. Zeyu Zhang for publishing the first paper of S3L in <strong>Transportation Research Part D</strong>! Paper is available at </li>
-      <li><strong>[Month Year]</strong>: Original research article co-first authored and corresponded by Dr. Wang is published in <strong>Nature Cities</strong>. Paper is available at </li>
+      <li><strong>[Month Year]</strong>: Original research article co-authored by Dr. Wang is published in <strong>Nature Sustainability</strong>. Paper is available at https://doi.org/10.1038/s41893-026-01797-9 </li>
+      <li><strong>[Month Year]</strong>: Congratulations to Dr. Zeyu Zhang for publishing the first paper of S3L in <strong>Transportation Research Part D</strong>! Paper is available at https://doi.org/10.1016/j.trd.2026.105270 </li>
+      <li><strong>[Month Year]</strong>: Original research article co-first authored and corresponded by Dr. Wang is published in <strong>Nature Cities</strong>. Paper is available at https://doi.org/10.1038/s44284-024-00093-x </li>
     </ul>
   </div>
 
