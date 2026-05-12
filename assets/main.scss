@@ -198,3 +198,66 @@ h2 {
   box-shadow: 0 4px 15px rgba(18, 59, 93, 0.06);
   display: block !important; /* Force display if hidden by other styles */
 }
+/* --- MISSING HERO STYLES (Index Page) --- */
+.hero {
+  background: linear-gradient(135deg, #f7fbff 0%, #eef5fb 100%);
+  padding: 3rem 2rem;
+  border-radius: 14px;
+  margin: 1.5rem 0 2.5rem 0;
+}
+
+.hero h1 {
+  margin-top: 0;
+  margin-bottom: 0.2em;
+  font-size: 2.8rem;
+}
+
+.hero .subtitle {
+  font-size: 1.2rem;
+  color: #4a6278;
+  margin-bottom: 1rem;
+}
+
+/* Make it stack nicely on smaller screens */
+@media screen and (max-width: 900px) {
+  .hero-two-column {
+    grid-template-columns: 1fr;
+  }
+  .hero-photo {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 1.5rem;
+  }
+}
+/* --- MISSING SCROLL CONTAINER STYLES (Research Page) --- */
+.scroll-container {
+  display: flex;
+  overflow-x: auto;
+  gap: 1.5rem;
+  padding: 1rem 0.5rem 2rem 0.5rem;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+
+  /* Custom Scrollbar Styling */
+  &::-webkit-scrollbar {
+    height: 8px;
+  }
+  &::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: #cbd5e1;
+    border-radius: 10px;
+  }
+  &::-webkit-scrollbar-thumb:hover {
+    background: #123b5d;
+  }
+}
+
+/* Ensure cards don't shrink and stay fixed width in the scroll row */
+.scroll-container .card {
+  flex: 0 0 320px; 
+  display: flex;
+  flex-direction: column;
+}
