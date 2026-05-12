@@ -39,7 +39,7 @@ permalink: /
     <a href="{{ site.baseurl }}/research/#sensing" class="card-link">
       <div class="card clickable-card">
         <h3>Urban Environmental Sensing</h3>
-        <p>Advanced sensors for city-level monitoring.</p>
+        <p>Undertones in cities.</p>
       </div>
     </a>
     <a href="{{ site.baseurl }}/research/#energy" class="card-link">
@@ -51,7 +51,7 @@ permalink: /
     <a href="{{ site.baseurl }}/research/#modeling" class="card-link">
       <div class="card clickable-card">
         <h3>Data-Driven Modeling</h3>
-        <p>Big data fusion for urban systems.</p>
+        <p>Insights into urban systems.</p>
       </div>
     </a>
   </div>
