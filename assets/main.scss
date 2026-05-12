@@ -3,7 +3,7 @@
 
 @import "minima";
 
-/* Wider layout */
+/* Layout Adjustments */
 .wrapper {
   max-width: 1400px;
   width: 94%;
@@ -15,7 +15,8 @@
   max-width: 1400px;
   width: 94%;
 }
-/* Global typography */
+
+/* Global Typography */
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   color: #222;
@@ -28,10 +29,7 @@ h1, h2, h3, h4 {
   margin-top: 1.5em;
 }
 
-h1 {
-  font-size: 2.4rem;
-  margin-bottom: 0.3em;
-}
+h1 { font-size: 2.4rem; margin-bottom: 0.3em; }
 
 h2 {
   font-size: 1.6rem;
@@ -39,410 +37,25 @@ h2 {
   padding-bottom: 0.3em;
 }
 
-/* Styling for the intro text while keeping the site's default font */
-.page-intro {
-  font-family: inherit;
-  font-size: 1.3rem;            /* Larger text */
-  color: #1e293b;               /* High contrast dark grey */
-  line-height: 1.8;
-  margin: 1.5rem 0 3rem 0;
-  padding: 1.8rem 2.2rem;       /* Generous internal spacing */
-  background: #f8fbff;          /* Very light blue tint */
-  border-left: 6px solid #123b5d; /* Thick brand-blue accent bar */
-  border-radius: 0 12px 12px 0; /* Rounded corners on the right */
-  box-shadow: 0 4px 15px rgba(18, 59, 93, 0.06); /* Soft subtle depth */
-  display: block;
-}
-a {
-  color: #0b5fa5;
-  text-decoration: none;
-}
+/* Consolidated Card Styling */
+.card-link { text-decoration: none; color: inherit; }
 
-a:hover {
-  text-decoration: underline;
-}
-
-/* Header */
-.site-header {
-  border-top: 4px solid #123b5d;
-  border-bottom: 1px solid #dfe7ef;
-  background: #ffffff;
-}
-
-.site-title {
-  font-weight: 700;
-  color: #123b5d !important;
-}
-
-.site-nav .page-link {
-  color: #234;
-  margin-left: 18px;
-  font-weight: 500;
-}
-
-/* Footer */
-.site-footer {
-  border-top: 1px solid #dfe7ef;
-  background: #fafcfe;
-}
-
-/* Hero section */
-.hero {
-  background: linear-gradient(135deg, #f7fbff 0%, #eef5fb 100%);
-  padding: 3rem 2rem;
-  border-radius: 14px;
-  margin: 1.5rem 0 2.5rem 0;
-}
-
-.hero h1 {
-  margin-top: 0;
-  margin-bottom: 0.2em;
-  font-size: 2.8rem;
-}
-
-.hero .subtitle {
-  font-size: 1.2rem;
-  color: #4a6278;
-  margin-bottom: 1rem;
-}
-
-.hero .intro {
-  max-width: 900px;
-}
-
-/* Buttons */
-.button-row {
-  margin-top: 1.2rem;
-}
-
-.btn {
-  display: inline-block;
-  padding: 0.7rem 1.1rem;
-  margin-right: 0.7rem;
-  margin-bottom: 0.7rem;
-  border-radius: 8px;
-  font-weight: 600;
-  text-decoration: none !important;
-  transition: all 0.2s ease;
-}
-
-.btn-primary {
-  background: #123b5d;
-  color: #fff !important;
-}
-
-.btn-primary:hover {
-  background: #0f314d;
-}
-
-.btn-secondary {
-  background: #eaf1f8;
-  color: #123b5d !important;
-}
-
-.btn-secondary:hover {
-  background: #dce8f3;
-}
-
-/* Cards */
-.card-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 1.2rem;
-  margin: 1rem 0 2rem 0;
-}
-
-.card {
-  background: #fff;
-  border: 1px solid #e3ebf3;
-  border-radius: 12px;
-  padding: 1.2rem;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
-}
-
-.card h3 {
-  margin-top: 0;
-  margin-bottom: 0.5rem;
-}
-
-/* Publication list */
-.pub-list li {
-  margin-bottom: 1rem;
-}
-
-/* News box */
-.news-box {
-  background: #fafcfe;
-  border-left: 4px solid #123b5d;
-  padding: 1rem 1.2rem;
-  border-radius: 8px;
-  margin: 1rem 0 2rem 0;
-}
-
-/* Reduce default top spacing on page content */
-.page-content {
-  padding-top: 20px;
-}
-/* Make footer description larger and more prominent */
-.site-footer .footer-col-wrapper {
-  font-size: 1.1rem;
-}
-
-.site-footer .footer-col-3 {
-  font-size: 1.15rem;
-  font-weight: 600;
-  color: #123b5d;
-  line-height: 1.6;
-}
-
-.site-footer .footer-col-3 p {
-  margin-bottom: 0;
-}
-/* Compact quick links under introduction */
-.quicklinks {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.8rem;
-  margin: 1rem 0 2.5rem 0;
-}
-
-.quick-card {
-  display: block;
-  min-width: 180px;
-  padding: 0.85rem 1rem;
-  border: 1px solid #dbe5ef;
-  border-radius: 10px;
-  background: #f9fbfd;
-  text-decoration: none !important;
-  color: inherit !important;
-  transition: all 0.18s ease;
-}
-
-.quick-card:hover {
-  background: #f1f6fb;
-  border-color: #c7d8e8;
-  transform: translateY(-2px);
-  text-decoration: none !important;
-}
-
-.quick-card-title {
-  font-size: 1rem;
-  font-weight: 700;
-  color: #123b5d;
-  margin-bottom: 0.2rem;
-}
-
-.quick-card-text {
-  font-size: 0.9rem;
-  color: #607487;
-  line-height: 1.4;
-}
-
-/* Clear separation between homepage sections */
-.home-section {
-  margin-top: 3rem;
-}
-
-/* Make research theme cards more prominent than quick cards */
-.theme-card {
-  padding: 1.4rem;
-  border: 1px solid #e3ebf3;
-  border-radius: 14px;
-  box-shadow: 0 4px 14px rgba(18, 59, 93, 0.04);
-  background: #ffffff;
-}
-
-.theme-card h3 {
-  margin-top: 0;
-  margin-bottom: 0.6rem;
-  font-size: 1.15rem;
-}
-
-.theme-card p {
-  margin-bottom: 0;
-}
-
-/* Responsive quick cards */
-@media screen and (max-width: 700px) {
-  .quicklinks {
-    flex-direction: column;
-  }
-
-  .quick-card {
-    width: 100%;
-  }
-}
-/* Hero two-column layout */
-.hero-two-column {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) 260px;
-  gap: 2rem;
-  align-items: center;
-}
-
-.hero-text {
-  min-width: 0;
-}
-
-.hero-photo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.hero-photo img {
-  width: 240px;
-  height: 240px;
-  object-fit: cover;
-  border-radius: 16px;
-  border: 4px solid #ffffff;
-  box-shadow: 0 8px 24px rgba(18, 59, 93, 0.12);
-  background: #eaf1f8;
-}
-
-/* If image is missing, reserve the space nicely */
-.hero-photo:empty::before {
-  content: "Photo";
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 240px;
-  height: 240px;
-  border-radius: 16px;
-  background: #eaf1f8;
-  color: #6b7f92;
-  font-weight: 600;
-  border: 2px dashed #c7d8e8;
-}
-
-/* Compact quick links under introduction */
-.quicklinks {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.8rem;
-  margin: 1rem 0 2.5rem 0;
-}
-
-.quick-card {
-  display: block;
-  min-width: 180px;
-  padding: 0.85rem 1rem;
-  border: 1px solid #dbe5ef;
-  border-radius: 10px;
-  background: #f9fbfd;
-  text-decoration: none !important;
-  color: inherit !important;
-  transition: all 0.18s ease;
-}
-
-.quick-card:hover {
-  background: #f1f6fb;
-  border-color: #c7d8e8;
-  transform: translateY(-2px);
-  text-decoration: none !important;
-}
-
-.quick-card-title {
-  font-size: 1rem;
-  font-weight: 700;
-  color: #123b5d;
-  margin-bottom: 0.2rem;
-}
-
-.quick-card-text {
-  font-size: 0.9rem;
-  color: #607487;
-  line-height: 1.4;
-}
-
-/* Clear separation between homepage sections */
-.home-section {
-  margin-top: 3rem;
-}
-
-/* Make research theme cards more prominent than quick cards */
-.theme-card {
-  padding: 1.4rem;
-  border: 1px solid #e3ebf3;
-  border-radius: 14px;
-  box-shadow: 0 4px 14px rgba(18, 59, 93, 0.04);
-  background: #ffffff;
-}
-
-.theme-card h3 {
-  margin-top: 0;
-  margin-bottom: 0.6rem;
-  font-size: 1.15rem;
-}
-
-.theme-card p {
-  margin-bottom: 0;
-}
-
-/* Responsive layout */
-@media screen and (max-width: 900px) {
-  .hero-two-column {
-    grid-template-columns: 1fr;
-  }
-
-  .hero-photo {
-    justify-content: flex-start;
-  }
-
-  .hero-photo img {
-    width: 200px;
-    height: 200px;
-  }
-}
-
-@media screen and (max-width: 700px) {
-  .quicklinks {
-    flex-direction: column;
-  }
-
-  .quick-card {
-    width: 100%;
-  }
-}
-/* Research Card Enhancements */
-.clickable-card {
-  cursor: pointer;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-  
-  &:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 20px rgba(18, 59, 93, 0.15);
-  }
-}
-
-.card-image-placeholder {
-  width: 100%;
-  height: 150px;
-  background: #eaf1f8;
-  border-radius: 8px;
-  margin-bottom: 1rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #6b7f92;
-  font-weight: 600;
-}
-/* Enhanced Card with Background Image */
 .card.clickable-card {
   position: relative;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  color: #ffffff; /* White text for better contrast on images */
+  color: #ffffff;
   overflow: hidden;
   border: none;
-  min-height: 200px; /* Ensures enough height to show the image */
+  min-height: 220px; 
   display: flex;
   flex-direction: column;
-  justify-content: flex-end; /* Places text at the bottom */
-  padding: 0; /* Clear padding to allow overlay to cover edge-to-edge */
+  justify-content: flex-end;
+  padding: 0;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer;
 
-  /* Dark overlay to make text pop */
   &::before {
     content: "";
     position: absolute;
@@ -451,7 +64,6 @@ a:hover {
     z-index: 1;
   }
 
-  /* Ensure content stays above the overlay */
   h3, p {
     position: relative;
     z-index: 2;
@@ -459,71 +71,49 @@ a:hover {
     color: #ffffff !important;
   }
 
-  p {
-    margin-bottom: 1.2rem;
-    font-size: 0.95rem;
+  p { margin-bottom: 1.2rem; font-size: 0.95rem; }
+
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(18, 59, 93, 0.2);
   }
 }
-/* Modal / Pop-up Styles */
-.modal-overlay {
-  display: none; /* Hidden by default */
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(18, 59, 93, 0.4); /* Blue-ish tint */
-  backdrop-filter: blur(8px); /* The blur effect */
-  z-index: 1000;
-  justify-content: center;
-  align-items: center;
+
+/* Horizontal Scroll Container */
+.research-section { padding: 2rem 0; margin-bottom: 2rem; }
+
+.scroll-container {
+  display: flex;
+  overflow-x: auto;
+  gap: 1.5rem;
+  padding: 1.5rem 0.5rem;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+
+  &::-webkit-scrollbar { height: 6px; }
+  &::-webkit-scrollbar-track { background: #f1f1f1; border-radius: 10px; }
+  &::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 10px; }
+
+  .card { flex: 0 0 320px; }
 }
 
-.modal-content {
-  background: white;
-  padding: 2.5rem;
-  border-radius: 16px;
-  max-width: 600px;
-  width: 90%;
-  position: relative;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
-  
-  h2 { margin-top: 0; border-bottom: none; }
-}
-
-.close-btn {
-  position: absolute;
-  top: 15px;
-  right: 20px;
-  font-size: 1.8rem;
-  cursor: pointer;
-  color: #6b7f92;
-  
-  &:hover { color: #123b5d; }
-}
-.card-link { text-decoration: none; color: inherit; }
-/* Modern Modal Overlay */
+/* Consolidated Modal Styling */
 .modal-overlay {
   visibility: hidden;
   opacity: 0;
   position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(255, 255, 255, 0.7); /* Light transparent base */
-  backdrop-filter: blur(15px); /* Strong blur effect */
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(15px);
   -webkit-backdrop-filter: blur(15px);
-  z-index: 2000;
+  z-index: 3000;
   display: flex;
   justify-content: center;
   align-items: center;
   transition: all 0.3s ease-in-out;
-}
 
-.modal-overlay.active {
-  visibility: visible;
-  opacity: 1;
+  &.active { visibility: visible; opacity: 1; }
 }
 
 .modal-container {
@@ -540,9 +130,7 @@ a:hover {
   transition: transform 0.3s ease;
 }
 
-.modal-overlay.active .modal-container {
-  transform: scale(1);
-}
+.modal-overlay.active .modal-container { transform: scale(1); }
 
 .modal-header {
   padding: 1.5rem 2rem;
@@ -550,64 +138,35 @@ a:hover {
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid #eee;
-  h2 { margin: 0; color: #123b5d; font-size: 1.5rem; }
+  h2 { margin: 0; color: #123b5d; font-size: 1.5rem; margin-top: 0; }
 }
 
 .modal-body {
   display: grid;
-  grid-template-columns: 1fr 1fr; /* Two-column layout */
+  grid-template-columns: 1fr 1fr;
   gap: 2rem;
   padding: 2rem;
   overflow-y: auto;
 }
 
-.image-placeholder {
-  width: 100%;
-  height: 300px;
-  background: #f8fafc;
-  border: 2px dashed #cbd5e1;
-  border-radius: 12px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.close-btn {
+  font-size: 2rem;
+  cursor: pointer;
+  color: #6b7f92;
+  &:hover { color: #123b5d; }
 }
 
-@media (max-width: 768px) {
-  .modal-body { grid-template-columns: 1fr; }
-  .modal-container { width: 95vw; }
-}
-
-/* Horizontal Scroll Section Styles */
-.research-section {
-  padding: 2rem 0;
-  margin-bottom: 2rem;
-}
-
-.scroll-container {
-  display: flex;
-  overflow-x: auto;
-  gap: 1.5rem;
-  padding: 1.5rem 0.5rem;
-  scroll-behavior: smooth;
-  -webkit-overflow-scrolling: touch;
-
-  /* Custom Scrollbar */
-  &::-webkit-scrollbar {
-    height: 6px;
-  }
-  &::-webkit-scrollbar-track {
-    background: #f1f1f1;
-    border-radius: 10px;
-  }
-  &::-webkit-scrollbar-thumb {
-    background: #cbd5e1;
-    border-radius: 10px;
-  }
-}
-
-/* Fix card width in scroll container */
-.scroll-container .card {
-  flex: 0 0 320px; /* Ensures three cards are visible or partially visible */
-  display: flex;
-  flex-direction: column;
+/* --- THE PAGE INTRO BLOCK (Placed at bottom for maximum priority) --- */
+.page-intro {
+  font-family: inherit;
+  font-size: 1.3rem;
+  color: #1e293b;
+  line-height: 1.8;
+  margin: 1.5rem 0 3rem 0;
+  padding: 1.8rem 2.2rem;
+  background: #f8fbff;
+  border-left: 6px solid #123b5d;
+  border-radius: 0 12px 12px 0;
+  box-shadow: 0 4px 15px rgba(18, 59, 93, 0.06);
+  display: block !important; /* Force display if hidden by other styles */
 }
