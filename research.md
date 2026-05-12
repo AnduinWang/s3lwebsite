@@ -4,7 +4,9 @@ title: "Research"
 permalink: /research/
 ---
 
-My research focuses on the nexus of sustainable transportation systems, urban environmental sensing, and data-driven modeling. I utilize tools such as life-cycle assessment, empirical modeling, and computer vision to explore carbon-neutral pathways for metropolitan areas.
+<p class="page-intro">
+  My research focuses on the nexus of sustainable transportation systems, urban environmental sensing, and data-driven modeling. I utilize tools such as life-cycle assessment, empirical modeling, and computer vision to explore carbon-neutral pathways for metropolitan areas.
+</p>
 
 <section id="sensing" class="research-section">
   <h2>Urban Environmental Sensing</h2>
