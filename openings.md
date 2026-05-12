@@ -10,14 +10,14 @@ permalink: /openings/
 
 <section class="research-section">
   <h2>S3Liens</h2>
-  You might find it useful talking to a S3Lien before applying. 
+  You might find it useful to talk to a S3Lien before applying. 
   <div class="scroll-container">
     
     <div class="member-card">
       <img src="{{ site.baseurl }}/assets/Portrait.png" alt="Member Name" class="member-photo" />
       <div class="member-info">
-        <h3>Jane Doe</h3>
-        <div class="area">Urban Air Quality Modeling</div>
+        <h3>Zeyu ZHANG</h3>
+        <div class="area">Emission tesing & modeling</div>
         <div class="contact">jane.doe@polyu.edu.hk</div>
       </div>
     </div>
@@ -25,8 +25,8 @@ permalink: /openings/
     <div class="member-card">
       <img src="{{ site.baseurl }}/assets/Portrait.png" alt="Member Name" class="member-photo" />
       <div class="member-info">
-        <h3>John Smith</h3>
-        <div class="area">Transport Energy Transition</div>
+        <h3>Wenyu WANG</h3>
+        <div class="area">Crowdsourced sensing</div>
         <div class="contact">john.smith@polyu.edu.hk</div>
       </div>
     </div>
@@ -34,12 +34,38 @@ permalink: /openings/
     <div class="member-card">
       <img src="{{ site.baseurl }}/assets/Portrait.png" alt="Member Name" class="member-photo" />
       <div class="member-info">
-        <h3>Alex Wong</h3>
-        <div class="area">Crowdsourced Sensing</div>
+        <h3>Xiaotong ZHANG</h3>
+        <div class="area">Spatial analysis</div>
         <div class="contact">alex.wong@polyu.edu.hk</div>
       </div>
     </div>
+    
+    <div class="member-card">
+      <img src="{{ site.baseurl }}/assets/Portrait.png" alt="Member Name" class="member-photo" />
+      <div class="member-info">
+        <h3>Peimin WU</h3>
+        <div class="area">Energy system modeling</div>
+        <div class="contact">jane.doe@polyu.edu.hk</div>
+      </div>
+    </div>
 
+    <div class="member-card">
+      <img src="{{ site.baseurl }}/assets/Portrait.png" alt="Member Name" class="member-photo" />
+      <div class="member-info">
+        <h3>Hui DAI</h3>
+        <div class="area">Indoor-outdoor continuum</div>
+        <div class="contact">jane.doe@polyu.edu.hk</div>
+      </div>
+    </div>
+    <div class="member-card">
+      <img src="{{ site.baseurl }}/assets/Portrait.png" alt="Member Name" class="member-photo" />
+      <div class="member-info">
+        <h3>Qiuzi CHEN<br>
+        Alumni 2024, Now @EPFL</h3>
+        <div class="contact">jane.doe@polyu.edu.hk</div>
+      </div>
+    </div>
+    
   </div>
 </section>
 
