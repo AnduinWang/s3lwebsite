@@ -422,7 +422,43 @@ a:hover {
   color: #6b7f92;
   font-weight: 600;
 }
+/* Enhanced Card with Background Image */
+.card.clickable-card {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #ffffff; /* White text for better contrast on images */
+  overflow: hidden;
+  border: none;
+  min-height: 200px; /* Ensures enough height to show the image */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; /* Places text at the bottom */
+  padding: 0; /* Clear padding to allow overlay to cover edge-to-edge */
 
+  /* Dark overlay to make text pop */
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.7));
+    z-index: 1;
+  }
+
+  /* Ensure content stays above the overlay */
+  h3, p {
+    position: relative;
+    z-index: 2;
+    margin: 0 1.2rem 0.5rem 1.2rem;
+    color: #ffffff !important;
+  }
+
+  p {
+    margin-bottom: 1.2rem;
+    font-size: 0.95rem;
+  }
+}
 /* Modal / Pop-up Styles */
 .modal-overlay {
   display: none; /* Hidden by default */
