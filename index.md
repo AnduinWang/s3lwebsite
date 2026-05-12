@@ -5,14 +5,29 @@ permalink: /
 ---
 
 <div class="hero hero-two-column">
-  <div class="hero-text">
-    <h1>An WANG, PhD</h1>
-    <div class="subtitle">Assistant Professor · CEE Department · The Hong Kong Polytechnic University</div>
+  <div class="hero-left">
+    <div class="hero-text">
+      <h1>An WANG, PhD</h1>
+      <div class="subtitle">Assistant Professor · CEE Department · The Hong Kong Polytechnic University</div>
 
-    <div class="intro">
-      Welcome to S3L's cyberspace. At S3L, we strive for the <strong>society</strong>'s <strong>sustainability</strong>, leveraging <strong>sensing</strong> technologies. As the lab PI, I have a diverse background across environmental engineering, transportation engineering, and urban planning. My research areas include <strong>urban environmental sensing</strong>, <strong>renewable energy transition in transportation</strong>, and <strong>data-driven modeling</strong>. Recently, I am particularly interested in developing and fusing <strong>crowd-sourced big datasets</strong> for urban system modeling.
+      <div class="intro">
+        Welcome to S3L's cyberspace. At S3L, we strive for the <strong>society</strong>'s <strong>sustainability</strong>, leveraging <strong>sensing</strong> technologies. As the lab PI, I have a diverse background across environmental engineering, transportation engineering, and urban planning. My research areas include <strong>urban environmental sensing</strong>, <strong>renewable energy transition in transportation</strong>, and <strong>data-driven modeling</strong>. Recently, I am particularly interested in developing and fusing <strong>crowd-sourced big datasets</strong> for urban system modeling.
+      </div>
+    </div>
+    
+    <div class="quicklinks">
+      <a class="quick-card" href="{{ site.baseurl }}/assets/cv.pdf">
+        <div class="quick-card-title">CV</div>
+      </a>
+      <a class="quick-card" href="https://scholar.google.com/citations?user=v_tp904AAAAJ&hl=en" target="_blank" rel="noopener">
+        <div class="quick-card-title">Google Scholar</div>
+      </a>
+      <a class="quick-card" href="mailto:an.wang@polyu.edu.hk">
+        <div class="quick-card-title">Contact</div>
+      </a>
     </div>
   </div>
+
   <div class="hero-photo">
     <img src="{{ site.baseurl }}/assets/Portrait.png" alt="An Wang" />
   </div>
