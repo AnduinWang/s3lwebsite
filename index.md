@@ -38,13 +38,13 @@ permalink: /
   <div class="card-grid">
     <a href="{{ site.baseurl }}/research/#sensing" class="card-link">
       <div class="card clickable-card" style="background-image: url('URL_FOR_SENSING_IMAGE');">
-        <h3>Urban Environmental Sensing</h3>
+        <h3>Environmental Sensing</h3>
         <p>Undertones in cities.</p>
       </div>
     </a>
     <a href="{{ site.baseurl }}/research/#energy" class="card-link">
       <div class="card clickable-card" style="background-image: url('URL_FOR_ENERGY_IMAGE');">
-        <h3>Transport Energy Transition</h3>
+        <h3>Energy Transition</h3>
         <p>Cleaner pathways for urban mobility.</p>
       </div>
     </a>
