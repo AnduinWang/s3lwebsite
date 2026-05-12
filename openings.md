@@ -16,9 +16,10 @@ permalink: /openings/
     <div class="member-card">
       <img src="{{ site.baseurl }}/assets/Portrait.png" alt="Member Name" class="member-photo" />
       <div class="member-info">
-        <h3>Zeyu ZHANG</h3>
-        <div class="area">Emission tesing & modeling</div>
-        <div class="contact">jane.doe@polyu.edu.hk</div>
+        <h3>Dr. Zeyu ZHANG</h3>
+        <div class="area">Postdoc researcher</div>
+        <div class="contact">BJTU 2017, 2020, 2023<br>
+        zeyu-johnathan.zhang@polyu.edu.hk</div>
       </div>
     </div>
 
@@ -26,8 +27,9 @@ permalink: /openings/
       <img src="{{ site.baseurl }}/assets/Portrait.png" alt="Member Name" class="member-photo" />
       <div class="member-info">
         <h3>Wenyu WANG</h3>
-        <div class="area">Crowdsourced sensing</div>
-        <div class="contact">john.smith@polyu.edu.hk</div>
+        <div class="area">Ph.D. student</div>
+        <div class="contact">TJU 2021, 2024<br>
+        24042113r@connect.polyu.hk</div>
       </div>
     </div>
 
@@ -35,8 +37,9 @@ permalink: /openings/
       <img src="{{ site.baseurl }}/assets/Portrait.png" alt="Member Name" class="member-photo" />
       <div class="member-info">
         <h3>Xiaotong ZHANG</h3>
-        <div class="area">Spatial analysis</div>
-        <div class="contact">alex.wong@polyu.edu.hk</div>
+        <div class="area">Ph.D. student</div>
+        <div class="contact">CUG(Wuhan) 2022, WHU 2024<br>
+        xiaotong-haau-tung.zhang@connect.polyu.hk</div>
       </div>
     </div>
     
@@ -44,25 +47,28 @@ permalink: /openings/
       <img src="{{ site.baseurl }}/assets/Portrait.png" alt="Member Name" class="member-photo" />
       <div class="member-info">
         <h3>Peimin WU</h3>
-        <div class="area">Energy system modeling</div>
-        <div class="contact">jane.doe@polyu.edu.hk</div>
+        <div class="area">Ph.D. student</div>
+        <div class="contact">SEU 2022, 2025<br>
+        25035578r@connect.polyu.hk</div>
       </div>
     </div>
 
     <div class="member-card">
       <img src="{{ site.baseurl }}/assets/Portrait.png" alt="Member Name" class="member-photo" />
       <div class="member-info">
-        <h3>Hui DAI</h3>
-        <div class="area">Indoor-outdoor continuum</div>
-        <div class="contact">jane.doe@polyu.edu.hk</div>
+        <h3>Dr. Hui DAI</h3>
+        <div class="area">Postdoc Researcher</div>
+        <div class="contact">WUT 2021, THU 2025<br>
+        hui25.dai@polyu.edu.hk</div>
       </div>
     </div>
     <div class="member-card">
       <img src="{{ site.baseurl }}/assets/Portrait.png" alt="Member Name" class="member-photo" />
       <div class="member-info">
-        <h3>Qiuzi CHEN<br>
-        Alumni 2024, Now @EPFL</h3>
-        <div class="contact">jane.doe@polyu.edu.hk</div>
+        <h3>Qiuzi CHEN<br></h3>
+        <div class="area">Alumni 2024, Now PhD @EPFL</div>
+        <div class="contact">SEU 2022, 2025<br>
+        qiuzi.chen@epfl.ch</div>
       </div>
     </div>
     
