@@ -25,7 +25,7 @@ permalink: /research/
     <div class="card clickable-card" onclick="openModal('modal-s1')" style="background-image: url('{{ site.baseurl }}/assets/research/onroademissions.jpg');">
       <h3>On-road Emissions</h3>
     </div>
-    <div class="card clickable-card" onclick="openModal('modal-s2')" style="background-image: url('{{ site.baseurl }}/assets/research/crowdsensing.jpg');">
+    <div class="card clickable-card" onclick="openModal('modal-s2')" style="background-image: url('{{ site.baseurl }}/assets/research/crowdsensing.png');">
       <h3>Crowdsourced Sensing</h3>
     </div>
     <div class="card clickable-card" onclick="openModal('modal-s3')" style="background-image: url('{{ site.baseurl }}/assets/your-image.jpg');">
