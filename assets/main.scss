@@ -41,11 +41,16 @@ h2 {
 
 /* Styling for the intro text while keeping the site's default font */
 .page-intro {
-  font-family: inherit;      /* Forces it to match your body font */
-  font-size: 1.5rem;         /* Slightly larger for emphasis */
-  color: #4a6278;            /* A subtle grey-blue to distinguish it */
-  line-height: 1.7;          /* Matches your site's standard line height */
-  margin-bottom: 2rem;
+  font-family: inherit;
+  font-size: 1.3rem;            /* Larger text */
+  color: #1e293b;               /* High contrast dark grey */
+  line-height: 1.8;
+  margin: 1.5rem 0 3rem 0;
+  padding: 1.8rem 2.2rem;       /* Generous internal spacing */
+  background: #f8fbff;          /* Very light blue tint */
+  border-left: 6px solid #123b5d; /* Thick brand-blue accent bar */
+  border-radius: 0 12px 12px 0; /* Rounded corners on the right */
+  box-shadow: 0 4px 15px rgba(18, 59, 93, 0.06); /* Soft subtle depth */
   display: block;
 }
 a {
