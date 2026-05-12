@@ -56,10 +56,10 @@ permalink: /research/
       <h3>Spatial & Temporal Imputation </h3>
     </div>
     <div class="card clickable-card" onclick="openModal('modal-m2')" style="background-image: {{ site.baseurl }}/assets/your-image.jpg;">
-      <h3>On-road Emission Tests</h3>
+      <h3>Non-Exhaust Emissions</h3>
     </div>
     <div class="card clickable-card" onclick="openModal('modal-m3')" style="background-image: {{ site.baseurl }}/assets/your-image.jpg;">
-      <h3>On-road Emission Tests</h3>
+      <h3>Outdoor-Indoor Continuum</h3>
     </div>
   </div>
 </section>
