@@ -23,11 +23,11 @@ permalink: /research/
       <h3>On-road Emission Tests</h3>
       <p>Click for project brief.</p>
     </div>
-    <div class="card clickable-card" onclick="openModal('modal-s1')" style="background-image: {{ site.baseurl }}/assets/your-image.jpg;">
+    <div class="card clickable-card" onclick="openModal('modal-s2')" style="background-image: {{ site.baseurl }}/assets/your-image.jpg;">
       <h3>On-road Emission Tests</h3>
       <p>Click for project brief.</p>
     </div>
-    <div class="card clickable-card" onclick="openModal('modal-s1')" style="background-image: {{ site.baseurl }}/assets/your-image.jpg;">
+    <div class="card clickable-card" onclick="openModal('modal-s3')" style="background-image: {{ site.baseurl }}/assets/your-image.jpg;">
       <h3>On-road Emission Tests</h3>
       <p>Click for project brief.</p>
     </div>
@@ -37,15 +37,15 @@ permalink: /research/
 <section id="energy" class="research-section">
   <h2>Transport Energy Transition</h2>
   <div class="scroll-container">
-    <div class="card clickable-card" onclick="openModal('modal-s1')" style="background-image: {{ site.baseurl }}/assets/your-image.jpg;">
+    <div class="card clickable-card" onclick="openModal('modal-e1')" style="background-image: {{ site.baseurl }}/assets/your-image.jpg;">
       <h3>On-road Emission Tests</h3>
       <p>Click for project brief.</p>
     </div>
-    <div class="card clickable-card" onclick="openModal('modal-s1')" style="background-image: {{ site.baseurl }}/assets/your-image.jpg;">
+    <div class="card clickable-card" onclick="openModal('modal-e2')" style="background-image: {{ site.baseurl }}/assets/your-image.jpg;">
       <h3>On-road Emission Tests</h3>
       <p>Click for project brief.</p>
     </div>
-    <div class="card clickable-card" onclick="openModal('modal-s1')" style="background-image: {{ site.baseurl }}/assets/your-image.jpg;">
+    <div class="card clickable-card" onclick="openModal('modal-e3')" style="background-image: {{ site.baseurl }}/assets/your-image.jpg;">
       <h3>On-road Emission Tests</h3>
       <p>Click for project brief.</p>
     </div>
@@ -55,15 +55,15 @@ permalink: /research/
 <section id="modeling" class="research-section">
   <h2>Data-Driven Modeling</h2>
   <div class="scroll-container">
-    <div class="card clickable-card" onclick="openModal('modal-s1')" style="background-image: {{ site.baseurl }}/assets/your-image.jpg;">
+    <div class="card clickable-card" onclick="openModal('modal-m1')" style="background-image: {{ site.baseurl }}/assets/your-image.jpg;">
       <h3>On-road Emission Tests</h3>
       <p>Click for project brief.</p>
     </div>
-    <div class="card clickable-card" onclick="openModal('modal-s1')" style="background-image: {{ site.baseurl }}/assets/your-image.jpg;">
+    <div class="card clickable-card" onclick="openModal('modal-m2')" style="background-image: {{ site.baseurl }}/assets/your-image.jpg;">
       <h3>On-road Emission Tests</h3>
       <p>Click for project brief.</p>
     </div>
-    <div class="card clickable-card" onclick="openModal('modal-s1')" style="background-image: {{ site.baseurl }}/assets/your-image.jpg;">
+    <div class="card clickable-card" onclick="openModal('modal-m3')" style="background-image: {{ site.baseurl }}/assets/your-image.jpg;">
       <h3>On-road Emission Tests</h3>
       <p>Click for project brief.</p>
     </div>
