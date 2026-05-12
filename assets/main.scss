@@ -345,3 +345,15 @@ h2 {
     height: 350px; /* Fixed height for mobile */
   }
 }
+/* --- FIX 1: Make S3L Title Pop Out --- */
+.site-title {
+  font-weight: 800 !important;
+  font-size: 1.8rem !important; /* Considerably larger */
+  color: #123b5d !important;
+  background: #eef5fb;          /* Light blue badge background */
+  padding: 0.3rem 1rem;
+  border-radius: 8px;
+  border: 2px solid #c7d8e8;    /* Distinct outline */
+  box-shadow: 0 2px 8px rgba(18, 59, 93, 0.1);
+  letter-spacing: 1px;
+}
