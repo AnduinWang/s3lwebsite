@@ -23,10 +23,10 @@ permalink: /research/
   <h2>Urban Environmental Sensing</h2>
 <div class="scroll-container">
     <div class="card clickable-card" onclick="openModal('modal-s1')" style="background-image: {{ site.baseurl }}/assets/your-image.jpg;">
-      <h3>On-road Emission Testing</h3>
+      <h3>On-road Emissions</h3>
     </div>
     <div class="card clickable-card" onclick="openModal('modal-s2')" style="background-image: {{ site.baseurl }}/assets/your-image.jpg;">
-      <h3>Opportunistic Mobile Sensing</h3>
+      <h3>Crowdsourced Sensing</h3>
     </div>
     <div class="card clickable-card" onclick="openModal('modal-s3')" style="background-image: {{ site.baseurl }}/assets/your-image.jpg;">
       <h3>Personal Exposure Modeling</h3>
@@ -38,14 +38,13 @@ permalink: /research/
   <h2>Transport Energy Transition</h2>
   <div class="scroll-container">
     <div class="card clickable-card" onclick="openModal('modal-e1')" style="background-image: {{ site.baseurl }}/assets/your-image.jpg;">
-      <h3>Heavy-duty vehicle electrification<br>
-          Or not</h3>
+      <h3>Heavy-Duty Vehicle Electrification</h3>
     </div>
     <div class="card clickable-card" onclick="openModal('modal-e2')" style="background-image: {{ site.baseurl }}/assets/your-image.jpg;">
-      <h3>On-road Emission Tests</h3>
+      <h3>Hard-to-Abate Modes</h3>
     </div>
     <div class="card clickable-card" onclick="openModal('modal-e3')" style="background-image: {{ site.baseurl }}/assets/your-image.jpg;">
-      <h3>On-road Emission Tests</h3>
+      <h3>Uncertainties in Transition</h3>
     </div>
   </div>
 </section>
@@ -54,7 +53,7 @@ permalink: /research/
   <h2>Data-Driven Modeling</h2>
   <div class="scroll-container">
     <div class="card clickable-card" onclick="openModal('modal-m1')" style="background-image: {{ site.baseurl }}/assets/your-image.jpg;">
-      <h3>On-road Emission Tests</h3>
+      <h3>Spatial & Temporal Imputation </h3>
     </div>
     <div class="card clickable-card" onclick="openModal('modal-m2')" style="background-image: {{ site.baseurl }}/assets/your-image.jpg;">
       <h3>On-road Emission Tests</h3>
