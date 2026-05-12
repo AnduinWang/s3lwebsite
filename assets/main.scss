@@ -261,3 +261,87 @@ h2 {
   display: flex;
   flex-direction: column;
 }
+/* --- FIX 2: Hero Section & Grid (Lighter Blue Box & Photo Matching) --- */
+.hero {
+  background: #eef5fb; /* Lighter solid blue box */
+  padding: 3rem;
+  border-radius: 16px;
+  margin: 1.5rem 0 2.5rem 0;
+  border: 1px solid #dce8f3;
+}
+
+.hero-two-column { 
+  display: grid; 
+  grid-template-columns: 1fr 320px; /* Fixed width for the photo column */
+  gap: 3rem; 
+  align-items: stretch; /* Stretches both columns to be equal height */
+}
+
+.hero-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Pushes text up and quicklinks down */
+}
+
+.hero-photo {
+  display: flex;
+  height: 100%; /* Fills the stretched column */
+}
+
+.hero-photo img { 
+  width: 100%; 
+  height: 100%; /* Forces image to match the container height */
+  border-radius: 16px; 
+  object-fit: cover; /* Prevents distortion while filling space */
+  box-shadow: 0 8px 24px rgba(18, 59, 93, 0.15);
+}
+
+.quicklinks { 
+  display: flex; 
+  flex-wrap: wrap; 
+  gap: 0.8rem; 
+  margin-top: 1.5rem; /* Space between intro text and cards */
+}
+
+/* --- FIX 3: Force Horizontal Scroll on Research Cards --- */
+.scroll-container {
+  display: flex;
+  flex-wrap: nowrap; /* CRITICAL: Forces elements to stay in one line */
+  overflow-x: auto;
+  width: 100%;       /* Ensures container takes full width */
+  gap: 1.5rem;
+  padding: 1.5rem 0.5rem;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+
+  /* Custom Scrollbar */
+  &::-webkit-scrollbar {
+    height: 8px;
+  }
+  &::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: #cbd5e1;
+    border-radius: 10px;
+  }
+}
+
+/* Fix card width in scroll container so they don't shrink */
+.scroll-container .card {
+  flex: 0 0 320px;     /* Prevents shrinking, locks width to 320px */
+  min-width: 320px;    /* Secondary enforcement */
+  display: flex;
+  flex-direction: column;
+}
+
+/* Make Hero responsive for smaller screens */
+@media screen and (max-width: 900px) {
+  .hero-two-column {
+    grid-template-columns: 1fr;
+  }
+  .hero-photo {
+    height: 350px; /* Fixed height for mobile */
+  }
+}
