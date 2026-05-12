@@ -33,20 +33,6 @@ permalink: /
   </div>
 </div>
 
-<div class="quicklinks">
-  <a class="quick-card" href="{{ site.baseurl }}/assets/cv.pdf">
-    <div class="quick-card-title">CV</div>
-  </a>
-
-  <a class="quick-card" href="https://scholar.google.com/citations?user=v_tp904AAAAJ&hl=en" target="_blank" rel="noopener">
-    <div class="quick-card-title">Google Scholar</div>
-  </a>
-
-  <a class="quick-card" href="mailto:an.wang@polyu.edu.hk">
-    <div class="quick-card-title">Contact</div>
-  </a>
-</div>
-
 <section class="home-section">
   <h2>Research Themes</h2>
   <div class="card-grid">
