@@ -202,11 +202,13 @@ a:hover {
 
 .card.clickable-card {
   position: relative;
+  /* Base light grey gradient (shows if no image is used) */
+  background: linear-gradient(135deg, #f8f9fa 0%, #e2e8f0 100%);
   background-size: cover;
   background-position: center;
   overflow: hidden;
   border-radius: 12px;
-  border: 1px solid #e3ebf3;
+  border: 1px solid #cbd5e1; /* Slightly more defined grey border */
   min-height: 220px;
   display: flex;
   flex-direction: column;
@@ -215,11 +217,13 @@ a:hover {
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   cursor: pointer;
 
+  /* Lighter grey gradient overlay (goes over the images) */
   &::before {
     content: "";
     position: absolute;
     top: 0; left: 0; right: 0; bottom: 0;
-    background: linear-gradient(to bottom, rgba(0,0,0,0.05), rgba(0,0,0,0.5));
+    /* Soft transition from clear to a slate grey at the bottom */
+    background: linear-gradient(to bottom, rgba(255,255,255,0.05) 0%, rgba(100, 116, 139, 0.85) 100%);
     z-index: 1;
   }
 
@@ -228,6 +232,7 @@ a:hover {
     z-index: 2;
     margin: 0 1.2rem 0.5rem 1.2rem;
     color: #ffffff !important;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.2); /* Keeps white text readable on lighter greys */
   }
 
   p { 
@@ -237,10 +242,9 @@ a:hover {
 
   &:hover {
     transform: translateY(-5px);
-    box-shadow: 0 12px 24px rgba(18, 59, 93, 0.2);
+    box-shadow: 0 12px 24px rgba(18, 59, 93, 0.15); /* Softer shadow on hover */
   }
 }
-
 /* =========================================
    5. RESEARCH PAGE (Horizontal Scrolling)
    ========================================= */
