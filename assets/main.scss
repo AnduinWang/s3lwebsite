@@ -516,3 +516,41 @@ a:hover {
     text-align: center;
   }
 }
+/* =========================================
+   10. CONTINUOUS IMAGE MARQUEE
+   ========================================= */
+.marquee-wrapper {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+  margin-top: 2rem;
+  border-radius: 8px;
+}
+
+.marquee-track {
+  display: flex;
+  width: max-content;
+  /* 25s controls the speed. Lower is faster, higher is slower. */
+  animation: scrollMarquee 25s linear infinite;
+}
+
+/* Pause the animation when a user hovers over the images with their mouse */
+.marquee-track:hover {
+  animation-play-state: paused; 
+}
+
+.marquee-item {
+  width: 260px;
+  height: 170px;
+  object-fit: cover;
+  border-radius: 8px;
+  flex-shrink: 0;
+  margin-right: 1.5rem; /* Using margin instead of gap for perfect -50% math */
+  box-shadow: 0 4px 12px rgba(18, 59, 93, 0.15);
+  border: 3px solid #ffffff; /* Gives photos a nice border frame */
+}
+
+@keyframes scrollMarquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
