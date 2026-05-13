@@ -5,7 +5,7 @@ permalink: /openings/
 ---
 
 <p class="page-intro">
-  Thank you for your interest in working with me. I am always interested in hearing from <strong>highly motivated students and researchers</strong>. When applying, please use the email subject line <strong>Prospective [Position] - [Your Name]</strong>, e.g., Prospective Research Assistant - CHAN Tai-Man. It is required to attach your <strong>CV</strong> and <strong>one-page statement</strong> to the email.
+  I am always interested in hearing from <strong>highly motivated students and researchers</strong>. When applying, please use the email subject line <strong>Prospective [Position] - [Your Name]</strong>. It is required to attach your <a href="#application-material-guidance"><strong>CV</strong></a> and <a href="#application-material-guidance"><strong>one-page statement</strong></a> to the <a href="mailto:an.wang@polyu.edu.hk">email</a>.
 </p>
 
 <section class="research-section">
@@ -84,26 +84,33 @@ Depending on funding and university admissions cycles, I may have openings for:
 - **Postdoctoral researchers**
 - **Research assistants**
 - **Undergraduate research interns**
-- **Visiting students / visiting scholars**
 
 ## General Elegibility
 
 Strong applicants typically have one or more of the following:
 
-- solid background in **[relevant discipline]**
-- interest in **[specific topics]**
-- strong analytical and problem-solving skills
-- experience in **[programming / experiments / simulations / mathematical modeling / systems development]**
+- Strong motivation, dedication, and **critical thinking** abilities
+- solid background in **maths&stats**, **data science**, **engineering**, or **computer science**
+- interest in understanding and engineering **urban systems**
 
-## Prospective PhD Students
+Specifically, I am looking for expertises, including:
+- Electrical engineering, automation, IoT technologies, and sensor technologies
+- Energy system modeling, lifecycle assessment, and public policy strategies
+- Causal inference, the econometrics or machine learning way
+- Exposure modeling and epidemiology
+  
+## Application Materials Guidance
 
-When emailing me, please include:
+When emailing me, your **CV** should be no more than 2 pages, including:
+- Your educational background
+- Your GPA and **ranking in class**
+- Your publications or research experience
+- Your award list
 
-- your **CV**
-- your **transcript(s)**
-- a brief description of your **research interests**
-- a short explanation of **why you want to join my group**
+Your **one-page statement** will contain:
+- Introduction to yourself and experience/background
+- One **interesting** research question in your familiar study areas or mine
+No reference is mandatory. But a fact check will be conducted for your statement.
 
 Please use the email subject line:
-
-**Prospective PhD Student – [Your Name]**
+**Prospective [Position] - [Your Name]**, e.g., Prospective Research Assistant - CHAN Tai-Man
