@@ -5,7 +5,7 @@ permalink: /openings/
 ---
 
 <p class="page-intro">
-  Thank you for your interest in working with me. I am always interested in hearing from <strong>highly motivated students and researchers</strong>.
+  Thank you for your interest in working with me. I am always interested in hearing from <strong>highly motivated students and researchers</strong>. When applying, please use the email subject line <strong>Prospective [Position] - [Your Name]</strong>, e.g., Prospective Research Assistant - CHAN Tai-Man. It is required to attach your <strong>CV</strong> and <strong>one-page statement</strong> to the email.
 </p>
 
 <section class="research-section">
@@ -86,7 +86,7 @@ Depending on funding and university admissions cycles, I may have openings for:
 - **Undergraduate research interns**
 - **Visiting students / visiting scholars**
 
-## What I Am Looking For
+## General Elegibility
 
 Strong applicants typically have one or more of the following:
 
