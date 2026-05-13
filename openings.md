@@ -109,7 +109,7 @@ When emailing me, your **CV** should be no more than 2 pages, including:
 
 Your **one-page statement** will contain:
 - Introduction to yourself and experience/background
-- One **interesting** research question in your familiar study areas or mine
+- One **interesting** research question in your familiar study areas or mine.<br>
 No reference is mandatory. But a fact check will be conducted for your statement.
 
 Please use the email subject line:
