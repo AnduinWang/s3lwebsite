@@ -117,77 +117,6 @@ a:hover {
   border-left: 5px solid #123b5d; /* Brand accent line */
   box-shadow: 0 4px 12px rgba(18, 59, 93, 0.05);
 }
-/* =========================================
-   2. HEADER & FOOTER
-   ========================================= */
-.site-header {
-  border-top: 4px solid #123b5d;
-  border-bottom: 1px solid #dfe7ef;
-  background: #ffffff;
-  padding: 0.5rem 0; /* Add a little vertical breathing room */
-}
-
-/* Header S3L Title Badge */
-.site-title {
-  font-weight: 800 !important;
-  font-size: 1.9rem !important;
-  color: #123b5d !important;
-  background: #eef5fb;
-  padding: 0.4rem 1.2rem;
-  border-radius: 8px;
-  border: 2px solid #c7d8e8;
-  box-shadow: 0 2px 8px rgba(18, 59, 93, 0.1);
-  letter-spacing: 1px;
-}
-
-/* Top Navigation Links (Research, Openings, News) */
-.site-nav .page-link {
-  color: #123b5d !important;
-  margin-left: 24px;
-  font-weight: 700;
-  font-size: 1.15rem;
-  letter-spacing: 0.5px;
-  text-transform: uppercase; /* Makes them stand out as menu items */
-  transition: color 0.2s ease;
-}
-
-.site-nav .page-link:hover {
-  color: #0b5fa5 !important;
-  text-decoration: none;
-}
-
-/* Footer Container */
-.site-footer {
-  border-top: 2px solid #dfe7ef;
-  background: #fafcfe;
-  padding: 3rem 0;
-}
-
-/* Bottom "S3L" Title */
-.footer-heading {
-  font-size: 2rem !important;
-  font-weight: 800 !important;
-  color: #123b5d !important;
-  letter-spacing: 1px;
-  margin-bottom: 1.5rem;
-}
-
-/* Bottom Description ("We research for a better urban system") */
-.site-footer .footer-col-wrapper {
-  font-size: 1.2rem;
-}
-
-.site-footer .footer-col-3 p {
-  font-size: 1.3rem;
-  font-weight: 700;
-  color: #123b5d;
-  line-height: 1.6;
-  background: #eef5fb;           /* Subtle highlight box */
-  padding: 1.2rem 1.5rem;        /* Internal spacing */
-  border-radius: 8px;            /* Rounded edges */
-  border-left: 5px solid #123b5d; /* Brand accent line */
-  box-shadow: 0 4px 12px rgba(18, 59, 93, 0.05);
-}
 
 /* =========================================
    3. HERO SECTION (Index Page)
@@ -290,7 +219,7 @@ a:hover {
     content: "";
     position: absolute;
     top: 0; left: 0; right: 0; bottom: 0;
-    background: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.7));
+    background: linear-gradient(to bottom, rgba(0,0,0,0.05), rgba(0,0,0,0.5));
     z-index: 1;
   }
 
