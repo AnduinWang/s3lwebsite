@@ -3,9 +3,25 @@ layout: page
 title: "News"
 permalink: /news/
 ---
-<p class="page-intro">
-  We share and celebrate exciting moments here.
-</p>
+<div class="page-intro">
+  <p style="margin-top: 0;">
+    We share and celebrate exciting moments here.
+  </p>
+
+  <div class="marquee-wrapper">
+    <div class="marquee-track">
+      
+      <img class="marquee-item" src="{{ site.baseurl }}/assets/Portrait.png" alt="Highlight 1">
+      <img class="marquee-item" src="{{ site.baseurl }}/assets/Zeyu.jpg" alt="Highlight 2">
+      <img class="marquee-item" src="{{ site.baseurl }}/assets/Wenyu.png" alt="Highlight 3">
+      <img class="marquee-item" src="{{ site.baseurl }}/assets/Qiuzi.jpg" alt="Highlight 4">
+      <img class="marquee-item" src="{{ site.baseurl }}/assets/Portrait.png" alt="Highlight 5">
+      <img class="marquee-item" src="{{ site.baseurl }}/assets/Zeyu.jpg" alt="Highlight 6">
+      <img class="marquee-item" src="{{ site.baseurl }}/assets/Wenyu.png" alt="Highlight 7">
+      <img class="marquee-item" src="{{ site.baseurl }}/assets/Qiuzi.jpg" alt="Highlight 8">
+      </div>
+  </div>
+</div>
 
 ## 2026
 - **05/2026**: Congratulations to Dr. Zeyu Zhang for publishing the first paper of S3L in Transportation Research Part D! Paper is available at https://doi.org/10.1016/j.trd.2026.105270
