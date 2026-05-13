@@ -24,14 +24,16 @@ permalink: /news/
 </div>
 
 ## 2026
-- **05/2026**: Congratulations to Dr. Zeyu Zhang for publishing the first paper of S3L in Transportation Research Part D! Paper is available at https://doi.org/10.1016/j.trd.2026.105270
-- **04/2026**: Original research article co-authored by Dr. Wang is published in **Nature Sustainability**. MIT News covers the findings at https://news.mit.edu/2026/mit-researchers-measure-traffic-emissions-block-real-time-0402. Paper is available at https://doi.org/10.1038/s41893-026-01797-9
+- **05/2026**: Congratulations to Dr. Zeyu ZHANG for publishing the first paper of S3L in Transportation Research Part D! Paper is available at https://doi.org/10.1016/j.trd.2026.105270
+- **04/2026**: Original research article co-authored by Dr. WANG is published in **Nature Sustainability**. MIT News covers the findings at https://news.mit.edu/2026/mit-researchers-measure-traffic-emissions-block-real-time-0402. Paper is available at https://doi.org/10.1038/s41893-026-01797-9
+- **03/2026**: We welcome Distinguished University Professor Prof. Roel VERMEULEN from Utrecht University to visit S3L and host a distinguished research seminar chaired by Prof. XD Li (Dean of FCE).
 
 ## 2025
 - **12/2025**: Our first opportunistic mobile environmental sensing campaign is closed in HK. Thank you Xiaotong!
-- **09/2025**: Peimin Wu joins S3L as a PhD student after her master's at Southeast University and Monash University. Dr. Hui DAI joins S3L as a postdoc after her PhD at Tsinghua University.
-- **07/2025**: S3L is delighted to host Prof. Jules Kerckhoffs from Utrecht University.
-- **06/2025**: Our first plume-chasing emissions testing comes a successful end after two months of hard field experiments. Thank you Zeyu, Wenyu and Xiaotong! 
+- **09/2025**: Peimin WU joins S3L as a PhD student after her master's at Southeast University and Monash University. Dr. Hui DAI joins S3L as a postdoc after her PhD at Tsinghua University.
+- **07/2025**: S3L is delighted to host Prof. Jules KERCKHOFFS from Utrecht University.
+- **06/2025**: Our first plume-chasing emissions testing comes a successful end after two months of hard field experiments. Thank you Zeyu, Wenyu and Xiaotong!
+- **01/2025**: We host Prof. Shaojun ZHANG from Tsinghua University and Dr. Yuhan HUANG from University of Technology, Sydney at S3L. 
 
 ## 2024
 - **09/2024**: Xiaotong ZHANG joins S3L as a PhD student after his master's at Wuhan University.
