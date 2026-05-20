@@ -77,7 +77,7 @@ permalink: /research/
       <div class="modal-text">
         <p>In our recent study, we demonstrated that neglecting topography fundamentally skews our understanding of urban emissions. By fusing multi-sourced traffic & GIS data and validating the results via real-world plume-chasing measurements, we constructed a dynamic, grade-inclusive emission inventory.</p>
         
-        <figure style="margin: 2.5rem 0; text-align: center;">
+        <figure style="margin: 2.5rem 0; text-align: left;">
           <img src="{{ site.baseurl }}/assets/research/hkemissions1.jpg" alt="Figure 1" style="width: 66%; height: auto; border-radius: 12px; box-shadow: 0 4px 15px rgba(18,59,93,0.1);">
           <figcaption style="font-size: 0.9rem; color: #607487; margin-top: 0.8rem; font-style: italic;">
             Figure 1: Emission differences w/wo road grade consideration
@@ -86,7 +86,7 @@ permalink: /research/
         
         <p>The results reveal a stark reality: downhill emission reductions fail to cancel out the massive fuel penalties of uphill climbs. Factoring in road grade increases Hong Kong’s citywide vehicular carbon and air pollutant estimates by <strong>10% to 30%</strong>. More critically, topography dramatically alters the spatial distribution of pollution. Over half of the city's road segments deviate by more than 10% from traditional flat-road estimates. This clusters emission hotspots in topographically complex neighborhoods with heavy-duty traffic, directly impacting local exposure.</p>
         
-        <figure style="margin: 2.5rem 0; text-align: center;">
+        <figure style="margin: 2.5rem 0; text-align: left;">
           <img src="{{ site.baseurl }}/assets/research/hkemissions2.jpg" alt="Figure 2" style="width: 66%; height: auto; border-radius: 12px; box-shadow: 0 4px 15px rgba(18,59,93,0.1);">
           <figcaption style="font-size: 0.9rem; color: #607487; margin-top: 0.8rem; font-style: italic;">
             Figure 2: Decarbonization projection of the EV sector (w/wo road grade)
