@@ -72,7 +72,7 @@ permalink: /research/
     </div>
     <div class="modal-body">
       <div class="modal-text">
-        <p>Urban transportation remains a stubborn hurdle in the race toward carbon neutrality and clean air. To model city-scale traffic emissions, researchers traditionally rely on average-speed models that ignore road grade, operating under the assumption that uphill emission penalties are perfectly offset by downhill coasting. However, in mountainous metropolises like Hong Kong, this flat-road approximation falls short.</p>
+        <p>Urban transportation remains a stubborn hurdle in the race toward carbon neutrality and clean air. To model city-scale traffic emissions, researchers traditionally rely on average-speed models that ignore road grade, operating     under the assumption that uphill emission penalties are perfectly offset by downhill coasting. However, in mountainous metropolises like Hong Kong, this flat-road approximation falls short.</p>
   
         <p>In our recent study, we demonstrated that neglecting topography fundamentally skews our understanding of urban emissions. By fusing computer vision-based fleet classification from traffic cameras with high-resolution digital terrain models and validating the results via real-world plume-chasing measurements, we constructed a dynamic, grade-inclusive emission inventory.</p>
 
@@ -81,8 +81,8 @@ permalink: /research/
         <p>Furthermore, this high-resolution modeling exposes vulnerabilities in current climate policy. When projecting these grade-adjusted emissions, we found that Hong Kong’s ambitious 2035 transportation decarbonization target could face an approximate <strong>seven-year delay</strong> without a substantially cleaner power grid and accelerated electric vehicle adoption. For densely populated, hilly cities, these findings offer a clear directive: effective low-carbon transitions and pollution control demand that we model our urban systems in all three dimensions.</p>
       </div>
       <div class="modal-image">
-        <img src="{{ site.baseurl }}/assets/hkemissions1.jpg" alt="Figure 1" style="width: 100%; border-radius: 12px; object-fit: cover; margin-bottom: 1.5rem;">
-        <img src="{{ site.baseurl }}/assets/hkemissions2.jpg" alt="Figure 2" style="width: 100%; border-radius: 12px; object-fit: cover;">
+        <img src="{{ site.baseurl }}/assets/research/hkemissions1.jpg" alt="Figure 1" style="width: 100%; border-radius: 12px; object-fit: cover; margin-bottom: 1.5rem;">
+        <img src="{{ site.baseurl }}/assets/research/hkemissions2.jpg" alt="Figure 2" style="width: 100%; border-radius: 12px; object-fit: cover;">
       </div>
     </div>
   </div>
