@@ -190,6 +190,7 @@ permalink: /research/
         <p>Furthermore, this high-resolution modeling exposes vulnerabilities in current climate policy. When projecting these grade-adjusted emissions, we found that Hong Kong’s ambitious 2035 transportation decarbonization target could face an approximate <strong>seven-year delay</strong> without a substantially cleaner power grid and accelerated electric vehicle adoption. For densely populated, hilly cities, these findings offer a clear directive: effective low-carbon transitions and pollution control demand that we model our urban systems in all three dimensions.</p>
         <p><em>*Full paper is available at https://doi.org/10.1016/j.trd.2026.105270.*</em></p>
       </div>
+    </div>
     <button id="btn-e1" class="modal-back-to-top" onclick="scrollModalToTop('modalBody-e1')">↑ Top</button>
   </div>
 </div>
