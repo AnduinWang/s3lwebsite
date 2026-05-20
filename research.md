@@ -85,7 +85,7 @@ permalink: /research/
           </figcaption>
         </figure>
         
-        <p>By translating fuel-based measurements into distance- and power-based emission factors, we found that NOX emissions are highly sensitive to road grade and routinely exceed regulatory baselines by over twofold. Shockingly, around 10% of light goods vehicles and 22% of heavy goods vehicles emit NOX at more than double the Euro IV limits. Removing these "super-emitters"—who represent just 14% of the fleet—could slash goods-vehicle NOX emissions by 31%.</p>        
+        <p>By translating fuel-based measurements into distance- and power-based emission factors, we found that NOX emissions are highly sensitive to road grade and routinely exceed regulatory baselines by over twofold. Shockingly, around <strong>10% of light goods vehicles and 22% of heavy goods vehicles</strong> emit NOX at more than double the Euro IV limits. Removing these "super-emitters", who represent just <strong>14% of the fleet</strong>, could slash goods-vehicle NOX emissions by <strong>31%</strong>.</p>        
         <figure style="margin: 2.5rem 0; text-align: left;">
           <img src="{{ site.baseurl }}/assets/research/plumechasing2.jpg" alt="Figure 2" style="width: 66%; height: auto; border-radius: 12px; box-shadow: 0 4px 15px rgba(18,59,93,0.1);">
           <figcaption style="font-size: 0.9rem; color: #607487; margin-top: 0.8rem; font-style: italic;">
@@ -150,7 +150,7 @@ permalink: /research/
             Figure 1: Conceptual research framework - the multi-sensory approach
           </figcaption>
         </figure>    
-        <p>Using machine learning and natural language processing, we mapped how the physical environment interacts with emotional valence. Our results confirm that while visual aesthetics powerfully drive positive sentiment, the invisible environment plays a massive, underappreciated role. High noise levels are strongly linked to negative sentiment and annoyance, outpacing even poor visual environments. Meanwhile, ambient temperature significantly depresses positivity, highlighting the emotional toll of the urban heat island effect.</p>
+        <p>Using machine learning and natural language processing, we mapped how the physical environment interacts with emotional valence. Our results confirm that while visual aesthetics powerfully drive positive sentiment, the invisible environment plays a massive, underappreciated role. <strong>High noise levels are strongly linked to negative sentiment and annoyance</strong>, outpacing even poor visual environments. Meanwhile, <strong>ambient temperature significantly depresses positivity</strong>, highlighting the emotional toll of the urban heat island effect.</p>
         <figure style="margin: 2.5rem 0; text-align: left;">
           <img src="{{ site.baseurl }}/assets/research/sentiment2.svg" alt="Figure 1" style="width: 66%; height: auto; border-radius: 12px; box-shadow: 0 4px 15px rgba(18,59,93,0.1);">
           <figcaption style="font-size: 0.9rem; color: #607487; margin-top: 0.8rem; font-style: italic;">
