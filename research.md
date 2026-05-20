@@ -75,6 +75,7 @@ permalink: /research/
     <div id="modalBody-s1" class="modal-body" style="max-height: 70vh;" onscroll="checkModalScroll('modalBody-s1', 'btn-s1')">      
       
       <div class="modal-text">
+        <p>*Contributed by Dr. Zeyu ZHANG</p>
         <p>In our recent study, we demonstrated that neglecting topography fundamentally skews our understanding of urban emissions. By fusing multi-sourced traffic & GIS data and validating the results via real-world plume-chasing measurements, we constructed a dynamic, grade-inclusive emission inventory.</p>
         
         <figure style="margin: 2.5rem 0; text-align: left;">
