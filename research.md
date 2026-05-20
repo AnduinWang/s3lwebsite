@@ -65,36 +65,44 @@ permalink: /research/
 </section>
 
 <div id="modal-s1" class="modal-overlay" onclick="closeModal('modal-s1')">
-  <div class="modal-container" onclick="event.stopPropagation()">
+  <div class="modal-container" onclick="event.stopPropagation()" style="position: relative;">
+    
     <div class="modal-header">
       <h2>HK Vehicles More Polluted than Expected</h2>
       <span class="close-btn" onclick="closeModal('modal-s1')">&times;</span>
     </div>
-    <div id="modalBody-s1" class="modal-body" style="display: block;" onscroll="checkModalScroll('modalBody-s1', 'btn-s1')">      
+    
+    <div id="modalBody-s1" class="modal-body" style="display: block; max-height: 70vh;" onscroll="checkModalScroll('modalBody-s1', 'btn-s1')">      
+      
       <div class="modal-text">
         <p>In our recent study, we demonstrated that neglecting topography fundamentally skews our understanding of urban emissions. By fusing multi-sourced traffic & GIS data and validating the results via real-world plume-chasing measurements, we constructed a dynamic, grade-inclusive emission inventory.</p>
+        
         <figure style="margin: 2.5rem 0; text-align: center;">
-          <img src="{{ site.baseurl }}/assets/research/hkemissions1.jpg" alt="Figure 1" style="width: 100%; max-width: 700px; border-radius: 12px; box-shadow: 0 4px 15px rgba(18,59,93,0.1);">
+          <img src="{{ site.baseurl }}/assets/research/hkemissions1.jpg" alt="Figure 1" style="width: 66%; height: auto; border-radius: 12px; box-shadow: 0 4px 15px rgba(18,59,93,0.1);">
           <figcaption style="font-size: 0.9rem; color: #607487; margin-top: 0.8rem; font-style: italic;">
             Figure 1: Emission differences w/wo road grade consideration
           </figcaption>
         </figure>
+        
         <p>The results reveal a stark reality: downhill emission reductions fail to cancel out the massive fuel penalties of uphill climbs. Factoring in road grade increases Hong Kong’s citywide vehicular carbon and air pollutant estimates by <strong>10% to 30%</strong>. More critically, topography dramatically alters the spatial distribution of pollution. Over half of the city's road segments deviate by more than 10% from traditional flat-road estimates. This clusters emission hotspots in topographically complex neighborhoods with heavy-duty traffic, directly impacting local exposure.</p>
+        
         <figure style="margin: 2.5rem 0; text-align: center;">
-          <img src="{{ site.baseurl }}/assets/research/hkemissions2.jpg" alt="Figure 2" style="width: 100%; max-width: 700px; border-radius: 12px; box-shadow: 0 4px 15px rgba(18,59,93,0.1);">
+          <img src="{{ site.baseurl }}/assets/research/hkemissions2.jpg" alt="Figure 2" style="width: 66%; height: auto; border-radius: 12px; box-shadow: 0 4px 15px rgba(18,59,93,0.1);">
           <figcaption style="font-size: 0.9rem; color: #607487; margin-top: 0.8rem; font-style: italic;">
             Figure 2: Decarbonization projection of the EV sector (w/wo road grade)
           </figcaption>
         </figure>        
+        
         <p>Furthermore, this high-resolution modeling exposes vulnerabilities in current climate policy. When projecting these grade-adjusted emissions, we found that Hong Kong’s ambitious 2035 transportation decarbonization target could face an approximate <strong>seven-year delay</strong> without a substantially cleaner power grid and accelerated electric vehicle adoption. For densely populated, hilly cities, these findings offer a clear directive: effective low-carbon transitions and pollution control demand that we model our urban systems in all three dimensions.</p>
-        <p>*Full paper is available at https://doi.org/10.1016/j.trd.2026.105270.*</p>
+        <p><em>*Full paper is available at https://doi.org/10.1016/j.trd.2026.105270.*</em></p>
       </div>
 
     </div>
+    
     <button id="btn-s1" class="modal-back-to-top" onclick="scrollModalToTop('modalBody-s1')">↑ Top</button>
+    
   </div>
 </div>
-
 
 <div id="modal-s2" class="modal-overlay" onclick="closeModal('modal-s2')">
   <div class="modal-container" onclick="event.stopPropagation()">
