@@ -94,27 +94,7 @@ permalink: /research/
     <button id="btn-s1" class="modal-back-to-top" onclick="scrollModalToTop('modalBody-s1')">↑ Top</button>
   </div>
 </div>
-<script>
-function checkModalScroll(bodyId, btnId) {
-  const modalBody = document.getElementById(bodyId);
-  const btn = document.getElementById(btnId);
-  
-  // Show button if the user scrolls down more than 150px inside the modal
-  if (modalBody.scrollTop > 150) {
-    btn.classList.add('show');
-  } else {
-    btn.classList.remove('show');
-  }
-}
 
-function scrollModalToTop(bodyId) {
-  const modalBody = document.getElementById(bodyId);
-  modalBody.scrollTo({
-    top: 0,
-    behavior: 'smooth'
-  });
-}
-</script>
 
 <div id="modal-s2" class="modal-overlay" onclick="closeModal('modal-s2')">
   <div class="modal-container" onclick="event.stopPropagation()">
@@ -260,4 +240,23 @@ window.addEventListener('load', () => {
     if (target) target.scrollIntoView({ behavior: 'smooth' });
   }
 });
+function checkModalScroll(bodyId, btnId) {
+  const modalBody = document.getElementById(bodyId);
+  const btn = document.getElementById(btnId);
+  
+  // Show button if the user scrolls down more than 150px inside the modal
+  if (modalBody.scrollTop > 150) {
+    btn.classList.add('show');
+  } else {
+    btn.classList.remove('show');
+  }
+}
+
+function scrollModalToTop(bodyId) {
+  const modalBody = document.getElementById(bodyId);
+  modalBody.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  });
+}
 </script>
