@@ -72,7 +72,7 @@ permalink: /research/
       <span class="close-btn" onclick="closeModal('modal-s1')">&times;</span>
     </div>
     
-    <div id="modalBody-s1" class="modal-body" style="display: block; max-height: 70vh;" onscroll="checkModalScroll('modalBody-s1', 'btn-s1')">      
+    <div id="modalBody-s1" class="modal-body" style="max-height: 70vh;" onscroll="checkModalScroll('modalBody-s1', 'btn-s1')">      
       
       <div class="modal-text">
         <p>In our recent study, we demonstrated that neglecting topography fundamentally skews our understanding of urban emissions. By fusing multi-sourced traffic & GIS data and validating the results via real-world plume-chasing measurements, we constructed a dynamic, grade-inclusive emission inventory.</p>
@@ -110,12 +110,12 @@ permalink: /research/
       <h2>Roadside Dispersion Characterization</h2>
       <span class="close-btn" onclick="closeModal('modal-s2')">&times;</span>
     </div>
-    <div class="modal-body">
+    <div id="modalBody-s2" class="modal-body" style="max-height: 70vh;" onscroll="checkModalScroll('modalBody-s2', 'btn-s2')">
       <div class="modal-text">
         <p>We characterize near-road air pollution using local-scale emission and dispersion models validated against in-situ measurements.</p>
-      </div>
-      <div class="modal-image"><div class="image-placeholder">[Project Figure]</div></div>
+        </div>
     </div>
+    <button id="btn-s2" class="modal-back-to-top" onclick="scrollModalToTop('modalBody-s2')">↑ Top</button>
   </div>
 </div>
 
@@ -125,12 +125,12 @@ permalink: /research/
       <h2>Portable Emissions Measurements</h2>
       <span class="close-btn" onclick="closeModal('modal-s3')">&times;</span>
     </div>
-    <div class="modal-body">
+    <div id="modalBody-s3" class="modal-body" style="max-height: 70vh;" onscroll="checkModalScroll('modalBody-s3', 'btn-s3')">
       <div class="modal-text">
         <p>Study design and experiment design for emission testing at the vehicle, street, and city levels.</p>
-      </div>
-      <div class="modal-image"><div class="image-placeholder">[Project Figure]</div></div>
+        </div>
     </div>
+    <button id="btn-s3" class="modal-back-to-top" onclick="scrollModalToTop('modalBody-s3')">↑ Top</button>
   </div>
 </div>
 
@@ -140,12 +140,12 @@ permalink: /research/
       <h2>Vehicle Electrification</h2>
       <span class="close-btn" onclick="closeModal('modal-e1')">&times;</span>
     </div>
-    <div class="modal-body">
+    <div id="modalBody-e1" class="modal-body" style="max-height: 70vh;" onscroll="checkModalScroll('modalBody-e1', 'btn-e1')">
       <div class="modal-text">
         <p>Researching the uncertainty in emission estimates for vehicle electrification and its impact on metropolitan GHG inventories.</p>
-      </div>
-      <div class="modal-image"><div class="image-placeholder">[Project Figure]</div></div>
+        </div>
     </div>
+    <button id="btn-e1" class="modal-back-to-top" onclick="scrollModalToTop('modalBody-e1')">↑ Top</button>
   </div>
 </div>
 
@@ -155,12 +155,12 @@ permalink: /research/
       <h2>Electric Vehicle Charging</h2>
       <span class="close-btn" onclick="closeModal('modal-e2')">&times;</span>
     </div>
-    <div class="modal-body">
+    <div id="modalBody-e2" class="modal-body" style="max-height: 70vh;" onscroll="checkModalScroll('modalBody-e2', 'btn-e2')">
       <div class="modal-text">
         <p>Investigating marginal greenhouse gas emissions of electricity systems and the implications of EV charging patterns.</p>
-      </div>
-      <div class="modal-image"><div class="image-placeholder">[Project Figure]</div></div>
+        </div>
     </div>
+    <button id="btn-e2" class="modal-back-to-top" onclick="scrollModalToTop('modalBody-e2')">↑ Top</button>
   </div>
 </div>
 
@@ -170,12 +170,12 @@ permalink: /research/
       <h2>Automated and Electric Mobility</h2>
       <span class="close-btn" onclick="closeModal('modal-e3')">&times;</span>
     </div>
-    <div class="modal-body">
+    <div id="modalBody-e3" class="modal-body" style="max-height: 70vh;" onscroll="checkModalScroll('modalBody-e3', 'btn-e3')">
       <div class="modal-text">
         <p>Investigating the combined effects of automated and electric transportation on metropolitan greenhouse gas emissions.</p>
-      </div>
-      <div class="modal-image"><div class="image-placeholder">[Project Figure]</div></div>
+        </div>
     </div>
+    <button id="btn-e3" class="modal-back-to-top" onclick="scrollModalToTop('modalBody-e3')">↑ Top</button>
   </div>
 </div>
 
@@ -185,12 +185,12 @@ permalink: /research/
       <h2>ML for Pollution Prediction</h2>
       <span class="close-btn" onclick="closeModal('modal-m1')">&times;</span>
     </div>
-    <div class="modal-body">
+    <div id="modalBody-m1" class="modal-body" style="max-height: 70vh;" onscroll="checkModalScroll('modalBody-m1', 'btn-m1')">
       <div class="modal-text">
         <p>Evaluating the potential of machine learning models for predicting traffic-related air pollution levels.</p>
-      </div>
-      <div class="modal-image"><div class="image-placeholder">[Project Figure]</div></div>
+        </div>
     </div>
+    <button id="btn-m1" class="modal-back-to-top" onclick="scrollModalToTop('modalBody-m1')">↑ Top</button>
   </div>
 </div>
 
@@ -200,12 +200,12 @@ permalink: /research/
       <h2>Brake Wear Particle Emissions</h2>
       <span class="close-btn" onclick="closeModal('modal-m2')">&times;</span>
     </div>
-    <div class="modal-body">
+    <div id="modalBody-m2" class="modal-body" style="max-height: 70vh;" onscroll="checkModalScroll('modalBody-m2', 'btn-m2')">
       <div class="modal-text">
         <p>Modeling urban brake wear particle emissions using ride-hailing data as a case study.</p>
-      </div>
-      <div class="modal-image"><div class="image-placeholder">[Project Figure]</div></div>
+        </div>
     </div>
+    <button id="btn-m2" class="modal-back-to-top" onclick="scrollModalToTop('modalBody-m2')">↑ Top</button>
   </div>
 </div>
 
@@ -215,12 +215,12 @@ permalink: /research/
       <h2>Multi-Pollutant Inventories</h2>
       <span class="close-btn" onclick="closeModal('modal-m3')">&times;</span>
     </div>
-    <div class="modal-body">
+    <div id="modalBody-m3" class="modal-body" style="max-height: 70vh;" onscroll="checkModalScroll('modalBody-m3', 'btn-m3')">
       <div class="modal-text">
         <p>Constructing comprehensive multi-air pollutant emission inventories for urban transportation systems.</p>
-      </div>
-      <div class="modal-image"><div class="image-placeholder">[Project Figure]</div></div>
+        </div>
     </div>
+    <button id="btn-m3" class="modal-back-to-top" onclick="scrollModalToTop('modalBody-m3')">↑ Top</button>
   </div>
 </div>
 
