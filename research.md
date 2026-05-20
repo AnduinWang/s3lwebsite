@@ -59,7 +59,7 @@ permalink: /research/
       <h3>Outdoor-Indoor Continuum</h3>
     </div>
     <div class="card clickable-card" onclick="openModal('modal-m3')" style="background-image: url('{{ site.baseurl }}/assets/research/exposuregap.jpg');">
-      <h3>Non-Exhaust Emissions</h3>
+      <h3>Hyperlocal Exposure Modeling</h3>
     </div>
   </div>
 </section>
