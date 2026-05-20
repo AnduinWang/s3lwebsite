@@ -53,12 +53,12 @@ permalink: /research/
   <h2>Data-Driven Modeling</h2>
   <div class="scroll-container">
     <div class="card clickable-card" onclick="openModal('modal-m1')" style="background-image: url('{{ site.baseurl }}/assets/research/wildfire.jpg');">
-      <h3>Spatial & Temporal Imputation </h3>
+      <h3>Wildfire Smoke Attribution</h3>
     </div>
     <div class="card clickable-card" onclick="openModal('modal-m2')" style="background-image: url('{{ site.baseurl }}/assets/research/IOcontinuum.png');">
       <h3>Outdoor-Indoor Continuum</h3>
     </div>
-    <div class="card clickable-card" onclick="openModal('modal-m3')" style="background-image: url('{{ site.baseurl }}/assets/research/your-image.jpg');">
+    <div class="card clickable-card" onclick="openModal('modal-m3')" style="background-image: url('{{ site.baseurl }}/assets/research/exposuregap.jpg');">
       <h3>Non-Exhaust Emissions</h3>
     </div>
   </div>
@@ -122,7 +122,7 @@ permalink: /research/
         </figure>  
         <p>We developed a novel <strong>"remote calibration"</strong> framework that eliminates the need for physical collocation. By matching <strong>over 33 million hourly observations</strong> from the largest US LCS network against reference stations during periods of low regional PM2.5 variability, we generated metropolis-specific calibration models. This approach successfully corrected systematic sensor biases across the ten largest US metropolitan areas.</p>
         <figure style="margin: 2.5rem 0; text-align: left;">
-          <img src="{{ site.baseurl }}/assets/research/remocalib2.png" alt="Figure 1" style="width: 66%; height: auto; border-radius: 12px; box-shadow: 0 4px 15px rgba(18,59,93,0.1);">
+          <img src="{{ site.baseurl }}/assets/research/remocalib2.png" alt="Figure 2" style="width: 66%; height: auto; border-radius: 12px; box-shadow: 0 4px 15px rgba(18,59,93,0.1);">
           <figcaption style="font-size: 0.9rem; color: #607487; margin-top: 0.8rem; font-style: italic;">
             Figure 2: Hyperlocal air sensing in NYC during June 2023 Canadian Wildfire Event (above: only EPA stations; below: with calibrated LCS network)
           </figcaption>
@@ -152,7 +152,7 @@ permalink: /research/
         </figure>    
         <p>Using machine learning and natural language processing, we mapped how the physical environment interacts with emotional valence. Our results confirm that while visual aesthetics powerfully drive positive sentiment, the invisible environment plays a massive, underappreciated role. <strong>High noise levels are strongly linked to negative sentiment and annoyance</strong>, outpacing even poor visual environments. Meanwhile, <strong>ambient temperature significantly depresses positivity</strong>, highlighting the emotional toll of the urban heat island effect.</p>
         <figure style="margin: 2.5rem 0; text-align: left;">
-          <img src="{{ site.baseurl }}/assets/research/sentiment2.svg" alt="Figure 1" style="width: 66%; height: auto; border-radius: 12px; box-shadow: 0 4px 15px rgba(18,59,93,0.1);">
+          <img src="{{ site.baseurl }}/assets/research/sentiment2.svg" alt="Figure 2" style="width: 66%; height: auto; border-radius: 12px; box-shadow: 0 4px 15px rgba(18,59,93,0.1);">
           <figcaption style="font-size: 0.9rem; color: #607487; margin-top: 0.8rem; font-style: italic;">
             Figure 2: The factors that drive expressed positive (left) and negative (right) sentiments
           </figcaption>
@@ -174,23 +174,19 @@ permalink: /research/
       <div class="modal-text">
         <p><i>*Contributed by Dr. Zeyu ZHANG*</i></p>
         <p>In our recent study, we demonstrated that neglecting topography fundamentally skews our understanding of urban emissions. By fusing multi-sourced traffic & GIS data and validating the results via real-world plume-chasing measurements, we constructed a dynamic, grade-inclusive emission inventory.</p>
-        
         <figure style="margin: 2.5rem 0; text-align: left;">
           <img src="{{ site.baseurl }}/assets/research/hkemissions1.jpg" alt="Figure 1" style="width: 66%; height: auto; border-radius: 12px; box-shadow: 0 4px 15px rgba(18,59,93,0.1);">
           <figcaption style="font-size: 0.9rem; color: #607487; margin-top: 0.8rem; font-style: italic;">
             Figure 1: Emission differences w/wo road grade consideration
           </figcaption>
         </figure>
-        
         <p>The results reveal a stark reality: downhill emission reductions fail to cancel out the massive fuel penalties of uphill climbs. Factoring in road grade increases Hong Kong’s citywide vehicular carbon and air pollutant estimates by <strong>10% to 30%</strong>. More critically, topography dramatically alters the spatial distribution of pollution. Over half of the city's road segments deviate by more than 10% from traditional flat-road estimates. This clusters emission hotspots in topographically complex neighborhoods with heavy-duty traffic, directly impacting local exposure.</p>
-        
         <figure style="margin: 2.5rem 0; text-align: left;">
           <img src="{{ site.baseurl }}/assets/research/hkemissions2.jpg" alt="Figure 2" style="width: 66%; height: auto; border-radius: 12px; box-shadow: 0 4px 15px rgba(18,59,93,0.1);">
           <figcaption style="font-size: 0.9rem; color: #607487; margin-top: 0.8rem; font-style: italic;">
             Figure 2: Decarbonization projection of the EV sector (w/wo road grade)
           </figcaption>
         </figure>        
-        
         <p>Furthermore, this high-resolution modeling exposes vulnerabilities in current climate policy. When projecting these grade-adjusted emissions, we found that Hong Kong’s ambitious 2035 transportation decarbonization target could face an approximate <strong>seven-year delay</strong> without a substantially cleaner power grid and accelerated electric vehicle adoption. For densely populated, hilly cities, these findings offer a clear directive: effective low-carbon transitions and pollution control demand that we model our urban systems in all three dimensions.</p>
         <p><em>*Full paper is available at https://doi.org/10.1016/j.trd.2026.105270.*</em></p>
       </div>
@@ -261,12 +257,27 @@ permalink: /research/
 <div id="modal-m3" class="modal-overlay" onclick="closeModal('modal-m3')">
   <div class="modal-container" onclick="event.stopPropagation()">
     <div class="modal-header">
-      <h2></h2>
+      <h2>Breathing disparity in the Bronx</h2>
       <span class="close-btn" onclick="closeModal('modal-m3')">&times;</span>
     </div>
     <div id="modalBody-m3" class="modal-body" style="max-height: 70vh;" onscroll="checkModalScroll('modalBody-m3', 'btn-m3')">
       <div class="modal-text">
-        <p>Constructing comprehensive multi-air pollutant emission inventories for urban transportation systems.</p>
+        <p><i>*Contributed by Dr. An WANG*</i></p>
+        <p>Disparities in air pollution exposure are traditionally mapped by linking residential addresses to static pollution data, ignoring the complex realities of human movement. We bridged this gap by fusing the highly granular mobility traces of <strong>over 500,000 anonymized users</strong> with 100-meter-resolution PM2.5 predictions in the Bronx, New York.</p>
+        <figure style="margin: 2.5rem 0; text-align: left;">
+          <img src="{{ site.baseurl }}/assets/research/disparity1.jpg" alt="Figure 1" style="width: 66%; height: auto; border-radius: 12px; box-shadow: 0 4px 15px rgba(18,59,93,0.1);">
+          <figcaption style="font-size: 0.9rem; color: #607487; margin-top: 0.8rem; font-style: italic;">
+            Figure 1: Mean exposure per street visit per income and race/ethnicity
+          </figcaption>
+        </figure>    
+        <p>Moving beyond population-weighted averages, our trajectory-based approach tracked individualized exposure across urban micro-environments. The findings reveal that "where" exposure happens matters just as much as "how much". While overall street-level exposure is negatively correlated with income, racial and ethnic divides are far more profound. We found that people from <strong>Hispanic-majority communities</strong> suffer significantly higher PM2.5 exposure levels than any other group.</p>
+        <figure style="margin: 2.5rem 0; text-align: left;">
+          <img src="{{ site.baseurl }}/assets/research/disparity2.jpg" alt="Figure 2" style="width: 66%; height: auto; border-radius: 12px; box-shadow: 0 4px 15px rgba(18,59,93,0.1);">
+          <figcaption style="font-size: 0.9rem; color: #607487; margin-top: 0.8rem; font-style: italic;">
+            Figure 2: Exposure disparity between/within groups
+          </figcaption>
+        </figure>    
+        <p>Crucially, our analysis demonstrates that within-group exposure variation contributes to <strong>three-quarters of the total disparity</strong>, exposing the double burden faced by vulnerable communities. These insights urge planners to move beyond generic, city-wide air quality improvements and adopt targeted, location-specific emission mitigations that actively dismantle systemic environmental injustices.</p>        
         </div>
     </div>
     <button id="btn-m3" class="modal-back-to-top" onclick="scrollModalToTop('modalBody-m3')">↑ Top</button>
