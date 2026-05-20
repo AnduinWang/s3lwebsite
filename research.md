@@ -108,13 +108,28 @@ permalink: /research/
 <div id="modal-s2" class="modal-overlay" onclick="closeModal('modal-s2')">
   <div class="modal-container" onclick="event.stopPropagation()">
     <div class="modal-header">
-      <h2>Roadside Dispersion Characterization</h2>
+      <h2>Democratizing Air Sensing Through Remote Calibration</h2>
       <span class="close-btn" onclick="closeModal('modal-s2')">&times;</span>
     </div>
     <div id="modalBody-s2" class="modal-body" style="max-height: 70vh;" onscroll="checkModalScroll('modalBody-s2', 'btn-s2')">
       <div class="modal-text">
-        <p>We characterize near-road air pollution using local-scale emission and dispersion models validated against in-situ measurements.</p>
-        </div>
+        <p>Contributed by Wenyu WANG</p>
+        <p>The democratization of air quality monitoring through low-cost sensor (LCS) networks promises unprecedented, block-by-block visibility into urban pollution. Yet, poor data reliability has largely relegated these networks to citizen science rather than rigorous policymaking. Traditional calibration requires physically co-locating sensors with "gold standard" reference stations—an unscalable bottleneck.</p>
+        <figure style="margin: 2.5rem 0; text-align: left;">
+          <img src="{{ site.baseurl }}/assets/research/remocalib1.jpg" alt="Figure 1" style="width: 66%; height: auto; border-radius: 12px; box-shadow: 0 4px 15px rgba(18,59,93,0.1);">
+          <figcaption style="font-size: 0.9rem; color: #607487; margin-top: 0.8rem; font-style: italic;">
+            Figure 1: The remote calibration concept
+          </figcaption>
+        </figure>  
+        <p>We developed a novel <strong>"remote calibration"</strong> framework that eliminates the need for physical collocation. By matching <strong>over 33 million hourly observations</strong> from the largest US LCS network against reference stations during periods of low regional PM2.5 variability, we generated metropolis-specific calibration models. This approach successfully corrected systematic sensor biases across the ten largest US metropolitan areas.</p>
+        <figure style="margin: 2.5rem 0; text-align: left;">
+          <img src="{{ site.baseurl }}/assets/research/remocalib2.jpg" alt="Figure 1" style="width: 66%; height: auto; border-radius: 12px; box-shadow: 0 4px 15px rgba(18,59,93,0.1);">
+          <figcaption style="font-size: 0.9rem; color: #607487; margin-top: 0.8rem; font-style: italic;">
+            Figure 2: Hyperlocal air sensing in NYC during June 2023 Canadian Wildfire Event (above: only EPA stations; below: with calibrated LCS network)
+          </figcaption>
+        </figure>  
+        <p>Our calibrated data revealed a stark reality: while LCS networks dramatically reduce spatial monitoring disparities, severe inequities persist, with African American communities remaining the least covered. By proving that crowd-sourced data can be systematically elevated to scientific-grade accuracy, this methodology expedites a paradigm shift toward equitable, hyperlocal air surveillance.</p>        
+      </div>
     </div>
     <button id="btn-s2" class="modal-back-to-top" onclick="scrollModalToTop('modalBody-s2')">↑ Top</button>
   </div>
