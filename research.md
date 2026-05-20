@@ -72,6 +72,7 @@ permalink: /research/
     </div>
     <div class="modal-body">
       <div class="modal-text">
+        <p><strong>The Hidden Topography of Urban Emissions</strong></p>
         <p>Urban transportation remains a stubborn hurdle in the race toward carbon neutrality and clean air. To model city-scale traffic emissions, researchers traditionally rely on average-speed models that ignore road grade, operating     under the assumption that uphill emission penalties are perfectly offset by downhill coasting. However, in mountainous metropolises like Hong Kong, this flat-road approximation falls short.</p>
   
         <p>In our recent study, we demonstrated that neglecting topography fundamentally skews our understanding of urban emissions. By fusing computer vision-based fleet classification from traffic cameras with high-resolution digital terrain models and validating the results via real-world plume-chasing measurements, we constructed a dynamic, grade-inclusive emission inventory.</p>
