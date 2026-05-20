@@ -75,7 +75,7 @@ permalink: /research/
     <div id="modalBody-s1" class="modal-body" style="max-height: 70vh;" onscroll="checkModalScroll('modalBody-s1', 'btn-s1')">      
       
       <div class="modal-text">
-        <p>*Contributed by Dr. Zeyu ZHANG*</p>
+        *Contributed by Dr. Zeyu ZHANG*
         <p>Urban air quality suffers disproportionately from a fraction of heavy-duty diesel vehicles (HDDVs). Existing regulations rely on lab tests that fail to capture real-world, high-emitting behaviors. We deployed a mobile plume-chasing platform equipped with fast-response gas analyzers across Hong Kong to test HDDVs in their natural environment.</p>
         
         <figure style="margin: 2.5rem 0; text-align: left;">
@@ -112,7 +112,7 @@ permalink: /research/
     </div>
     <div id="modalBody-s2" class="modal-body" style="max-height: 70vh;" onscroll="checkModalScroll('modalBody-s2', 'btn-s2')">
       <div class="modal-text">
-        <p>*Contributed by Wenyu WANG*</p>
+        *Contributed by Wenyu WANG*
         <p>The democratization of air quality monitoring through low-cost sensor (LCS) networks promises unprecedented, block-by-block visibility into urban pollution. Yet, poor data reliability has largely relegated these networks to citizen science rather than rigorous policymaking. Traditional calibration requires physically co-locating sensors with "gold standard" reference stations—an unscalable bottleneck.</p>
         <figure style="margin: 2.5rem 0; text-align: left;">
           <img src="{{ site.baseurl }}/assets/research/remocalib1.png" alt="Figure 1" style="width: 66%; height: auto; border-radius: 12px; box-shadow: 0 4px 15px rgba(18,59,93,0.1);">
@@ -142,7 +142,7 @@ permalink: /research/
     </div>
     <div id="modalBody-s3" class="modal-body" style="max-height: 70vh;" onscroll="checkModalScroll('modalBody-s3', 'btn-s3')">
       <div class="modal-text">
-        <p>*Contributed by Xiaotong ZHANG*</p>
+        *Contributed by Xiaotong ZHANG*
         <p>Study design and experiment design for emission testing at the vehicle, street, and city levels.</p>
         </div>
     </div>
@@ -158,7 +158,7 @@ permalink: /research/
     </div>
     <div id="modalBody-e1" class="modal-body" style="max-height: 70vh;" onscroll="checkModalScroll('modalBody-e1', 'btn-e1')">
       <div class="modal-text">
-        <p>*Contributed by Dr. Zeyu ZHANG*</p>
+        *Contributed by Dr. Zeyu ZHANG*
         <p>In our recent study, we demonstrated that neglecting topography fundamentally skews our understanding of urban emissions. By fusing multi-sourced traffic & GIS data and validating the results via real-world plume-chasing measurements, we constructed a dynamic, grade-inclusive emission inventory.</p>
         
         <figure style="margin: 2.5rem 0; text-align: left;">
