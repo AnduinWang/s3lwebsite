@@ -70,7 +70,7 @@ permalink: /research/
       <h2>HK Vehicles More Polluted than Expected</h2>
       <span class="close-btn" onclick="closeModal('modal-s1')">&times;</span>
     </div>
-    <div class="modal-body" style="display: block;">
+    <div id="modalBody-s1" class="modal-body" style="display: block;" onscroll="checkModalScroll('modalBody-s1', 'btn-s1')">      
       <div class="modal-text">
         <p>In our recent study, we demonstrated that neglecting topography fundamentally skews our understanding of urban emissions. By fusing multi-sourced traffic & GIS data and validating the results via real-world plume-chasing measurements, we constructed a dynamic, grade-inclusive emission inventory.</p>
         <figure style="margin: 2.5rem 0; text-align: center;">
@@ -91,8 +91,30 @@ permalink: /research/
       </div>
 
     </div>
+    <button id="btn-s1" class="modal-back-to-top" onclick="scrollModalToTop('modalBody-s1')">↑ Top</button>
   </div>
 </div>
+<script>
+function checkModalScroll(bodyId, btnId) {
+  const modalBody = document.getElementById(bodyId);
+  const btn = document.getElementById(btnId);
+  
+  // Show button if the user scrolls down more than 150px inside the modal
+  if (modalBody.scrollTop > 150) {
+    btn.classList.add('show');
+  } else {
+    btn.classList.remove('show');
+  }
+}
+
+function scrollModalToTop(bodyId) {
+  const modalBody = document.getElementById(bodyId);
+  modalBody.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  });
+}
+</script>
 
 <div id="modal-s2" class="modal-overlay" onclick="closeModal('modal-s2')">
   <div class="modal-container" onclick="event.stopPropagation()">
