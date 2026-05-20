@@ -22,7 +22,7 @@ permalink: /research/
 <section id="sensing" class="research-section">
   <h2>Urban Environmental Sensing</h2>
 <div class="scroll-container">
-    <div class="card clickable-card" onclick="openModal('modal-s1')" style="background-image: url('{{ site.baseurl }}/assets/research/plumetest.jpg');">
+    <div class="card clickable-card" onclick="openModal('modal-s1')" style="background-image: url('{{ site.baseurl }}/assets/research/plumetest.jfif');">
       <h3>Plume Chasing</h3>
     </div>
     <div class="card clickable-card" onclick="openModal('modal-s2')" style="background-image: url('{{ site.baseurl }}/assets/research/crowdsensing.png');">
