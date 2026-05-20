@@ -22,13 +22,13 @@ permalink: /research/
 <section id="sensing" class="research-section">
   <h2>Urban Environmental Sensing</h2>
 <div class="scroll-container">
-    <div class="card clickable-card" onclick="openModal('modal-s1')" style="background-image: url('{{ site.baseurl }}/assets/research/onroademissions.jpg');">
+    <div class="card clickable-card" onclick="openModal('modal-s1')" style="background-image: url('{{ site.baseurl }}/assets/research/plumetest.jpg');">
       <h3>Plume Chasing</h3>
     </div>
     <div class="card clickable-card" onclick="openModal('modal-s2')" style="background-image: url('{{ site.baseurl }}/assets/research/crowdsensing.png');">
       <h3>Crowdsourced Sensing</h3>
     </div>
-    <div class="card clickable-card" onclick="openModal('modal-s3')" style="background-image: url('{{ site.baseurl }}/assets/your-image.jpg');">
+    <div class="card clickable-card" onclick="openModal('modal-s3')" style="background-image: url('{{ site.baseurl }}/assets/research/threemonkeys.jpg');">
       <h3>Multimodal Exposure Modeling</h3>
     </div>
   </div>
@@ -37,13 +37,13 @@ permalink: /research/
 <section id="energy" class="research-section">
   <h2>Transport Energy Transition</h2>
   <div class="scroll-container">
-    <div class="card clickable-card" onclick="openModal('modal-e1')" style="background-image: url('{{ site.baseurl }}/assets/onroademissions.jpg');">
+    <div class="card clickable-card" onclick="openModal('modal-e1')" style="background-image: url('{{ site.baseurl }}/assets/research/onroademissions.jpg');">
       <h3>On-Road Emission Inventory</h3>
     </div>
-    <div class="card clickable-card" onclick="openModal('modal-e2')" style="background-image: url('{{ site.baseurl }}/assets/your-image.jpg');">
+    <div class="card clickable-card" onclick="openModal('modal-e2')" style="background-image: url('{{ site.baseurl }}/assets/research/your-image.jpg');">
       <h3>Hard-to-Abate Modes</h3>
     </div>
-    <div class="card clickable-card" onclick="openModal('modal-e3')" style="background-image: url('{{ site.baseurl }}/assets/your-image.jpg');">
+    <div class="card clickable-card" onclick="openModal('modal-e3')" style="background-image: url('{{ site.baseurl }}/assets/research/your-image.jpg');">
       <h3>Uncertainties in Transition</h3>
     </div>
   </div>
@@ -52,13 +52,13 @@ permalink: /research/
 <section id="modeling" class="research-section">
   <h2>Data-Driven Modeling</h2>
   <div class="scroll-container">
-    <div class="card clickable-card" onclick="openModal('modal-m1')" style="background-image: url('{{ site.baseurl }}/assets/your-image.jpg');">
+    <div class="card clickable-card" onclick="openModal('modal-m1')" style="background-image: url('{{ site.baseurl }}/assets/research/wildfire.jpg');">
       <h3>Spatial & Temporal Imputation </h3>
     </div>
-    <div class="card clickable-card" onclick="openModal('modal-m2')" style="background-image: url('{{ site.baseurl }}/assets/IOcontinuum.png');">
+    <div class="card clickable-card" onclick="openModal('modal-m2')" style="background-image: url('{{ site.baseurl }}/assets/research/IOcontinuum.png');">
       <h3>Outdoor-Indoor Continuum</h3>
     </div>
-    <div class="card clickable-card" onclick="openModal('modal-m3')" style="background-image: url('{{ site.baseurl }}/assets/your-image.jpg');">
+    <div class="card clickable-card" onclick="openModal('modal-m3')" style="background-image: url('{{ site.baseurl }}/assets/research/your-image.jpg');">
       <h3>Non-Exhaust Emissions</h3>
     </div>
   </div>
@@ -75,7 +75,7 @@ permalink: /research/
     <div id="modalBody-s1" class="modal-body" style="max-height: 70vh;" onscroll="checkModalScroll('modalBody-s1', 'btn-s1')">      
       
       <div class="modal-text">
-        *Contributed by Dr. Zeyu ZHANG*
+        <p><i>*Contributed by Dr. Zeyu ZHANG*</i></p>
         <p>Urban air quality suffers disproportionately from a fraction of heavy-duty diesel vehicles (HDDVs). Existing regulations rely on lab tests that fail to capture real-world, high-emitting behaviors. We deployed a mobile plume-chasing platform equipped with fast-response gas analyzers across Hong Kong to test HDDVs in their natural environment.</p>
         
         <figure style="margin: 2.5rem 0; text-align: left;">
@@ -89,7 +89,7 @@ permalink: /research/
         <figure style="margin: 2.5rem 0; text-align: left;">
           <img src="{{ site.baseurl }}/assets/research/plumechasing2.jpg" alt="Figure 2" style="width: 66%; height: auto; border-radius: 12px; box-shadow: 0 4px 15px rgba(18,59,93,0.1);">
           <figcaption style="font-size: 0.9rem; color: #607487; margin-top: 0.8rem; font-style: italic;">
-            Figure 2: Observed emission standard compliance in heavy-duty(above) and light-duty(below) trucks 
+            Figure 2: Observed emission standard compliance in heavy-duty (above) and light-duty (below) trucks 
           </figcaption>
         </figure>        
         
@@ -112,7 +112,7 @@ permalink: /research/
     </div>
     <div id="modalBody-s2" class="modal-body" style="max-height: 70vh;" onscroll="checkModalScroll('modalBody-s2', 'btn-s2')">
       <div class="modal-text">
-        *Contributed by Wenyu WANG*
+        <p><i>*Contributed by Wenyu WANG*</i></p>
         <p>The democratization of air quality monitoring through low-cost sensor (LCS) networks promises unprecedented, block-by-block visibility into urban pollution. Yet, poor data reliability has largely relegated these networks to citizen science rather than rigorous policymaking. Traditional calibration requires physically co-locating sensors with "gold standard" reference stations—an unscalable bottleneck.</p>
         <figure style="margin: 2.5rem 0; text-align: left;">
           <img src="{{ site.baseurl }}/assets/research/remocalib1.png" alt="Figure 1" style="width: 66%; height: auto; border-radius: 12px; box-shadow: 0 4px 15px rgba(18,59,93,0.1);">
@@ -142,9 +142,23 @@ permalink: /research/
     </div>
     <div id="modalBody-s3" class="modal-body" style="max-height: 70vh;" onscroll="checkModalScroll('modalBody-s3', 'btn-s3')">
       <div class="modal-text">
-        *Contributed by Xiaotong ZHANG*
-        <p>Study design and experiment design for emission testing at the vehicle, street, and city levels.</p>
-        </div>
+        <p><i>*Contributed by Xiaotong ZHANG*</i></p>
+        <p>Cities are experienced through a symphony of senses, yet urban planning often prioritizes the visual landscape while treating sound, micro-climate, and air quality as afterthoughts. To quantify this multi-sensory urban experience, we combined drive-by environmental sensing—capturing street view imagery, noise levels, temperature, humidity, and PM2.5—with geotagged social media data serving as a proxy for human sentiment in the Bronx, New York.</p>
+        <figure style="margin: 2.5rem 0; text-align: left;">
+          <img src="{{ site.baseurl }}/assets/research/sentiment1.jpg" alt="Figure 1" style="width: 66%; height: auto; border-radius: 12px; box-shadow: 0 4px 15px rgba(18,59,93,0.1);">
+          <figcaption style="font-size: 0.9rem; color: #607487; margin-top: 0.8rem; font-style: italic;">
+            Figure 1: Conceptual research framework - the multi-sensory approach
+          </figcaption>
+        </figure>    
+        <p>Using machine learning and natural language processing, we mapped how the physical environment interacts with emotional valence. Our results confirm that while visual aesthetics powerfully drive positive sentiment, the invisible environment plays a massive, underappreciated role. High noise levels are strongly linked to negative sentiment and annoyance, outpacing even poor visual environments. Meanwhile, ambient temperature significantly depresses positivity, highlighting the emotional toll of the urban heat island effect.</p>
+        <figure style="margin: 2.5rem 0; text-align: left;">
+          <img src="{{ site.baseurl }}/assets/research/sentiment2.jpg" alt="Figure 1" style="width: 66%; height: auto; border-radius: 12px; box-shadow: 0 4px 15px rgba(18,59,93,0.1);">
+          <figcaption style="font-size: 0.9rem; color: #607487; margin-top: 0.8rem; font-style: italic;">
+            Figure 2: The factors that drive expressed positive (left) and negative (right) sentiments
+          </figcaption>
+        </figure>    
+        <p>This underscores a crucial directive for sustainable urban design: creating livable, happy cities requires holistic, multi-sensory interventions—such as deploying green infrastructure that not only beautifies streets, but simultaneously buffers traffic noise and provides thermal relief.</p>        
+      </div>
     </div>
     <button id="btn-s3" class="modal-back-to-top" onclick="scrollModalToTop('modalBody-s3')">↑ Top</button>
   </div>
@@ -158,7 +172,7 @@ permalink: /research/
     </div>
     <div id="modalBody-e1" class="modal-body" style="max-height: 70vh;" onscroll="checkModalScroll('modalBody-e1', 'btn-e1')">
       <div class="modal-text">
-        *Contributed by Dr. Zeyu ZHANG*
+        <p><i>*Contributed by Dr. Zeyu ZHANG*</i></p>
         <p>In our recent study, we demonstrated that neglecting topography fundamentally skews our understanding of urban emissions. By fusing multi-sourced traffic & GIS data and validating the results via real-world plume-chasing measurements, we constructed a dynamic, grade-inclusive emission inventory.</p>
         
         <figure style="margin: 2.5rem 0; text-align: left;">
