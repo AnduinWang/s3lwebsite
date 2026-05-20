@@ -29,7 +29,7 @@ permalink: /research/
       <h3>Crowdsourced Sensing</h3>
     </div>
     <div class="card clickable-card" onclick="openModal('modal-s3')" style="background-image: url('{{ site.baseurl }}/assets/your-image.jpg');">
-      <h3>Personal Exposure Modeling</h3>
+      <h3>Multimodal Exposure Modeling</h3>
     </div>
   </div>
 </section>
@@ -56,10 +56,10 @@ permalink: /research/
       <h3>Spatial & Temporal Imputation </h3>
     </div>
     <div class="card clickable-card" onclick="openModal('modal-m2')" style="background-image: url('{{ site.baseurl }}/assets/your-image.jpg');">
-      <h3>Non-Exhaust Emissions</h3>
+      <h3>Outdoor-Indoor Continuum</h3>
     </div>
     <div class="card clickable-card" onclick="openModal('modal-m3')" style="background-image: url('{{ site.baseurl }}/assets/your-image.jpg');">
-      <h3>Outdoor-Indoor Continuum</h3>
+      <h3>Non-Exhaust Emissions</h3>
     </div>
   </div>
 </section>
@@ -116,14 +116,14 @@ permalink: /research/
         <p>Contributed by Wenyu WANG</p>
         <p>The democratization of air quality monitoring through low-cost sensor (LCS) networks promises unprecedented, block-by-block visibility into urban pollution. Yet, poor data reliability has largely relegated these networks to citizen science rather than rigorous policymaking. Traditional calibration requires physically co-locating sensors with "gold standard" reference stations—an unscalable bottleneck.</p>
         <figure style="margin: 2.5rem 0; text-align: left;">
-          <img src="{{ site.baseurl }}/assets/research/remocalib1.jpg" alt="Figure 1" style="width: 66%; height: auto; border-radius: 12px; box-shadow: 0 4px 15px rgba(18,59,93,0.1);">
+          <img src="{{ site.baseurl }}/assets/research/remocalib1.png" alt="Figure 1" style="width: 66%; height: auto; border-radius: 12px; box-shadow: 0 4px 15px rgba(18,59,93,0.1);">
           <figcaption style="font-size: 0.9rem; color: #607487; margin-top: 0.8rem; font-style: italic;">
             Figure 1: The remote calibration concept
           </figcaption>
         </figure>  
         <p>We developed a novel <strong>"remote calibration"</strong> framework that eliminates the need for physical collocation. By matching <strong>over 33 million hourly observations</strong> from the largest US LCS network against reference stations during periods of low regional PM2.5 variability, we generated metropolis-specific calibration models. This approach successfully corrected systematic sensor biases across the ten largest US metropolitan areas.</p>
         <figure style="margin: 2.5rem 0; text-align: left;">
-          <img src="{{ site.baseurl }}/assets/research/remocalib2.jpg" alt="Figure 1" style="width: 66%; height: auto; border-radius: 12px; box-shadow: 0 4px 15px rgba(18,59,93,0.1);">
+          <img src="{{ site.baseurl }}/assets/research/remocalib2.png" alt="Figure 1" style="width: 66%; height: auto; border-radius: 12px; box-shadow: 0 4px 15px rgba(18,59,93,0.1);">
           <figcaption style="font-size: 0.9rem; color: #607487; margin-top: 0.8rem; font-style: italic;">
             Figure 2: Hyperlocal air sensing in NYC during June 2023 Canadian Wildfire Event (above: only EPA stations; below: with calibrated LCS network)
           </figcaption>
@@ -213,7 +213,7 @@ permalink: /research/
 <div id="modal-m2" class="modal-overlay" onclick="closeModal('modal-m2')">
   <div class="modal-container" onclick="event.stopPropagation()">
     <div class="modal-header">
-      <h2>Brake Wear Particle Emissions</h2>
+      <h2></h2>
       <span class="close-btn" onclick="closeModal('modal-m2')">&times;</span>
     </div>
     <div id="modalBody-m2" class="modal-body" style="max-height: 70vh;" onscroll="checkModalScroll('modalBody-m2', 'btn-m2')">
@@ -228,7 +228,7 @@ permalink: /research/
 <div id="modal-m3" class="modal-overlay" onclick="closeModal('modal-m3')">
   <div class="modal-container" onclick="event.stopPropagation()">
     <div class="modal-header">
-      <h2>Multi-Pollutant Inventories</h2>
+      <h2></h2>
       <span class="close-btn" onclick="closeModal('modal-m3')">&times;</span>
     </div>
     <div id="modalBody-m3" class="modal-body" style="max-height: 70vh;" onscroll="checkModalScroll('modalBody-m3', 'btn-m3')">
