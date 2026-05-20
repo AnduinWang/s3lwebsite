@@ -152,7 +152,7 @@ permalink: /research/
         </figure>    
         <p>Using machine learning and natural language processing, we mapped how the physical environment interacts with emotional valence. Our results confirm that while visual aesthetics powerfully drive positive sentiment, the invisible environment plays a massive, underappreciated role. High noise levels are strongly linked to negative sentiment and annoyance, outpacing even poor visual environments. Meanwhile, ambient temperature significantly depresses positivity, highlighting the emotional toll of the urban heat island effect.</p>
         <figure style="margin: 2.5rem 0; text-align: left;">
-          <img src="{{ site.baseurl }}/assets/research/sentiment2.jpg" alt="Figure 1" style="width: 66%; height: auto; border-radius: 12px; box-shadow: 0 4px 15px rgba(18,59,93,0.1);">
+          <img src="{{ site.baseurl }}/assets/research/sentiment2.svg" alt="Figure 1" style="width: 66%; height: auto; border-radius: 12px; box-shadow: 0 4px 15px rgba(18,59,93,0.1);">
           <figcaption style="font-size: 0.9rem; color: #607487; margin-top: 0.8rem; font-style: italic;">
             Figure 2: The factors that drive expressed positive (left) and negative (right) sentiments
           </figcaption>
