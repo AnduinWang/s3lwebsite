@@ -65,7 +65,7 @@ permalink: /research/
 </section>
 
 <div id="modal-s1" class="modal-overlay" onclick="closeModal('modal-s1')">
-  <div class="modal-container" onclick="event.stopPropagation()" style="position: relative;">
+  <div class="modal-container" onclick="event.stopPropagation()">
     
     <div class="modal-header">
       <h2>HK Vehicles More Polluted than Expected</h2>
