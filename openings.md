@@ -56,7 +56,7 @@ permalink: /openings/
     <div class="member-card">
       <img src="{{ site.baseurl }}/assets/DaiHui.jpg" alt="Member Name" class="member-photo" />
       <div class="member-info">
-        <h3>Dr. Hui DAI</h3>
+        <h3><a href="huidai25.pages.dev">Dr. Hui DAI</a></h3>
         <div class="area">Postdoc Researcher</div>
         <div class="contact">WUT 2020, THU 2025<br>
         hui25.dai@polyu.edu.hk</div>
