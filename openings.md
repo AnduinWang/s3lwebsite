@@ -34,7 +34,7 @@ permalink: /openings/
     </div>
 
     <div class="member-card">
-      <img src="{{ site.baseurl }}/assets/Portrait.png" alt="Member Name" class="member-photo" />
+      <img src="{{ site.baseurl }}/assets/Xiaotong.jpg" alt="Member Name" class="member-photo" />
       <div class="member-info">
         <h3>Xiaotong ZHANG</h3>
         <div class="area">Ph.D. student</div>
