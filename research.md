@@ -29,7 +29,7 @@ permalink: /research/
       <h3>Crowdsourced Sensing</h3>
     </div>
     <div class="card clickable-card" onclick="openModal('modal-s3')" style="background-image: url('{{ site.baseurl }}/assets/research/threemonkeys.jpg');">
-      <h3>Multimodal Exposure Modeling</h3>
+      <h3>Multimodal Exposures</h3>
     </div>
   </div>
 </section>
@@ -40,11 +40,11 @@ permalink: /research/
     <div class="card clickable-card" onclick="openModal('modal-e1')" style="background-image: url('{{ site.baseurl }}/assets/research/onroademissions.jpg');">
       <h3>On-Road Emission Inventory</h3>
     </div>
-    <div class="card clickable-card" onclick="openModal('modal-e2')" style="background-image: url('{{ site.baseurl }}/assets/research/your-image.jpg');">
+    <div class="card clickable-card" onclick="openModal('modal-e2')" style="background-image: url('{{ site.baseurl }}/assets/research/hard2abate.png');">
       <h3>Hard-to-Abate Modes</h3>
     </div>
-    <div class="card clickable-card" onclick="openModal('modal-e3')" style="background-image: url('{{ site.baseurl }}/assets/research/your-image.jpg');">
-      <h3>Uncertainties in Transition</h3>
+    <div class="card clickable-card" onclick="openModal('modal-e3')" style="background-image: url('{{ site.baseurl }}/assets/research/physicalmodel.jpg');">
+      <h3>Physical Emissions Modeling</h3>
     </div>
   </div>
 </section>
@@ -66,25 +66,20 @@ permalink: /research/
 
 <div id="modal-s1" class="modal-overlay" onclick="closeModal('modal-s1')">
   <div class="modal-container" onclick="event.stopPropagation()">
-    
     <div class="modal-header">
       <h2>Emission Compliance Failed for Larger Vehicles</h2>
       <span class="close-btn" onclick="closeModal('modal-s1')">&times;</span>
     </div>
-    
-    <div id="modalBody-s1" class="modal-body" style="max-height: 70vh;" onscroll="checkModalScroll('modalBody-s1', 'btn-s1')">      
-      
+    <div id="modalBody-s1" class="modal-body" style="max-height: 70vh;" onscroll="checkModalScroll('modalBody-s1', 'btn-s1')">            
       <div class="modal-text">
         <p><i>*Contributed by Dr. Zeyu ZHANG*</i></p>
-        <p>Urban air quality suffers disproportionately from a fraction of heavy-duty diesel vehicles (HDDVs). Existing regulations rely on lab tests that fail to capture real-world, high-emitting behaviors. We deployed a mobile plume-chasing platform equipped with fast-response gas analyzers across Hong Kong to test HDDVs in their natural environment.</p>
-        
+        <p>Urban air quality suffers disproportionately from a fraction of heavy-duty diesel vehicles (HDDVs). Existing regulations rely on lab tests that fail to capture real-world, high-emitting behaviors. We deployed a mobile plume-chasing platform equipped with fast-response gas analyzers across Hong Kong to test HDDVs in their natural environment.</p>  
         <figure style="margin: 2.5rem 0; text-align: left;">
           <img src="{{ site.baseurl }}/assets/research/plumechasing1.jpg" alt="Figure 1" style="width: 66%; height: auto; border-radius: 12px; box-shadow: 0 4px 15px rgba(18,59,93,0.1);">
           <figcaption style="font-size: 0.9rem; color: #607487; margin-top: 0.8rem; font-style: italic;">
             Figure 1: Plume chasing instrumentation setup
           </figcaption>
         </figure>
-        
         <p>By translating fuel-based measurements into distance- and power-based emission factors, we found that NOX emissions are highly sensitive to road grade and routinely exceed regulatory baselines by over twofold. Shockingly, around <strong>10% of light goods vehicles and 22% of heavy goods vehicles</strong> emit NOX at more than double the Euro IV limits. Removing these "super-emitters", who represent just <strong>14% of the fleet</strong>, could slash goods-vehicle NOX emissions by <strong>31%</strong>.</p>        
         <figure style="margin: 2.5rem 0; text-align: left;">
           <img src="{{ site.baseurl }}/assets/research/plumechasing2.jpg" alt="Figure 2" style="width: 66%; height: auto; border-radius: 12px; box-shadow: 0 4px 15px rgba(18,59,93,0.1);">
@@ -92,15 +87,11 @@ permalink: /research/
             Figure 2: Observed emission standard compliance in heavy-duty (above) and light-duty (below) trucks 
           </figcaption>
         </figure>        
-        
         <p>This work highlights mobile plume-chasing as a highly cost-effective, scalable tool for screening high-emitting vehicles and enforcing environmental compliance in dense, mountainous cities.</p>        
-        <p><em>*Full paper is available at https://doi.org/10.1016/j.trd.2026.105270.*</em></p>
+        <p><em></em></p>
       </div>
-
-    </div>
-    
-    <button id="btn-s1" class="modal-back-to-top" onclick="scrollModalToTop('modalBody-s1')">↑ Top</button>
-    
+    </div>  
+    <button id="btn-s1" class="modal-back-to-top" onclick="scrollModalToTop('modalBody-s1')">↑ Top</button>    
   </div>
 </div>
 
@@ -198,13 +189,14 @@ permalink: /research/
 <div id="modal-e2" class="modal-overlay" onclick="closeModal('modal-e2')">
   <div class="modal-container" onclick="event.stopPropagation()">
     <div class="modal-header">
-      <h2>Electric Vehicle Charging</h2>
+      <h2>Energy Transition: A Global Need, A Local Deed</h2>
       <span class="close-btn" onclick="closeModal('modal-e2')">&times;</span>
     </div>
     <div id="modalBody-e2" class="modal-body" style="max-height: 70vh;" onscroll="checkModalScroll('modalBody-e2', 'btn-e2')">
       <div class="modal-text">
-        <p>Investigating marginal greenhouse gas emissions of electricity systems and the implications of EV charging patterns.</p>
-        </div>
+        <p><i>*On-going work by Peimin WU*</i></p>
+        <p>We are investigating the best energy transition pathyways for hard-to-abate transport modes in the HK context. The biggest challenge lies in the blackbox nature of the local power grids operation.</p>
+      </div>
     </div>
     <button id="btn-e2" class="modal-back-to-top" onclick="scrollModalToTop('modalBody-e2')">↑ Top</button>
   </div>
@@ -213,13 +205,27 @@ permalink: /research/
 <div id="modal-e3" class="modal-overlay" onclick="closeModal('modal-e3')">
   <div class="modal-container" onclick="event.stopPropagation()">
     <div class="modal-header">
-      <h2>Automated and Electric Mobility</h2>
+      <h2>In Progress to Eliminate Tailpipe Emissions</h2>
       <span class="close-btn" onclick="closeModal('modal-e3')">&times;</span>
     </div>
     <div id="modalBody-e3" class="modal-body" style="max-height: 70vh;" onscroll="checkModalScroll('modalBody-e3', 'btn-e3')">
       <div class="modal-text">
-        <p>Investigating the combined effects of automated and electric transportation on metropolitan greenhouse gas emissions.</p>
-        </div>
+        <p>For decades, researchers and regulators have relied on rigid regulatory emission models that struggle to reflect the complex realities of modern traffic. Built upon manually tuned parameters and predefined speed bins, these traditional tools often misclassify emissions and fail to accurately capture the dynamic behaviors of transitional technologies, such as Hybrid Electric Vehicles (HEVs), under real-world, aggressive driving conditions.</p>  
+        <figure style="margin: 2.5rem 0; text-align: left;">
+          <img src="{{ site.baseurl }}/assets/research/emissionomdel1.jpg" alt="Figure 1" style="width: 66%; height: auto; border-radius: 12px; box-shadow: 0 4px 15px rgba(18,59,93,0.1);">
+          <figcaption style="font-size: 0.9rem; color: #607487; margin-top: 0.8rem; font-style: italic;">
+            Figure 1: Conceptual illustration of the Greedy modal-binning algorithm
+          </figcaption>
+        </figure>         
+        <p>To bridge this gap, we developed novel, data-driven modal emission frameworks powered by extensive on-road Portable Emission Measurement System (PEMS) data. First, we engineered an optimized Greedy algorithm that <strong>autonomously defines vehicle operating boundaries</strong>. By eliminating subjective, manual binning and integrating internal engine parameters, this methodology improved predictive accuracy for highly variable pollutants like NOx and CO by roughly <strong>30%</strong>. We then expanded this high-resolution modeling to decipher the complex, dual-powertrain dynamics of HEVs, utilizing machine learning to predict electric motor engagement in real time before estimating tailpipe output.</p>
+        <figure style="margin: 2.5rem 0; text-align: left;">
+          <img src="{{ site.baseurl }}/assets/research/emissionmodel2.jpg" alt="Figure 2" style="width: 66%; height: auto; border-radius: 12px; box-shadow: 0 4px 15px rgba(18,59,93,0.1);">
+          <figcaption style="font-size: 0.9rem; color: #607487; margin-top: 0.8rem; font-style: italic;">
+            Figure 2: Percentage emission reduction after adopting HEV in Toronto and Beijing, where negative emission reductions refer to an increase in emissions.
+          </figcaption>
+        </figure>         
+        <p>Applying these advanced models across diverse metropolitan traffic profiles—comparing the congested flows of Beijing with the aggressive driving patterns of Toronto—revealed a critical insight. While HEVs are capable of slashing carbon and pollutant emissions by over 50%, aggressive driving severely erodes these benefits. Ultimately, upgrading our physical modeling from static lab approximations to dynamic, real-world algorithms is essential for policymakers to accurately forecast decarbonization trajectories and design targeted traffic management strategies that maximize the potential of low-carbon fleets.</p>
+      </div>
     </div>
     <button id="btn-e3" class="modal-back-to-top" onclick="scrollModalToTop('modalBody-e3')">↑ Top</button>
   </div>
@@ -249,7 +255,7 @@ permalink: /research/
     <div id="modalBody-m2" class="modal-body" style="max-height: 70vh;" onscroll="checkModalScroll('modalBody-m2', 'btn-m2')">
       <div class="modal-text">
         <p>Modeling urban brake wear particle emissions using ride-hailing data as a case study.</p>
-        </div>
+      </div>
     </div>
     <button id="btn-m2" class="modal-back-to-top" onclick="scrollModalToTop('modalBody-m2')">↑ Top</button>
   </div>
@@ -279,7 +285,8 @@ permalink: /research/
           </figcaption>
         </figure>    
         <p>Crucially, our analysis demonstrates that within-group exposure variation contributes to <strong>three-quarters of the total disparity</strong>, exposing the double burden faced by vulnerable communities. These insights urge planners to move beyond generic, city-wide air quality improvements and adopt targeted, location-specific emission mitigations that actively dismantle systemic environmental injustices.</p>        
-        </div>
+      <p><em>*Full paper is available at https://doi.org/10.1038/s44284-024-00093-x.*</em></p>
+      </div>
     </div>
     <button id="btn-m3" class="modal-back-to-top" onclick="scrollModalToTop('modalBody-m3')">↑ Top</button>
   </div>
