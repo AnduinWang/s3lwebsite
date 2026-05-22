@@ -43,7 +43,7 @@ permalink: /research/
     <div class="card clickable-card" onclick="openModal('modal-e2')" style="background-image: url('{{ site.baseurl }}/assets/research/hard2abate.png');">
       <h3>Hard-to-Abate Modes</h3>
     </div>
-    <div class="card clickable-card" onclick="openModal('modal-e3')" style="background-image: url('{{ site.baseurl }}/assets/research/physicalmodel.jpg');">
+    <div class="card clickable-card" onclick="openModal('modal-e3')" style="background-image: url('{{ site.baseurl }}/assets/research/physicalmodel.png');">
       <h3>Physical Emissions Modeling</h3>
     </div>
   </div>
