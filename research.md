@@ -212,7 +212,7 @@ permalink: /research/
       <div class="modal-text">
         <p>For decades, researchers and regulators have relied on rigid regulatory emission models that struggle to reflect the complex realities of modern traffic. Built upon manually tuned parameters and predefined speed bins, these traditional tools often misclassify emissions and fail to accurately capture the dynamic behaviors of transitional technologies, such as Hybrid Electric Vehicles (HEVs), under real-world, aggressive driving conditions.</p>  
         <figure style="margin: 2.5rem 0; text-align: left;">
-          <img src="{{ site.baseurl }}/assets/research/emissionomdel1.jpg" alt="Figure 1" style="width: 66%; height: auto; border-radius: 12px; box-shadow: 0 4px 15px rgba(18,59,93,0.1);">
+          <img src="{{ site.baseurl }}/assets/research/emissionmodel1.jpg" alt="Figure 1" style="width: 66%; height: auto; border-radius: 12px; box-shadow: 0 4px 15px rgba(18,59,93,0.1);">
           <figcaption style="font-size: 0.9rem; color: #607487; margin-top: 0.8rem; font-style: italic;">
             Figure 1: Conceptual illustration of the Greedy modal-binning algorithm
           </figcaption>
@@ -234,12 +234,13 @@ permalink: /research/
 <div id="modal-m1" class="modal-overlay" onclick="closeModal('modal-m1')">
   <div class="modal-container" onclick="event.stopPropagation()">
     <div class="modal-header">
-      <h2>ML for Pollution Prediction</h2>
+      <h2>The Not-So-Solid Basis of Wildfire Impact Research</h2>
       <span class="close-btn" onclick="closeModal('modal-m1')">&times;</span>
     </div>
     <div id="modalBody-m1" class="modal-body" style="max-height: 70vh;" onscroll="checkModalScroll('modalBody-m1', 'btn-m1')">
       <div class="modal-text">
-        <p>Evaluating the potential of machine learning models for predicting traffic-related air pollution levels.</p>
+        <p><i>*On-going work by Wenyu WANG*</i></p>
+        <p>Wildfire is one of the most critically deteriorated climate change outcomes across the globe. It is threatening the lives of billions. But what if the previous basis of assessing wildfire smoke's environmental impacts is poorly structured? We are using large-scale air quality data to quantify the actual contribution of wildfires to local air pollution.</p>
         </div>
     </div>
     <button id="btn-m1" class="modal-back-to-top" onclick="scrollModalToTop('modalBody-m1')">↑ Top</button>
@@ -249,12 +250,13 @@ permalink: /research/
 <div id="modal-m2" class="modal-overlay" onclick="closeModal('modal-m2')">
   <div class="modal-container" onclick="event.stopPropagation()">
     <div class="modal-header">
-      <h2></h2>
+      <h2>The Uninvited Guest</h2>
       <span class="close-btn" onclick="closeModal('modal-m2')">&times;</span>
     </div>
     <div id="modalBody-m2" class="modal-body" style="max-height: 70vh;" onscroll="checkModalScroll('modalBody-m2', 'btn-m2')">
       <div class="modal-text">
-        <p>Modeling urban brake wear particle emissions using ride-hailing data as a case study.</p>
+        <p><i>*On-going work by Dr. Hui DAI*</i></p>
+        <p>People spend most of their time indoors. What are the key factors determining our air pollution exposure when we work, leisure, eat, and rest?</p>
       </div>
     </div>
     <button id="btn-m2" class="modal-back-to-top" onclick="scrollModalToTop('modalBody-m2')">↑ Top</button>
@@ -264,7 +266,7 @@ permalink: /research/
 <div id="modal-m3" class="modal-overlay" onclick="closeModal('modal-m3')">
   <div class="modal-container" onclick="event.stopPropagation()">
     <div class="modal-header">
-      <h2>Breathing disparity in the Bronx</h2>
+      <h2>We Breath the Same Air, or Not?</h2>
       <span class="close-btn" onclick="closeModal('modal-m3')">&times;</span>
     </div>
     <div id="modalBody-m3" class="modal-body" style="max-height: 70vh;" onscroll="checkModalScroll('modalBody-m3', 'btn-m3')">
