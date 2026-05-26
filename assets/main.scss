@@ -47,81 +47,74 @@ a:hover {
 }
 
 /* =========================================
-   2. HEADER & FOOTER
+   2. HEADER & FOOTER (Sanitized)
    ========================================= */
 .site-header {
   border-top: 4px solid #123b5d;
   border-bottom: 1px solid #dfe7ef;
   background: #ffffff;
-  padding: 0.5rem 0; /* Add a little vertical breathing room */
+  padding: 0.5rem 0;
 }
 
-/* Header Logo Image */
+/* Reset the site-title badge styles for the logo */
 .site-title {
   display: flex;
   align-items: center;
-  padding: 0;
-  background: transparent;
-  border: none;
-  box-shadow: none;
+  padding: 0 !important;
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  font-size: 0 !important; /* Hides the text if any exists */
 }
+
 .site-title img {
-  max-height: 50px; /* Adjust this number to make your top logo bigger/smaller */
+  max-height: 45px;
   width: auto;
-  object-fit: contain;
-}
-
-/* Top Navigation Links (Research, Openings, News) */
-.site-nav .page-link {
-  color: #123b5d !important;
-  margin-left: 24px;
-  font-weight: 700;
-  font-size: 1.15rem;
-  letter-spacing: 0.5px;
-  text-transform: uppercase; /* Makes them stand out as menu items */
-  transition: color 0.2s ease;
-}
-
-.site-nav .page-link:hover {
-  color: #0b5fa5 !important;
-  text-decoration: none;
-}
-
-/* Footer Container */
-.site-footer {
-  border-top: 2px solid #dfe7ef;
-  background: #fafcfe;
-  padding: 3rem 0;
-}
-
-/* Bottom Logo Image */
-.footer-logo {
-  max-height: 70px; /* Adjust this number to make your bottom logo bigger/smaller */
-  width: auto;
-  margin-bottom: 1.5rem;
   display: block;
-  transition: transform 0.2s ease;
 }
 
-.footer-logo:hover {
-  transform: translateY(-2px); /* Adds a subtle hover effect to the footer logo */
+/* Footer Logo Styles */
+.footer-logo {
+  max-height: 60px;
+  width: auto;
+  display: block;
+  margin-bottom: 1rem;
+}
+/* =========================================
+   FOOTER LAYOUT: LOGO LEFT, TEXT RIGHT
+   ========================================= */
+.footer-flex-container {
+  display: flex;
+  align-items: center; /* Vertically centers logo with text */
+  justify-content: space-between;
+  gap: 2rem;
+  padding-top: 1rem;
 }
 
-/* Bottom Description ("We research for a better urban system") */
-.site-footer .footer-col-wrapper {
-  font-size: 1.2rem;
+.footer-left {
+  flex: 0 0 auto;
 }
 
-.site-footer .footer-col-3 p {
-  font-size: 1.3rem;
-  font-weight: 700;
-  color: #123b5d;
-  line-height: 1.6;
-  background: #eef5fb;           /* Subtle highlight box */
-  padding: 1.2rem 1.5rem;        /* Internal spacing */
-  border-radius: 8px;            /* Rounded edges */
-  border-left: 5px solid #123b5d; /* Brand accent line */
-  box-shadow: 0 4px 12px rgba(18, 59, 93, 0.05);
+.footer-right {
+  flex: 1;
+  text-align: right; /* Keeps your description aligned to the right */
+}
+
+/* Ensure mobile layout stacks vertically */
+@media screen and (max-width: 600px) {
+  .footer-flex-container {
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer-right {
+    text-align: center;
+  }
+}
+
+.footer-logo {
+  max-height: 60px;
+  width: auto;
+  display: block;
 }
 
 /* =========================================
