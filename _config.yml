@@ -11,3 +11,6 @@ header_pages:
   - research.md
   - openings.md
   - news.md
+
+include:
+  - assets
