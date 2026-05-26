@@ -1,14 +1,20 @@
 <footer class="site-footer h-card">
   <div class="wrapper">
-    <!-- FOOTER LOGO -->
-    <a href="{{ site.baseurl }}/">
-      <img src="{{ site.baseurl }}/assets/events/logo2.svg" alt="S3L Logo" style="max-height: 60px; margin-bottom: 1rem;">
-    </a>
+    <!-- Footer Flexbox Container -->
+    <div class="footer-flex-container">
+      
+      <!-- Left Column: Logo -->
+      <div class="footer-left">
+        <a href="{{ site.baseurl }}/">
+          <img class="footer-logo" src="{{ site.baseurl }}/assets/events/logo2.svg" alt="S3L Logo">
+        </a>
+      </div>
 
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
+      <!-- Right Column: Description -->
+      <div class="footer-right">
         <p>{{ site.description | escape }}</p>
       </div>
+
     </div>
   </div>
 </footer>
