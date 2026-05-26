@@ -56,17 +56,19 @@ a:hover {
   padding: 0.5rem 0; /* Add a little vertical breathing room */
 }
 
-/* Header S3L Title Badge */
+/* Header Logo Image */
 .site-title {
-  font-weight: 800 !important;
-  font-size: 1.9rem !important;
-  color: #123b5d !important;
-  background: #eef5fb;
-  padding: 0.4rem 1.2rem;
-  border-radius: 8px;
-  border: 2px solid #c7d8e8;
-  box-shadow: 0 2px 8px rgba(18, 59, 93, 0.1);
-  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+}
+.site-title img {
+  max-height: 50px; /* Adjust this number to make your top logo bigger/smaller */
+  width: auto;
+  object-fit: contain;
 }
 
 /* Top Navigation Links (Research, Openings, News) */
@@ -92,13 +94,17 @@ a:hover {
   padding: 3rem 0;
 }
 
-/* Bottom "S3L" Title */
-.footer-heading {
-  font-size: 2rem !important;
-  font-weight: 800 !important;
-  color: #123b5d !important;
-  letter-spacing: 1px;
+/* Bottom Logo Image */
+.footer-logo {
+  max-height: 70px; /* Adjust this number to make your bottom logo bigger/smaller */
+  width: auto;
   margin-bottom: 1.5rem;
+  display: block;
+  transition: transform 0.2s ease;
+}
+
+.footer-logo:hover {
+  transform: translateY(-2px); /* Adds a subtle hover effect to the footer logo */
 }
 
 /* Bottom Description ("We research for a better urban system") */
