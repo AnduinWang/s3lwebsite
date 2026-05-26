@@ -1,37 +1,14 @@
 <footer class="site-footer h-card">
-  <data class="u-url" href="{{ "/" | relative_url }}"></data>
-
   <div class="wrapper">
-    
-    <!-- YOUR NEW FOOTER LOGO -->
+    <!-- FOOTER LOGO -->
     <a href="{{ site.baseurl }}/">
-      <img class="footer-logo" src="{{ site.baseurl }}/assets/events/logo1.png" alt="S3L Logo">
+      <img src="{{ site.baseurl }}/assets/events/logo2.svg" alt="S3L Logo" style="max-height: 60px; margin-bottom: 1rem;">
     </a>
 
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li class="p-name">
-            {%- if site.author -%}
-              {{ site.author | escape }}
-            {%- else -%}
-              {{ site.title | escape }}
-            {%- endif -%}
-            </li>
-            {%- if site.email -%}
-            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {%- endif -%}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-2">
-        {%- include social.html -%}
-      </div>
-
-      <div class="footer-col footer-col-3">
         <p>{{ site.description | escape }}</p>
       </div>
     </div>
-
   </div>
 </footer>
