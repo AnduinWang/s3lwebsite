@@ -73,6 +73,10 @@ a:hover {
   display: block;
 }
 
+.site-title {
+  display: block;
+  border: 2px solid red !important; /* Temporarily add a red border */
+}
 /* Footer Logo Styles */
 .footer-logo {
   max-height: 60px;
