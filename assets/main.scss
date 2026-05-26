@@ -116,7 +116,31 @@ a:hover {
   width: auto;
   display: block;
 }
+/* =========================================
+   FOOTER DESCRIPTION STYLING
+   ========================================= */
+.footer-description {
+  background: #123b5d; /* Dark navy background */
+  padding: 1.5rem 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(18, 59, 93, 0.2);
+  
+  p {
+    color: #ffffff !important; /* High contrast white text */
+    font-size: 1.5rem;        /* Larger font size */
+    font-weight: 600;         /* Semi-bold */
+    margin: 0;
+    line-height: 1.4;
+  }
+}
 
+/* Ensure mobile layout handles the larger text well */
+@media screen and (max-width: 600px) {
+  .footer-description {
+    padding: 1rem;
+    p { font-size: 1.2rem; }
+  }
+}
 /* =========================================
    3. HERO SECTION (Index Page)
    ========================================= */
