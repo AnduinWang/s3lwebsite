@@ -11,14 +11,18 @@ permalink: /news/
   <div class="marquee-wrapper">
     <div class="marquee-track">
       
-      <img class="marquee-item" src="{{ site.baseurl }}/assets/Portrait.png" alt="Highlight 1">
-      <img class="marquee-item" src="{{ site.baseurl }}/assets/Zeyu.jpg" alt="Highlight 2">
-      <img class="marquee-item" src="{{ site.baseurl }}/assets/Wenyu.png" alt="Highlight 3">
-      <img class="marquee-item" src="{{ site.baseurl }}/assets/Qiuzi.jpg" alt="Highlight 4">
-      <img class="marquee-item" src="{{ site.baseurl }}/assets/Portrait.png" alt="Highlight 5">
-      <img class="marquee-item" src="{{ site.baseurl }}/assets/Zeyu.jpg" alt="Highlight 6">
-      <img class="marquee-item" src="{{ site.baseurl }}/assets/Wenyu.png" alt="Highlight 7">
-      <img class="marquee-item" src="{{ site.baseurl }}/assets/Qiuzi.jpg" alt="Highlight 8">
+      <img class="marquee-item" src="{{ site.baseurl }}/assets/events/event1.jpg" alt="Highlight 1">
+      <img class="marquee-item" src="{{ site.baseurl }}/assets/events/event2" alt="Highlight 2">
+      <img class="marquee-item" src="{{ site.baseurl }}/assets/events/event3" alt="Highlight 3">
+      <img class="marquee-item" src="{{ site.baseurl }}/assets/events/event4" alt="Highlight 4">
+      <img class="marquee-item" src="{{ site.baseurl }}/assets/events/event5" alt="Highlight 5">
+      <img class="marquee-item" src="{{ site.baseurl }}/assets/events/event6" alt="Highlight 6">
+      <img class="marquee-item" src="{{ site.baseurl }}/assets/events/event7" alt="Highlight 7">
+      <img class="marquee-item" src="{{ site.baseurl }}/assets/events/event8" alt="Highlight 8">
+      <img class="marquee-item" src="{{ site.baseurl }}/assets/events/event9" alt="Highlight 9">
+      <img class="marquee-item" src="{{ site.baseurl }}/assets/events/event10" alt="Highlight 10">
+      <img class="marquee-item" src="{{ site.baseurl }}/assets/events/event11" alt="Highlight 11">
+      <img class="marquee-item" src="{{ site.baseurl }}/assets/events/event12" alt="Highlight 12">
       </div>
   </div>
 </div>
