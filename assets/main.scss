@@ -4,6 +4,31 @@
 @import "minima";
 
 /* =========================================
+   TOP NAVIGATION OVERRIDES (Pop-out style)
+   ========================================= */
+.site-nav .page-link {
+  font-size: 1.35rem !important; /* Overrides Minima's default font size */
+  font-weight: 700;
+  color: #123b5d !important;
+  margin-left: 15px; 
+  padding: 8px 18px; /* Adds space around the text to make a button shape */
+  background-color: #f8fbff; /* Very light blue background */
+  border: 1px solid #dce8f3; /* Subtle border */
+  border-radius: 8px; /* Rounded corners */
+  text-decoration: none !important;
+  transition: all 0.2s ease-in-out; /* Smooth animation */
+  display: inline-block; /* Ensures the transform works perfectly */
+}
+
+/* The "Pop-Out" Hover Effect */
+.site-nav .page-link:hover {
+  background-color: #123b5d; /* Changes to dark navy */
+  color: #ffffff !important; /* Text turns white */
+  transform: translateY(-3px); /* Physically lifts the button up */
+  box-shadow: 0 6px 15px rgba(18, 59, 93, 0.25); /* Drops a shadow below */
+}
+
+/* =========================================
    1. LAYOUT & GLOBAL TYPOGRAPHY
    ========================================= */
 .wrapper, 
