@@ -7,25 +7,17 @@
    TOP NAVIGATION OVERRIDES (Pop-out style)
    ========================================= */
 .site-nav .page-link {
-  font-size: 1.35rem !important; /* Overrides Minima's default font size */
+  font-size: 1.35rem !important; /* Larger, readable font */
   font-weight: 700;
-  color: #123b5d !important;
-  margin-left: 15px; 
-  padding: 8px 18px; /* Adds space around the text to make a button shape */
-  background-color: #f8fbff; /* Very light blue background */
-  border: 1px solid #dce8f3; /* Subtle border */
-  border-radius: 8px; /* Rounded corners */
+  color: #123b5d !important;     /* Your dark navy brand color */
+  margin-left: 18px;             /* Spacing between the links */
   text-decoration: none !important;
-  transition: all 0.2s ease-in-out; /* Smooth animation */
-  display: inline-block; /* Ensures the transform works perfectly */
+  transition: color 0.2s ease-in-out; /* Smooth transition for hover */
 }
 
-/* The "Pop-Out" Hover Effect */
+/* Simple, elegant hover effect */
 .site-nav .page-link:hover {
-  background-color: #123b5d; /* Changes to dark navy */
-  color: #ffffff !important; /* Text turns white */
-  transform: translateY(-3px); /* Physically lifts the button up */
-  box-shadow: 0 6px 15px rgba(18, 59, 93, 0.25); /* Drops a shadow below */
+  color: #0b5fa5 !important;     /* Changes to a slightly lighter blue on hover */
 }
 
 /* =========================================
