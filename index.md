@@ -62,6 +62,7 @@ permalink: /
 
   <div class="news-box">
     <ul>
+      <li><strong>06/2026</strong>: <strong>URGENT HIRING NOTICE</strong>: We are eagerly looking for an RA/postdoc to work on an in-cabin environmental sensing project. Details are listed the <a href="{{ site.baseurl }}/assets/Advertisement_ICM.pdf">HERE</a> and in the <a href="{{ site.baseurl }}/openings/">Openings</a>.</li>
       <li><strong>05/2026</strong>: Congratulations to Dr. Zeyu Zhang for publishing the first paper of S3L in <strong>Transportation Research Part D</strong>! Paper is available at https://doi.org/10.1016/j.trd.2026.105270 </li>
       <li><strong>04/2026</strong>: Original research article co-authored by Dr. Wang is published in <strong>Nature Sustainability</strong>. MIT News covers the findings at https://news.mit.edu/2026/mit-researchers-measure-traffic-emissions-block-real-time-0402. Paper is available at https://doi.org/10.1038/s41893-026-01797-9 </li>
       <li><strong>07/2024</strong>: Original research article co-first authored and corresponded by Dr. Wang is published in <strong>Nature Cities</strong>. MIT News covers the findings at https://news.mit.edu/2024/study-tracks-air-pollution-exposure-through-day-0729. Full paper is available at https://doi.org/10.1038/s44284-024-00093-x </li>
