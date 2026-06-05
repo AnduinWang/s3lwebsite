@@ -5,7 +5,8 @@ permalink: /openings/
 ---
 
 <p class="page-intro">
-  I am always interested in hearing from <strong>highly motivated students and researchers</strong>. When applying, please use the email subject line <strong>Prospective [Position] - [Your Name]</strong>. It is required to attach your <a href="#application-material-guidance"><strong>CV</strong></a> and <a href="#application-material-guidance"><strong>one-page statement</strong></a> to the <a href="mailto:an.wang@polyu.edu.hk">email</a>.
+  I am always interested in hearing from <strong>highly motivated students and researchers</strong>. When applying, please use the email subject line <strong>Prospective [Position] - [Your Name]</strong>. It is required to attach your <a href="#application-material-guidance"><strong>CV</strong></a> and <a href="#application-material-guidance"><strong>one-page statement</strong></a> to the <a href="mailto:an.wang@polyu.edu.hk">email</a>.<br>
+  
 </p>
 
 <section class="research-section">
