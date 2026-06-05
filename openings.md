@@ -6,7 +6,9 @@ permalink: /openings/
 
 <p class="page-intro">
   I am always interested in hearing from <strong>highly motivated students and researchers</strong>. When applying, please use the email subject line <strong>Prospective [Position] - [Your Name]</strong>. It is required to attach your <a href="#application-material-guidance"><strong>CV</strong></a> and <a href="#application-material-guidance"><strong>one-page statement</strong></a> to the <a href="mailto:an.wang@polyu.edu.hk">email</a>.<br>
-  <strong>URGENT HIRING NOTICE</strong>: We are eagerly looking for an RA/postdoc to work on an in-cabin environmental sensing project. Details are listed the <a href="{{ site.baseurl }}/assets/Advertisement_ICM.pdf">HERE</a>.
+  <br>
+  *****<br>
+  <strong>URGENT HIRING NOTICE</strong>: We are eagerly looking for an RA/postdoc to work on an in-cabin environmental sensing project. Details are listed the <a href="{{ site.baseurl }}/assets/Advertisement_ICM.pdf">HERE</a>. Valid till August 2026.
 </p>
 
 <section class="research-section">
